@@ -1,10 +1,12 @@
+import AnimatedBackground from "@/components/AnimatedBackground";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center text-center bg-background">
-      <div className="flex flex-col items-center gap-8 p-8">
+    <main className="min-h-screen flex flex-col items-center justify-center text-center relative">
+      <AnimatedBackground />
+      <div className="flex flex-col items-center gap-8 p-8 z-10">
         <h1 className="text-5xl md:text-7xl font-bold text-foreground">
           Transformation Map
         </h1>

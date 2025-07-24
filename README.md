@@ -23,6 +23,7 @@ This project is a web application designed to help users achieve their personal 
 *   **Language:** [TypeScript](https://www.typescriptlang.org/)
 *   **Styling:** [Tailwind CSS](https://tailwindcss.com)
 *   **UI Components:** [shadcn/ui](https://ui.shadcn.com/)
+*   **Animated Background:** [@tsparticles/react](https://particles.js.org/)
 *   **Database & Auth:** [Supabase](https://supabase.com)
 *   **ORM:** [Prisma](https://www.prisma.io/) (to be integrated)
 

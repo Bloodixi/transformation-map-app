@@ -63,6 +63,6 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-gradient-to-br from-gray-900 via-blue-950 to-black text-foreground;
   }
 }
