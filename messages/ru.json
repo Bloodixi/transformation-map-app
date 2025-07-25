@@ -1,0 +1,39 @@
+{
+  "HomePage": {
+    "title": "Transformation Map",
+    "subtitle": "Геймифицируйте свой путь к лучшей версии себя. Превратите свои цели в визуальную карту и отслеживайте прогресс на каждом шагу.",
+    "startButton": "Начать трансформацию"
+  },
+  "Auth": {
+    "login": "Войти",
+    "signup": "Регистрация",
+    "logout": "Выйти",
+    "email": "Email",
+    "password": "Пароль",
+    "forgotPassword": "Забыли пароль?",
+    "rememberMe": "Запомнить меня",
+    "signIn": "Войти",
+    "signUp": "Зарегистрироваться",
+    "alreadyHaveAccount": "Уже есть аккаунт?",
+    "dontHaveAccount": "Нет аккаунта?",
+    "resetPassword": "Сбросить пароль",
+    "updatePassword": "Обновить пароль",
+    "newPassword": "Новый пароль",
+    "confirmPassword": "Подтвердите пароль"
+  },
+  "Navigation": {
+    "home": "Главная",
+    "protected": "Защищенная зона",
+    "profile": "Профиль",
+    "settings": "Настройки"
+  },
+  "Language": {
+    "switchLanguage": "Переключить язык",
+    "russian": "Русский",
+    "english": "English"
+  },
+  "Protected": {
+    "title": "Защищенная страница",
+    "subtitle": "Эта страница доступна только авторизованным пользователям."
+  }
+}

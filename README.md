@@ -13,6 +13,7 @@ This project is a web application designed to help users achieve their personal 
 *   **Gamified Onboarding:** An interactive questionnaire to gather user goals and parameters.
 *   **Visual Transformation Map:** A personalized, game-like map that visualizes the user's journey.
 *   **Progress Tracking:** Simple tools to track weight and mark task completion.
+*   **Multi-language Support:** Full Russian and English localization with easy language switching.
 *   **Modern Tech Stack:** Built with the latest technologies for speed and reliability.
 
 ---
@@ -24,6 +25,7 @@ This project is a web application designed to help users achieve their personal 
 *   **Styling:** [Tailwind CSS](https://tailwindcss.com)
 *   **UI Components:** [shadcn/ui](https://ui.shadcn.com/)
 *   **Animated Background:** [@tsparticles/react](https://particles.js.org/)
+*   **Internationalization:** [next-intl](https://next-intl.dev/) (Russian & English)
 *   **Database & Auth:** [Supabase](https://supabase.com)
 *   **ORM:** [Prisma](https://www.prisma.io/) (to be integrated)
 
@@ -63,3 +65,13 @@ To get a local copy up and running, follow these simple steps.
     ```
 
 Now, the application should be running on [http://localhost:3000](http://localhost:3000).
+
+## 🌐 Internationalization
+
+The application supports two languages:
+- **Russian (default):** [http://localhost:3000/ru](http://localhost:3000/ru)
+- **English:** [http://localhost:3000/en](http://localhost:3000/en)
+
+Language can be switched using the dropdown in the top-right corner. The app automatically redirects `/` to `/ru`.
+
+**For developers:** See [INTERNATIONALIZATION.md](./INTERNATIONALIZATION.md) for detailed guidelines on adding multilingual content.

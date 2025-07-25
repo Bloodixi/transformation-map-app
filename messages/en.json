@@ -1,0 +1,39 @@
+{
+  "HomePage": {
+    "title": "Transformation Map",
+    "subtitle": "Gamify your journey to a better you. Turn your goals into a visual map and track your progress every step of the way.",
+    "startButton": "Start Your Transformation"
+  },
+  "Auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "rememberMe": "Remember me",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "resetPassword": "Reset Password",
+    "updatePassword": "Update Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password"
+  },
+  "Navigation": {
+    "home": "Home",
+    "protected": "Protected",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "Language": {
+    "switchLanguage": "Switch Language",
+    "russian": "Русский",
+    "english": "English"
+  },
+  "Protected": {
+    "title": "Protected Page",
+    "subtitle": "This page is only accessible to authenticated users."
+  }
+}
