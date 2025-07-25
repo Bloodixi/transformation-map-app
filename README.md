@@ -29,6 +29,12 @@ This project is a web application designed to help users achieve their personal 
 
 ---
 
+## 🎨 Typography
+
+*   **Font:** The project uses the [**Inter**](https://fonts.google.com/specimen/Inter) font, served by `next/font/google` for optimal performance and to avoid layout shifts.
+
+---
+
 ## ⚙️ Getting Started
 
 To get a local copy up and running, follow these simple steps.
