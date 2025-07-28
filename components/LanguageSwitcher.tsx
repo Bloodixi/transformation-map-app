@@ -15,8 +15,6 @@ export function LanguageSwitcher() {
   const router = useRouter();
   const pathname = usePathname();
   const [currentLocale, setCurrentLocale] = useState<string>('ru');
-  const [displayLocale, setDisplayLocale] = useState<string>('ru');
-  const [isAnimating, setIsAnimating] = useState(false);
   
   // Определяемся с переводами статично, так как это только для кнопок
   const translations = {
@@ -30,46 +28,8 @@ export function LanguageSwitcher() {
     const localeFromPath = segments[1];
     if (['ru', 'en'].includes(localeFromPath)) {
       setCurrentLocale(localeFromPath);
-      setDisplayLocale(localeFromPath);
     }
   }, [pathname]);
-
-  // Эффект прокручивания языков для привлечения внимания
-  useEffect(() => {
-    if (isAnimating) return;
-    
-    const startAnimation = () => {
-      setIsAnimating(true);
-      const locales = ['ru', 'en'];
-      let currentIndex = locales.indexOf(currentLocale);
-      let cycleCount = 0;
-      const maxCycles = 2; // 2 полных цикла
-      
-      const interval = setInterval(() => {
-        currentIndex = (currentIndex + 1) % locales.length;
-        setDisplayLocale(locales[currentIndex]);
-        
-        if (currentIndex === 0) cycleCount++;
-        
-        if (cycleCount >= maxCycles) {
-          clearInterval(interval);
-          setDisplayLocale(currentLocale);
-          setIsAnimating(false);
-        }
-      }, 800);
-      
-      return () => clearInterval(interval);
-    };
-
-    // Запускаем анимацию через 25 секунд после загрузки, затем каждые 25 секунд
-    const initialTimeout = setTimeout(startAnimation, 25000);
-    const recurringInterval = setInterval(startAnimation, 25000);
-    
-    return () => {
-      clearTimeout(initialTimeout);
-      clearInterval(recurringInterval);
-    };
-  }, [currentLocale, isAnimating]);
 
   const switchLocale = (newLocale: string) => {
     if (newLocale === currentLocale) return;
@@ -89,12 +49,9 @@ export function LanguageSwitcher() {
           variant="ghost" 
           size="sm"
           className="relative flex items-center justify-between w-auto min-w-[80px] bg-black border border-gray-600 rounded-lg px-3 py-2 text-left text-white shadow-sm hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-400 transition-all duration-300"
-          style={isAnimating ? {
-            animation: 'glowBorder 3s ease-in-out infinite'
-          } : undefined}
         >
-          <span className="block truncate font-medium transition-all duration-500">
-            {displayLocale === 'ru' ? 'Русский' : 'English'}
+          <span className="block truncate font-medium">
+            {currentLocale === 'ru' ? 'Русский' : 'English'}
           </span>
           <svg className="ml-2 h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 9l4-4 4 4m0 6l-4 4-4-4" />

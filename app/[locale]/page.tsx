@@ -15,9 +15,6 @@ export default async function Home({
     <main className="min-h-screen flex flex-col items-center justify-center text-center relative">
       <AnimatedBackground />
       <div className="flex flex-col items-center gap-8 p-8 z-10">
-        <div className="text-sm bg-red-500 text-white p-2 rounded">
-          Current locale: {locale}
-        </div>
         <h1 className="text-5xl md:text-7xl font-bold text-foreground">
           {t('title')}
         </h1>
