@@ -28,12 +28,12 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
   console.log('Layout locale:', locale); // Debug
-  const messages = await getMessages();
+  const messages = await getMessages({ locale });
 
   return (
     <html lang={locale} suppressHydrationWarning>
       <body className={`${inter.className} antialiased`}>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider key={locale} messages={messages} locale={locale}>
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"

@@ -1,0 +1,41 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "."],
+      "env": {}
+    },
+    "git": {
+      "command": "npx", 
+      "args": ["-y", "@modelcontextprotocol/server-git"],
+      "env": {}
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": ""
+      }
+    },
+    "browser": {
+      "command": "npx",
+      "args": ["@browsermcp/mcp@latest"],
+      "env": {}
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["context7"],
+      "env": {}
+    },
+    "memory": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"],
+      "env": {}
+    },
+    "windows-cli": {
+      "command": "npx",
+      "args": ["@simonb97/server-win-cli"],
+      "env": {}
+    }
+  }
+}

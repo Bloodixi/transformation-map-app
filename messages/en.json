@@ -19,7 +19,14 @@
     "resetPassword": "Reset Password",
     "updatePassword": "Update Password",
     "newPassword": "New Password",
-    "confirmPassword": "Confirm Password"
+    "confirmPassword": "Confirm Password",
+    "welcomeTitle": "Welcome!",
+    "welcomeDescription": "Sign in via Telegram to start your transformation",
+    "telegramLogin": "Sign in via Telegram",
+    "telegramLoginDescription": "Click the button to open Telegram and authenticate via bot",
+    "agreementText": "By clicking the login button, you agree to the use of your Telegram data for experience personalization",
+    "telegramInstructions": "🤖 Instructions:\n1. Click \"Start\" in the opened Telegram bot\n2. The bot will send you a login link\n3. Follow the link to complete authorization",
+    "telegramError": "Error opening Telegram"
   },
   "Navigation": {
     "home": "Home",

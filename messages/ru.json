@@ -19,7 +19,14 @@
     "resetPassword": "Сбросить пароль",
     "updatePassword": "Обновить пароль",
     "newPassword": "Новый пароль",
-    "confirmPassword": "Подтвердите пароль"
+    "confirmPassword": "Подтвердите пароль",
+    "welcomeTitle": "Добро пожаловать!",
+    "welcomeDescription": "Войдите через Telegram, чтобы начать свою трансформацию",
+    "telegramLogin": "Войти через Telegram",
+    "telegramLoginDescription": "Нажмите кнопку, чтобы открыть Telegram и авторизоваться через бота",
+    "agreementText": "Нажимая кнопку входа, вы соглашаетесь с использованием ваших данных Telegram для персонализации опыта",
+    "telegramInstructions": "🤖 Инструкция:\n1. Нажмите \"Start\" в открывшемся Telegram боте\n2. Бот отправит вам ссылку для входа\n3. Перейдите по ссылке для завершения авторизации",
+    "telegramError": "Ошибка при открытии Telegram"
   },
   "Navigation": {
     "home": "Главная",

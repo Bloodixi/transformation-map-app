@@ -21,7 +21,7 @@ export default async function Home({
         <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl">
           {t('subtitle')}
         </p>
-        <Link href="/auth/login">
+        <Link href={`/${locale}/auth/login`}>
           <Button size="lg">{t('startButton')}</Button>
         </Link>
       </div>

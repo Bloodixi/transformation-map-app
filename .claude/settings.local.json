@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(npm run dev:*)",
+      "Bash(pkill:*)",
+      "Bash(taskkill:*)",
+      "Bash(cmd /c:*)",
+      "Bash(powershell:*)",
+      "Bash(rm:*)",
+      "Bash(claude mcp:*)",
+      "WebFetch(domain:localhost)",
+      "Bash(ls:*)",
+      "WebFetch(domain:headlessui.com)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git reset:*)",
+      "Bash(where ngrok)",
+      "Bash(choco:*)",
+      "WebFetch(domain:158eb3b35f13.ngrok-free.app)",
+      "Bash(git restore:*)",
+      "WebFetch(domain:next-intl.dev)",
+      "WebFetch(domain:dev.to)",
+      "WebFetch(domain:www.conveythis.com)"
+    ],
+    "deny": []
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "filesystem",
+    "git",
+    "github",
+    "browser",
+    "context7",
+    "memory",
+    "windows-cli"
+  ]
+}

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Providers from "@/components/providers/session-provider";
 
 export const metadata: Metadata = {
   title: "Transformation Map",
@@ -14,7 +15,9 @@ export default function RootLayout({
   return (
     <html>
       <body>
-        {children}
+        <Providers>
+          {children}
+        </Providers>
       </body>
     </html>
   );
