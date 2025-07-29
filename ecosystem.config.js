@@ -1,25 +1,44 @@
 module.exports = {
-  apps: [{
-    name: 'transformation-map',
-    script: 'npm',
-    args: 'start',
-    cwd: '/var/www/transformation-map',
-    instances: 1,
-    autorestart: true,
-    watch: false,
-    max_memory_restart: '1G',
-    env: {
-      NODE_ENV: 'production',
-      PORT: 3000
+  apps: [
+    {
+      name: 'transformation-map',
+      script: 'npm',
+      args: 'start',
+      cwd: '/var/www/transformation-map',
+      instances: 1,
+      autorestart: true,
+      watch: false,
+      max_memory_restart: '1G',
+      env: {
+        NODE_ENV: 'production',
+        PORT: 3000
+      },
+      env_production: {
+        NODE_ENV: 'production',
+        PORT: 3000
+      },
+      // Логи
+      out_file: './logs/out.log',
+      error_file: './logs/error.log',
+      log_file: './logs/combined.log',
+      time: true
     },
-    env_production: {
-      NODE_ENV: 'production',
-      PORT: 3000
-    },
-    // Логи
-    out_file: './logs/out.log',
-    error_file: './logs/error.log',
-    log_file: './logs/combined.log',
-    time: true
-  }]
+    {
+      name: 'telegram-bot',
+      script: './telegram-bot.js',
+      cwd: '/var/www/transformation-map',
+      instances: 1,
+      autorestart: true,
+      watch: false,
+      max_memory_restart: '500M',
+      env: {
+        NODE_ENV: 'production'
+      },
+      // Логи для бота
+      out_file: './logs/bot-out.log',
+      error_file: './logs/bot-error.log',
+      log_file: './logs/bot-combined.log',
+      time: true
+    }
+  ]
 };
