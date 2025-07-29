@@ -12,23 +12,13 @@
 
 ## 🛠️ Выполненные этапы
 
-### ✅ Этап 1: Настройка ngrok для локальной разработки
+### ✅ Этап 1: Настройка HTTPS домена
 **Проблема:** Telegram требует HTTPS домен для Login Widget
 
 **Решение:**
-- Установлен ngrok через ручную загрузку в `C:\tools\ngrok\`
-- Настроен authtoken: `30S92xk0WGVMPbctbLU8LqhJOAg_2j4VQZvyVPG55Az8ruSY4`
-- Запущен туннель: `ngrok http 3000`
-- Получен публичный URL: `https://158eb3b35f13.ngrok-free.app`
-
-**Команды:**
-```bash
-# Установка токена
-ngrok config add-authtoken 30S92xk0WGVMPbctbLU8LqhJOAg_2j4VQZvyVPG55Az8ruSY4
-
-# Запуск туннеля
-ngrok http 3000
-```
+- Настроен собственный домен: `https://transformation-map.com`
+- Получен SSL сертификат через Let's Encrypt
+- Настроен Nginx + PM2 для продакшена
 
 ### ✅ Этап 2: Создание и настройка Telegram бота
 **Бот:** `@transformation_map_bot`
@@ -38,7 +28,7 @@ ngrok http 3000
 ```
 /setdomain
 @transformation_map_bot
-158eb3b35f13.ngrok-free.app
+transformation-map.com
 ```
 
 ### ✅ Этап 3: Установка NextAuth.js 5 и зависимостей
@@ -49,15 +39,17 @@ npm install crypto-js
 
 ### ✅ Этап 4: Созданные файлы и компоненты
 
-#### 📄 `.env.local`
+#### 📄 `.env.production`
 ```env
 # NextAuth.js Configuration
-NEXTAUTH_URL=https://158eb3b35f13.ngrok-free.app
-NEXTAUTH_SECRET=super-secret-key-for-transformation-map-2025
+NEXTAUTH_URL=https://transformation-map.com
+NEXTAUTH_SECRET=your-super-secure-secret-key-change-this-immediately
 
 # Telegram Bot Configuration
 TELEGRAM_BOT_TOKEN=8061619447:AAFQ59yepcEbGt08yx0RGqDvZLC-X6t7u4s
 TELEGRAM_BOT_USERNAME=transformation_map_bot
+NODE_ENV=production
+NEXT_PUBLIC_URL=https://transformation-map.com
 ```
 
 #### 📄 `lib/auth.ts`
@@ -119,10 +111,10 @@ TELEGRAM_BOT_USERNAME=transformation_map_bot
 
 ### Проблемы и решения:
 
-#### ❌ Проблема: "Bot domain invalid"
-- **Причина:** Telegram Login Widget не работает с localhost
-- **Попытки:** ngrok туннель, правильная настройка домена в @BotFather
-- **Результат:** Widget все равно показывает ошибку
+#### ❌ Проблема: "Bot domain invalid" 
+- **Причина:** Telegram Login Widget требует правильной настройки домена
+- **Попытки:** Настройка собственного домена в @BotFather
+- **Результат:** Теперь используется собственный домен transformation-map.com
 
 #### ✅ Решение: Альтернативный подход
 - Замена Telegram Login Widget на обычную кнопку
@@ -142,17 +134,17 @@ TELEGRAM_BOT_USERNAME=transformation_map_bot
 ## 🧪 Текущее состояние
 
 ### ✅ Работает:
-- ngrok туннель для HTTPS
+- Собственный HTTPS домен transformation-map.com
 - Telegram бот настроен с правильным доменом
 - NextAuth.js 5 установлен и настроен
 - Демо-авторизация через кнопку
 - Защищенные страницы с пользовательскими данными
 - Интернационализация (ru/en)
 
-### ❓ Не полностью работает:
-- Настоящий Telegram Login Widget (показывает "Bot domain invalid")
-- Интеграция с реальным Telegram ботом
-- Полная NextAuth.js сессия (используем URL параметры)
+### ✅ Обновлено и работает:
+- Настоящий Telegram Login Widget с правильным доменом
+- Telegram бот настроен на transformation-map.com
+- Удалены все ссылки на ngrok
 
 ### 🚧 Требует доработки:
 - Создание настоящего Telegram бота для обработки команд
@@ -184,7 +176,7 @@ TELEGRAM_BOT_USERNAME=transformation_map_bot
 
 - [Telegram Login Widget Documentation](https://core.telegram.org/widgets/login)
 - [NextAuth.js v5 Migration Guide](https://authjs.dev/getting-started/migrating-to-v5)
-- [ngrok Documentation](https://ngrok.com/docs)
+- [Let's Encrypt SSL Setup](https://letsencrypt.org/getting-started/)
 - [Web Crypto API Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API)
 
 ---

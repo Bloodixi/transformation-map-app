@@ -1,29 +1,33 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { signIn } from '@/lib/auth'
 
+// Handle both GET (Telegram Widget callback) and POST requests
 export async function GET(req: NextRequest) {
   try {
     const { searchParams } = new URL(req.url)
-    const token = searchParams.get('token')
-    const userId = searchParams.get('user_id')
-    const firstName = searchParams.get('first_name')
-    const lastName = searchParams.get('last_name')
-    const username = searchParams.get('username')
-    const photoUrl = searchParams.get('photo_url')
     
-    if (!token || !userId) {
-      return NextResponse.redirect(new URL('/auth/login?error=missing_params', req.url))
+    // Get Telegram Login Widget data
+    const id = searchParams.get('id')
+    const first_name = searchParams.get('first_name')
+    const last_name = searchParams.get('last_name')
+    const username = searchParams.get('username')
+    const photo_url = searchParams.get('photo_url')
+    const auth_date = searchParams.get('auth_date')
+    const hash = searchParams.get('hash')
+    
+    if (!id || !hash) {
+      return NextResponse.redirect(new URL('/auth/login?error=missing_telegram_data', req.url))
     }
     
-    // Create mock Telegram user data for NextAuth
+    // Create Telegram user data for NextAuth
     const telegramData = {
-      id: userId,
-      first_name: firstName || '',
-      last_name: lastName || '',
+      id: id,
+      first_name: first_name || '',
+      last_name: last_name || '',
       username: username || '',
-      photo_url: photoUrl || '',
-      auth_date: Math.floor(Date.now() / 1000).toString(),
-      hash: 'mock_hash_' + token // Mock hash for demo
+      photo_url: photo_url || '',
+      auth_date: auth_date || Math.floor(Date.now() / 1000).toString(),
+      hash: hash
     }
     
     // Create HTML page with auto-submit form for NextAuth
@@ -108,4 +112,9 @@ export async function GET(req: NextRequest) {
     console.error('Telegram verification error:', error)
     return NextResponse.redirect(new URL('/auth/login?error=verification_failed', req.url))
   }
+}
+
+// Handle POST requests from Telegram Login Widget
+export async function POST(req: NextRequest) {
+  return GET(req) // Use same logic as GET
 }
