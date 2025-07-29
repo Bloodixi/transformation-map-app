@@ -4,7 +4,13 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "./deploy.sh",
+    "pm2:start": "pm2 start ecosystem.config.js --env production",
+    "pm2:restart": "pm2 restart transformation-map",
+    "pm2:stop": "pm2 stop transformation-map",
+    "pm2:logs": "pm2 logs transformation-map",
+    "pm2:status": "pm2 status"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.10.0",
