@@ -25,7 +25,10 @@
       "WebFetch(domain:next-intl.dev)",
       "WebFetch(domain:dev.to)",
       "WebFetch(domain:www.conveythis.com)",
-      "Bash(npm run save:*)"
+      "Bash(npm run save:*)",
+      "mcp__browser__browser_navigate",
+      "WebFetch(domain:transformation-map.com)",
+      "Bash(cp:*)"
     ],
     "deny": []
   },

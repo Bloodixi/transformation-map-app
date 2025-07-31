@@ -82,7 +82,7 @@ function TelegramVerifiedContent() {
   
   const handleProceedToRegistration = () => {
     // Переходим к форме регистрации с сохраненными данными
-    window.location.href = '/auth/register'
+    window.location.href = '/ru/auth/sign-up'
   }
   
   const formatTimestamp = (timestamp: number) => {
