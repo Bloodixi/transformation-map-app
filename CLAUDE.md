@@ -103,4 +103,82 @@ components/            # React компоненты
 └── theme-switcher.tsx
 ```
 
-**Теперь ты полностью понимаешь проект! Приступай к работе! 🎯**
+## 🔧 **Рабочие решения (ВАЖНЫЕ ФИКСЫ):**
+
+### **Проблемы с обновлением изменений:**
+Если изменения не отображаются на сайте:
+```bash
+# 1. Полная перезагрузка приложения
+pm2 stop transformation-map
+rm -rf .next
+npm run build
+pm2 start transformation-map
+
+# 2. Проверить размер бандла (должен изменяться)
+# В выводе build смотри Size колонку для [locale]/auth/login
+
+# 3. Проверить что изменения есть в HTML
+curl -s https://transformation-map.com/ru/auth/login | grep "искомый текст"
+```
+
+### **Исправление AuthJS UntrustedHost ошибки:**
+В `lib/auth.ts` добавить:
+```typescript
+const config: NextAuthConfig = {
+  trustHost: true,  // ← ОБЯЗАТЕЛЬНО для production
+  providers: [...]
+}
+```
+
+### **Локализация компонентов:**
+Всегда использовать `useTranslations` для клиентских компонентов:
+```typescript
+import { useTranslations } from 'next-intl';
+
+export function Component() {
+  const t = useTranslations('Auth');
+  return <span>{t('key')}</span>; // НЕ хардкодить текст!
+}
+```
+
+### **Навигация с локализацией:**
+```typescript
+import { useRouter, useParams } from 'next/navigation';
+
+const router = useRouter();
+const params = useParams();
+const locale = params.locale as string;
+
+const handleClick = () => {
+  router.push(`/${locale}/page`); // Всегда добавлять locale!
+};
+```
+
+### **Кликабельные кнопки (важно!):**
+Если кнопка не кликается, добавить:
+```typescript
+<Button
+  onClick={handleClick}
+  className="cursor-pointer z-10 relative" // ← z-index и cursor обязательны
+  type="button" // ← явный тип
+>
+```
+
+### **Структура переводов:**
+Добавлять в `messages/ru.json` и `messages/en.json`:
+```json
+{
+  "Auth": {
+    "backToHome": "На главную", // ru
+    "backToHome": "Back to Home" // en
+  }
+}
+```
+
+### **Проверка PM2 логов:**
+```bash
+pm2 logs --lines 50  # Проверить ошибки
+pm2 status           # Статус процессов
+```
+
+**Теперь ты полностью понимаешь проект и знаешь все важные фиксы! 🎯**

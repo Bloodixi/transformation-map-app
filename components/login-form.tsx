@@ -9,21 +9,48 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { ArrowLeft } from "lucide-react";
 import { useTranslations } from 'next-intl';
+import { useRouter, useParams } from 'next/navigation';
 
 export function LoginForm({
   className,
   ...props
 }: React.ComponentPropsWithoutRef<"div">) {
   const t = useTranslations('Auth');
+  const router = useRouter();
+  const params = useParams();
+  const locale = params.locale as string;
+
+  const handleBackToHome = () => {
+    console.log('Back to home clicked, locale:', locale);
+    try {
+      router.push(`/${locale}`);
+    } catch (error) {
+      console.error('Navigation error:', error);
+      // Fallback
+      window.location.href = `/${locale}`;
+    }
+  };
 
   return (
     <div className={cn("flex flex-col gap-6", className)} {...props}>
+      <Button
+        variant="ghost"
+        onClick={handleBackToHome}
+        className="self-start mb-4 p-3 hover:bg-gray-100 dark:hover:bg-gray-800 cursor-pointer z-10 relative"
+        type="button"
+      >
+        <ArrowLeft className="h-4 w-4 mr-2" />
+        {t('backToHome')}
+      </Button>
+      
       <Card>
         <CardHeader className="text-center">
           <CardTitle className="text-3xl">Transformation Map</CardTitle>
           <CardDescription className="text-base">
-            Войдите через Telegram для безопасного и быстрого доступа к платформе
+            {t('welcomeDescription')}
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-6">

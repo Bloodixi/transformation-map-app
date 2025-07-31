@@ -29,7 +29,12 @@
       "mcp__browser__browser_navigate",
       "WebFetch(domain:transformation-map.com)",
       "Bash(cp:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(pm2 logs:*)",
+      "Bash(pm2 restart:*)",
+      "Bash(pm2 stop:*)",
+      "Bash(pm2 start:*)",
+      "Bash(curl:*)"
     ],
     "deny": []
   },

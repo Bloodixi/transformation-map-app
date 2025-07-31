@@ -54,6 +54,7 @@ async function verifyTelegramAuth(data: TelegramAuthData): Promise<boolean> {
 }
 
 const config: NextAuthConfig = {
+  trustHost: true,
   providers: [
     Credentials({
       id: "telegram",
