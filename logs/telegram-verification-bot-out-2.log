@@ -1318,3 +1318,11 @@
 Пожалуйста, вступите в группу и попробуйте снова."
 2025-07-31T09:37:17: 🧹 Cleaned up old session for user 487571387
 2025-07-31T09:57:17: 🧹 Cleaned up old session for user 1260563849
+2025-07-31T17:28:52: 🛑 Received SIGINT, shutting down gracefully
+2025-07-31T17:28:52: 🤖 Telegram Verification Bot initialized
+2025-07-31T17:28:52: 🔐 Security features enabled: AES-256, Rate Limiting, Account Age Check
+2025-07-31T17:28:52: 📊 Analytics and monitoring active
+2025-07-31T17:28:52: 🌐 Webhook server listening on port 9003
+2025-07-31T17:28:52: 📡 Webhook URL: https://transformation-map.com/telegram-verification-webhook
+2025-07-31T17:28:52: 🏥 Health check: https://transformation-map.com:9003/health
+2025-07-31T17:28:52: 📈 Stats endpoint: https://transformation-map.com:9003/stats
