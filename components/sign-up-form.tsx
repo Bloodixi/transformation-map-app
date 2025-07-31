@@ -16,6 +16,8 @@ import { Label } from "@/components/ui/label";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { useTranslations } from 'next-intl';
+import { useParams } from 'next/navigation';
 
 export function SignUpForm({
   className,
@@ -27,6 +29,9 @@ export function SignUpForm({
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
+  const t = useTranslations('Auth');
+  const params = useParams();
+  const locale = params.locale as string;
 
   const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -109,9 +114,9 @@ export function SignUpForm({
             </div>
             
             <div className="mt-4 text-center text-sm">
-              Already have an account?{" "}
-              <Link href="/auth/login" className="underline underline-offset-4">
-                Login
+              {t('alreadyHaveAccount')}{" "}
+              <Link href={`/${locale}/auth/login`} className="underline underline-offset-4">
+                {t('login')}
               </Link>
             </div>
           </form>

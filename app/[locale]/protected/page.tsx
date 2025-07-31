@@ -1,10 +1,12 @@
 'use client'
 
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useParams } from "next/navigation";
 import { InfoIcon } from "lucide-react";
 
 export default function ProtectedPage() {
   const searchParams = useSearchParams();
+  const params = useParams();
+  const locale = params.locale as string;
   const userId = searchParams.get('user_id');
   const firstName = searchParams.get('first_name');
   const username = searchParams.get('username');
@@ -15,7 +17,7 @@ export default function ProtectedPage() {
       <div className="flex-1 w-full flex flex-col gap-12 items-center justify-center">
         <div className="bg-red-100 text-red-800 p-4 rounded-md">
           <p>❌ Доступ запрещен. Пожалуйста, авторизуйтесь.</p>
-          <a href="/auth/login" className="underline">Перейти к авторизации</a>
+          <a href={`/${locale}/auth/login`} className="underline">Перейти к авторизации</a>
         </div>
       </div>
     );
@@ -53,7 +55,7 @@ export default function ProtectedPage() {
         </div>
         
         <div className="flex gap-4">
-          <a href="/auth/login" className="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600">
+          <a href={`/${locale}/auth/login`} className="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600">
             ← Назад к авторизации
           </a>
           <button 

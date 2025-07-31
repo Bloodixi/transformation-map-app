@@ -28,7 +28,8 @@
       "Bash(npm run save:*)",
       "mcp__browser__browser_navigate",
       "WebFetch(domain:transformation-map.com)",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "Bash(npm run:*)"
     ],
     "deny": []
   },
