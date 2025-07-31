@@ -1,8 +1,6 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { createClient } from "@/lib/supabase/client";
-import { Button } from "@/components/ui/button";
 import TelegramRegisterButton from "@/components/telegram-register-button";
 import {
   Card,
@@ -11,117 +9,65 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { useState } from "react";
 import { useTranslations } from 'next-intl';
 
 export function LoginForm({
   className,
   ...props
 }: React.ComponentPropsWithoutRef<"div">) {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [error, setError] = useState<string | null>(null);
-  const [isLoading, setIsLoading] = useState(false);
-  const router = useRouter();
   const t = useTranslations('Auth');
-
-  const handleLogin = async (e: React.FormEvent) => {
-    e.preventDefault();
-    const supabase = createClient();
-    setIsLoading(true);
-    setError(null);
-
-    try {
-      const { error } = await supabase.auth.signInWithPassword({
-        email,
-        password,
-      });
-      if (error) throw error;
-      // Update this route to redirect to an authenticated route. The user already has an active session.
-      router.push("/protected");
-    } catch (error: unknown) {
-      setError(error instanceof Error ? error.message : "An error occurred");
-    } finally {
-      setIsLoading(false);
-    }
-  };
 
   return (
     <div className={cn("flex flex-col gap-6", className)} {...props}>
       <Card>
-        <CardHeader>
-          <CardTitle className="text-2xl">{t('login')}</CardTitle>
-          <CardDescription>
-            {t('welcomeDescription')}
+        <CardHeader className="text-center">
+          <CardTitle className="text-3xl">🗺️ Transformation Map</CardTitle>
+          <CardDescription className="text-base">
+            Войдите через Telegram для безопасного и быстрого доступа к платформе
           </CardDescription>
         </CardHeader>
-        <CardContent>
-          <form onSubmit={handleLogin}>
-            <div className="flex flex-col gap-6">
-              <div className="grid gap-2">
-                <Label htmlFor="email">{t('email')}</Label>
-                <Input
-                  id="email"
-                  type="email"
-                  placeholder="m@example.com"
-                  required
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              </div>
-              <div className="grid gap-2">
-                <div className="flex items-center">
-                  <Label htmlFor="password">{t('password')}</Label>
-                  <Link
-                    href="/ru/auth/forgot-password"
-                    className="ml-auto inline-block text-sm underline-offset-4 hover:underline"
-                  >
-                    {t('forgotPassword')}
-                  </Link>
-                </div>
-                <Input
-                  id="password"
-                  type="password"
-                  required
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                />
-              </div>
-              {error && <p className="text-sm text-red-500">{error}</p>}
-              <Button type="submit" className="w-full" disabled={isLoading}>
-                {isLoading ? "Вход..." : t('signIn')}
-              </Button>
-            </div>
+        <CardContent className="space-y-6">
+          
+          <div className="bg-blue-50 dark:bg-blue-950 p-4 rounded-lg">
+            <h3 className="font-semibold text-lg mb-3 flex items-center gap-2">
+              <span>🤖</span> Почему через Telegram?
+            </h3>
+            <ul className="space-y-2 text-sm text-muted-foreground">
+              <li className="flex items-start gap-2">
+                <span className="text-green-500">✓</span>
+                <span>Быстрая авторизация без паролей</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-green-500">✓</span>
+                <span>Безопасность через проверенный аккаунт</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-green-500">✓</span>
+                <span>Уведомления о прогрессе прямо в Telegram</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-green-500">✓</span>
+                <span>Доступ ко всем функциям платформы</span>
+              </li>
+            </ul>
+          </div>
+
+          <div className="space-y-4">
+            <TelegramRegisterButton variant="default" className="w-full h-12 text-lg" />
             
-            <div className="mt-4 text-center text-sm">
-              {t('dontHaveAccount')}{" "}
-              <Link
-                href="/ru/auth/sign-up"
-                className="underline underline-offset-4"
-              >
-                {t('signUp')}
-              </Link>
-            </div>
-          </form>
-          
-          <div className="relative">
-            <div className="absolute inset-0 flex items-center">
-              <span className="w-full border-t" />
-            </div>
-            <div className="relative flex justify-center text-xs uppercase">
-              <span className="bg-background px-2 text-muted-foreground">
-                Или войти через
-              </span>
+            <div className="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg">
+              <h4 className="font-medium mb-2 flex items-center gap-2">
+                📋 Как это работает:
+              </h4>
+              <ol className="text-sm text-muted-foreground space-y-1">
+                <li>1. Нажмите кнопку "Войти через Telegram"</li>
+                <li>2. Откроется Telegram бот - нажмите "Start"</li>
+                <li>3. Бот отправит ссылку для входа</li>
+                <li>4. Перейдите по ссылке для завершения</li>
+              </ol>
             </div>
           </div>
-          
-          <div className="flex justify-center">
-            <TelegramRegisterButton variant="outline" className="w-full" />
-          </div>
+
         </CardContent>
       </Card>
     </div>
