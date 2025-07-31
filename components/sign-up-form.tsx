@@ -3,6 +3,7 @@
 import { cn } from "@/lib/utils";
 import { createClient } from "@/lib/supabase/client";
 import { Button } from "@/components/ui/button";
+import TelegramRegisterButton from "@/components/telegram-register-button";
 import {
   Card,
   CardContent,
@@ -106,6 +107,7 @@ export function SignUpForm({
                 {isLoading ? "Creating an account..." : "Sign up"}
               </Button>
             </div>
+            
             <div className="mt-4 text-center text-sm">
               Already have an account?{" "}
               <Link href="/auth/login" className="underline underline-offset-4">
@@ -113,6 +115,21 @@ export function SignUpForm({
               </Link>
             </div>
           </form>
+          
+          <div className="relative">
+            <div className="absolute inset-0 flex items-center">
+              <span className="w-full border-t" />
+            </div>
+            <div className="relative flex justify-center text-xs uppercase">
+              <span className="bg-background px-2 text-muted-foreground">
+                Or continue with
+              </span>
+            </div>
+          </div>
+          
+          <div className="flex justify-center">
+            <TelegramRegisterButton variant="outline" className="w-full" />
+          </div>
         </CardContent>
       </Card>
     </div>

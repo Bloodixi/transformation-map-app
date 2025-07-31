@@ -1,0 +1,1320 @@
+2025-07-31T07:48:48: 🤖 Telegram Verification Bot initialized
+2025-07-31T07:48:48: 🔐 Security features enabled: AES-256, Rate Limiting, Account Age Check
+2025-07-31T07:48:48: 📊 Analytics and monitoring active
+2025-07-31T07:48:48: 🌐 Webhook server listening on port 9003
+2025-07-31T07:48:48: 📡 Webhook URL: https://transformation-map.com/telegram-verification-webhook
+2025-07-31T07:48:48: 🏥 Health check: https://transformation-map.com:9003/health
+2025-07-31T07:48:48: 📈 Stats endpoint: https://transformation-map.com:9003/stats
+2025-07-31T07:50:59: 📨 Received update: {
+  "update_id": 516222551,
+  "message": {
+    "message_id": 64,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753948189,
+    "text": "/start",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T07:50:59: 🚀 Start command from user 487571387, param: null
+2025-07-31T07:50:59: 📨 Received update: {
+  "update_id": 516222552,
+  "message": {
+    "message_id": 65,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753948200,
+    "text": "/profile",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 8,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T07:50:59: 📨 Received update: {
+  "update_id": 516222553,
+  "message": {
+    "message_id": 66,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753948202,
+    "text": "/help",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 5,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T07:52:06: 📨 Received update: {
+  "update_id": 516222554,
+  "message": {
+    "message_id": 67,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753948326,
+    "text": "/start",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T07:52:06: 🚀 Start command from user 487571387, param: null
+2025-07-31T07:53:55: 📨 Received update: {
+  "update_id": 516222555,
+  "message": {
+    "message_id": 69,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753948434,
+    "text": "/start",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T07:53:55: 🚀 Start command from user 487571387, param: null
+2025-07-31T07:54:34: 📨 Received update: {
+  "update_id": 516222556,
+  "message": {
+    "message_id": 70,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753948474,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T07:54:34: 🚀 Start command from user 487571387, param: register
+2025-07-31T07:54:34: 📊 Analytics: started for user 487571387 {
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-07-31T07:54:39: 📨 Received update: {
+  "update_id": 516222557,
+  "message": {
+    "message_id": 71,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753948479,
+    "text": "/start",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T07:54:39: 🚀 Start command from user 487571387, param: null
+2025-07-31T07:56:38: 📨 Received update: {
+  "update_id": 516222558,
+  "message": {
+    "message_id": 72,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753948598,
+    "text": "/start",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T07:56:38: 🚀 Start command from user 487571387, param: null
+2025-07-31T07:56:40: 📨 Received update: {
+  "update_id": 516222559,
+  "message": {
+    "message_id": 73,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753948600,
+    "text": "/profile",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 8,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T07:56:42: 📨 Received update: {
+  "update_id": 516222560,
+  "message": {
+    "message_id": 74,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753948602,
+    "text": "/help",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 5,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T08:02:14: 🛑 Received SIGINT, shutting down gracefully
+2025-07-31T08:02:14: 🤖 Telegram Verification Bot initialized
+2025-07-31T08:02:14: 🔐 Security features enabled: AES-256, Rate Limiting, Account Age Check
+2025-07-31T08:02:14: 📊 Analytics and monitoring active
+2025-07-31T08:02:14: 🌐 Webhook server listening on port 9003
+2025-07-31T08:02:14: 📡 Webhook URL: https://transformation-map.com/telegram-verification-webhook
+2025-07-31T08:02:14: 🏥 Health check: https://transformation-map.com:9003/health
+2025-07-31T08:02:14: 📈 Stats endpoint: https://transformation-map.com:9003/stats
+2025-07-31T08:02:49: 📨 Received update: {
+  "update_id": 516222561,
+  "message": {
+    "message_id": 75,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753948969,
+    "text": "/start",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T08:02:49: 🚀 Start command from user 487571387, param: null
+2025-07-31T08:02:51: 📨 Received update: {
+  "update_id": 516222562,
+  "message": {
+    "message_id": 76,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753948971,
+    "text": "/start",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T08:02:51: 🚀 Start command from user 487571387, param: null
+2025-07-31T08:04:37: 🛑 Received SIGINT, shutting down gracefully
+2025-07-31T08:04:37: 🤖 Telegram Verification Bot initialized
+2025-07-31T08:04:37: 🔐 Security features enabled: AES-256, Rate Limiting, Account Age Check
+2025-07-31T08:04:37: 📊 Analytics and monitoring active
+2025-07-31T08:04:37: 🌐 Webhook server listening on port 9003
+2025-07-31T08:04:37: 📡 Webhook URL: https://transformation-map.com/telegram-verification-webhook
+2025-07-31T08:04:37: 🏥 Health check: https://transformation-map.com:9003/health
+2025-07-31T08:04:37: 📈 Stats endpoint: https://transformation-map.com:9003/stats
+2025-07-31T08:06:25: 📨 Received update: {
+  "update_id": 516222563,
+  "message": {
+    "message_id": 78,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753949125,
+    "text": "/start",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T08:06:25: 🚀 Start command from user 487571387, param: null
+2025-07-31T08:06:25: 📤 Sending error message: "❌ <b>Неверная ссылка</b>
+
+Для регистрации используйте ссылку с сайта transformation-map.com"
+2025-07-31T08:06:25: 🔍 Sending message to 487571387, text length: 91, text: "❌ <b>Неверная ссылка</b>
+
+Для регистрации используйте ссылку с сайта transformation-map.com"
+2025-07-31T08:07:17: 🛑 Received SIGINT, shutting down gracefully
+2025-07-31T08:07:17: 🤖 Telegram Verification Bot initialized
+2025-07-31T08:07:17: 🔐 Security features enabled: AES-256, Rate Limiting, Account Age Check
+2025-07-31T08:07:17: 📊 Analytics and monitoring active
+2025-07-31T08:07:17: 🌐 Webhook server listening on port 9003
+2025-07-31T08:07:17: 📡 Webhook URL: https://transformation-map.com/telegram-verification-webhook
+2025-07-31T08:07:17: 🏥 Health check: https://transformation-map.com:9003/health
+2025-07-31T08:07:17: 📈 Stats endpoint: https://transformation-map.com:9003/stats
+2025-07-31T08:07:25: 📨 Received update: {
+  "update_id": 516222564,
+  "message": {
+    "message_id": 82,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753949245,
+    "text": "/start",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T08:07:25: 🚀 Start command from user 487571387, param: null
+2025-07-31T08:07:25: 📤 Sending error message: "❌ <b>Неверная ссылка</b>
+
+Для регистрации используйте ссылку с сайта transformation-map.com"
+2025-07-31T08:07:25: 🔍 Sending message to 487571387, text length: 91, text: "❌ <b>Неверная ссылка</b>
+
+Для регистрации используйте ссылку с сайта transformation-map.com"
+2025-07-31T08:10:08: 📨 Received update: {
+  "update_id": 516222565,
+  "message": {
+    "message_id": 85,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753949407,
+    "text": "/start",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T08:10:08: 🚀 Start command from user 487571387, param: null
+2025-07-31T08:10:08: 📤 Sending error message: "❌ <b>Неверная ссылка</b>
+
+Для регистрации используйте ссылку с сайта transformation-map.com"
+2025-07-31T08:10:08: 🔍 Sending message to 487571387, text length: 91, text: "❌ <b>Неверная ссылка</b>
+
+Для регистрации используйте ссылку с сайта transformation-map.com"
+2025-07-31T08:16:35: 📨 Received update: {
+  "update_id": 516222566,
+  "message": {
+    "message_id": 87,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753949795,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T08:16:35: 🚀 Start command from user 487571387, param: register
+2025-07-31T08:16:35: 📊 Analytics: started for user 487571387 {
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-07-31T08:16:35: 🔍 Sending message to 487571387, text length: 480, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>🎯 Добро пожаловать в Transformation Map!</b>
+
+Для регистрации на нашей платформе необходимо пройти верификацию:
+
+🔄 <b>Принятие условий</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Завершение регистрации
+
+<b>📋 Условия участия:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Обязательное участие в группе сообщества
+• Прохождение проверки безопасности
+• Соблюдение правил сообщества
+
+<i>⏱ Процесс займет 2-3 минуты</i>"
+2025-07-31T08:16:35: 📊 Analytics: terms_shown for user 487571387 {}
+2025-07-31T08:28:02: 📨 Received update: {
+  "update_id": 516222567,
+  "callback_query": {
+    "id": "2094103165024962465",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 88,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1753949795,
+      "text": "📋 Этап 1/4\n\n🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)\n\n🎯 Добро пожаловать в Transformation Map!\n\nДля регистрации на нашей платформе необходимо пройти верификацию:\n\n🔄 Принятие условий\n⏳ Вступление в сообщество\n⏳ Проверка безопасности\n⏳ Завершение регистрации\n\n📋 Условия участия:\n• Возраст аккаунта Telegram: минимум 7 дней\n• Обязательное участие в группе сообщества\n• Прохождение проверки безопасности\n• Соблюдение правил сообщества\n\n⏱ Процесс займет 2-3 минуты",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 37,
+          "length": 41,
+          "type": "bold"
+        },
+        {
+          "offset": 150,
+          "length": 16,
+          "type": "bold"
+        },
+        {
+          "offset": 243,
+          "length": 19,
+          "type": "bold"
+        },
+        {
+          "offset": 418,
+          "length": 27,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "✅ Принимаю условия",
+              "callback_data": "accept_terms"
+            }
+          ],
+          [
+            {
+              "text": "❌ Отмена",
+              "callback_data": "cancel_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "accept_terms"
+  }
+}
+2025-07-31T08:28:02: 📊 Analytics: terms_accepted for user 487571387 {}
+2025-07-31T08:28:02: 🔍 Sending message to 487571387, text length: 406, text: "👥 <b>Этап 2/4</b>
+
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)
+
+
+<b>👥 Присоединитесь к нашему сообществу!</b>
+
+Для продолжения регистрации необходимо вступить в группу сообщества Transformation Map.
+
+<b>Что вас ждет:</b>
+• Полезные материалы по саморазвитию
+• Поддержка единомышленников
+• Эксклюзивные вебинары и курсы
+• Ответы на вопросы от экспертов
+
+<i>⚠️ После вступления в группу нажмите "Проверить членство"</i>
+    "
+2025-07-31T08:28:02: 📊 Analytics: group_requested for user 487571387 {}
+2025-07-31T08:28:25: 📨 Received update: {
+  "update_id": 516222568,
+  "callback_query": {
+    "id": "2094103165113221791",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 89,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1753950482,
+      "text": "👥 Этап 2/4\n\n🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)\n\n\n👥 Присоединитесь к нашему сообществу!\n\nДля продолжения регистрации необходимо вступить в группу сообщества Transformation Map.\n\nЧто вас ждет:\n• Полезные материалы по саморазвитию\n• Поддержка единомышленников\n• Эксклюзивные вебинары и курсы\n• Ответы на вопросы от экспертов\n\n⚠️ После вступления в группу нажмите \"Проверить членство\"",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 41,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 170,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 316,
+          "length": 57,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔍 Проверить членство",
+              "callback_data": "check_membership"
+            }
+          ],
+          [
+            {
+              "text": "🔙 Назад",
+              "callback_data": "back_to_terms"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "check_membership"
+  }
+}
+2025-07-31T08:28:26: 🔍 Sending message to 487571387, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-07-31T08:28:26: 📊 Analytics: failure for user 487571387 { reason: 'not_in_group' }
+2025-07-31T08:28:26: 🔍 Sending message to 487571387, text length: 131, text: "🔒 <b>Проверка безопасности не пройдена</b>
+
+Вы не состоите в группе сообщества.
+
+Пожалуйста, вступите в группу и попробуйте снова."
+2025-07-31T08:31:48: 📨 Received update: {
+  "update_id": 516222569,
+  "message": {
+    "message_id": 92,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1753950708,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T08:31:48: 🚀 Start command from user 487571387, param: register
+2025-07-31T08:31:48: 🔍 Sending message to 487571387, text length: 480, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>🎯 Добро пожаловать в Transformation Map!</b>
+
+Для регистрации на нашей платформе необходимо пройти верификацию:
+
+🔄 <b>Принятие условий</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Завершение регистрации
+
+<b>📋 Условия участия:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Обязательное участие в группе сообщества
+• Прохождение проверки безопасности
+• Соблюдение правил сообщества
+
+<i>⏱ Процесс займет 2-3 минуты</i>"
+2025-07-31T08:31:48: 📊 Analytics: terms_shown for user 487571387 {}
+2025-07-31T08:32:23: 📨 Received update: {
+  "update_id": 516222570,
+  "message": {
+    "message_id": 94,
+    "from": {
+      "id": 1260563849,
+      "is_bot": false,
+      "first_name": "Наталья",
+      "last_name": "Столярова",
+      "username": "natsto123",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 1260563849,
+      "first_name": "Наталья",
+      "last_name": "Столярова",
+      "username": "natsto123",
+      "type": "private"
+    },
+    "date": 1753950742,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T08:32:23: 🚀 Start command from user 1260563849, param: register
+2025-07-31T08:32:23: 📊 Analytics: started for user 1260563849 {
+  user_info: {
+    id: 1260563849,
+    is_bot: false,
+    first_name: 'Наталья',
+    last_name: 'Столярова',
+    username: 'natsto123',
+    language_code: 'ru'
+  }
+}
+2025-07-31T08:32:23: 🔍 Sending message to 1260563849, text length: 480, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>🎯 Добро пожаловать в Transformation Map!</b>
+
+Для регистрации на нашей платформе необходимо пройти верификацию:
+
+🔄 <b>Принятие условий</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Завершение регистрации
+
+<b>📋 Условия участия:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Обязательное участие в группе сообщества
+• Прохождение проверки безопасности
+• Соблюдение правил сообщества
+
+<i>⏱ Процесс займет 2-3 минуты</i>"
+2025-07-31T08:32:23: 📊 Analytics: terms_shown for user 1260563849 {}
+2025-07-31T08:48:39: 📨 Received update: {
+  "update_id": 516222571,
+  "message": {
+    "message_id": 96,
+    "from": {
+      "id": 1260563849,
+      "is_bot": false,
+      "first_name": "Наталья",
+      "last_name": "Столярова",
+      "username": "natsto123",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 1260563849,
+      "first_name": "Наталья",
+      "last_name": "Столярова",
+      "username": "natsto123",
+      "type": "private"
+    },
+    "date": 1753951719,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T08:48:39: 🚀 Start command from user 1260563849, param: register
+2025-07-31T08:48:39: 🔍 Sending message to 1260563849, text length: 480, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>🎯 Добро пожаловать в Transformation Map!</b>
+
+Для регистрации на нашей платформе необходимо пройти верификацию:
+
+🔄 <b>Принятие условий</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Завершение регистрации
+
+<b>📋 Условия участия:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Обязательное участие в группе сообщества
+• Прохождение проверки безопасности
+• Соблюдение правил сообщества
+
+<i>⏱ Процесс займет 2-3 минуты</i>"
+2025-07-31T08:48:39: 📊 Analytics: terms_shown for user 1260563849 {}
+2025-07-31T08:48:43: 📨 Received update: {
+  "update_id": 516222572,
+  "callback_query": {
+    "id": "5414080509565955495",
+    "from": {
+      "id": 1260563849,
+      "is_bot": false,
+      "first_name": "Наталья",
+      "last_name": "Столярова",
+      "username": "natsto123",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 97,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 1260563849,
+        "first_name": "Наталья",
+        "last_name": "Столярова",
+        "username": "natsto123",
+        "type": "private"
+      },
+      "date": 1753951719,
+      "text": "📋 Этап 1/4\n\n🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)\n\n🎯 Добро пожаловать в Transformation Map!\n\nДля регистрации на нашей платформе необходимо пройти верификацию:\n\n🔄 Принятие условий\n⏳ Вступление в сообщество\n⏳ Проверка безопасности\n⏳ Завершение регистрации\n\n📋 Условия участия:\n• Возраст аккаунта Telegram: минимум 7 дней\n• Обязательное участие в группе сообщества\n• Прохождение проверки безопасности\n• Соблюдение правил сообщества\n\n⏱ Процесс займет 2-3 минуты",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 37,
+          "length": 41,
+          "type": "bold"
+        },
+        {
+          "offset": 150,
+          "length": 16,
+          "type": "bold"
+        },
+        {
+          "offset": 243,
+          "length": 19,
+          "type": "bold"
+        },
+        {
+          "offset": 418,
+          "length": 27,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "✅ Принимаю условия",
+              "callback_data": "accept_terms"
+            }
+          ],
+          [
+            {
+              "text": "❌ Отмена",
+              "callback_data": "cancel_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-1551938700102665038",
+    "data": "accept_terms"
+  }
+}
+2025-07-31T08:48:43: 📊 Analytics: terms_accepted for user 1260563849 {}
+2025-07-31T08:48:43: 🔍 Sending message to 1260563849, text length: 406, text: "👥 <b>Этап 2/4</b>
+
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)
+
+
+<b>👥 Присоединитесь к нашему сообществу!</b>
+
+Для продолжения регистрации необходимо вступить в группу сообщества Transformation Map.
+
+<b>Что вас ждет:</b>
+• Полезные материалы по саморазвитию
+• Поддержка единомышленников
+• Эксклюзивные вебинары и курсы
+• Ответы на вопросы от экспертов
+
+<i>⚠️ После вступления в группу нажмите "Проверить членство"</i>
+    "
+2025-07-31T08:48:43: 📊 Analytics: group_requested for user 1260563849 {}
+2025-07-31T08:48:53: 📨 Received update: {
+  "update_id": 516222573,
+  "callback_query": {
+    "id": "5414080506708533879",
+    "from": {
+      "id": 1260563849,
+      "is_bot": false,
+      "first_name": "Наталья",
+      "last_name": "Столярова",
+      "username": "natsto123",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 98,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 1260563849,
+        "first_name": "Наталья",
+        "last_name": "Столярова",
+        "username": "natsto123",
+        "type": "private"
+      },
+      "date": 1753951723,
+      "text": "👥 Этап 2/4\n\n🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)\n\n\n👥 Присоединитесь к нашему сообществу!\n\nДля продолжения регистрации необходимо вступить в группу сообщества Transformation Map.\n\nЧто вас ждет:\n• Полезные материалы по саморазвитию\n• Поддержка единомышленников\n• Эксклюзивные вебинары и курсы\n• Ответы на вопросы от экспертов\n\n⚠️ После вступления в группу нажмите \"Проверить членство\"",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 41,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 170,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 316,
+          "length": 57,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔍 Проверить членство",
+              "callback_data": "check_membership"
+            }
+          ],
+          [
+            {
+              "text": "🔙 Назад",
+              "callback_data": "back_to_terms"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-1551938700102665038",
+    "data": "check_membership"
+  }
+}
+2025-07-31T08:48:53: 🔍 Sending message to 1260563849, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-07-31T08:48:53: 📊 Analytics: failure for user 1260563849 { reason: 'not_in_group' }
+2025-07-31T08:48:53: 🔍 Sending message to 1260563849, text length: 131, text: "🔒 <b>Проверка безопасности не пройдена</b>
+
+Вы не состоите в группе сообщества.
+
+Пожалуйста, вступите в группу и попробуйте снова."
+2025-07-31T08:49:34: 📨 Received update: {
+  "update_id": 516222574,
+  "callback_query": {
+    "id": "5414080509178481217",
+    "from": {
+      "id": 1260563849,
+      "is_bot": false,
+      "first_name": "Наталья",
+      "last_name": "Столярова",
+      "username": "natsto123",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 100,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 1260563849,
+        "first_name": "Наталья",
+        "last_name": "Столярова",
+        "username": "natsto123",
+        "type": "private"
+      },
+      "date": 1753951733,
+      "text": "🔒 Проверка безопасности не пройдена\n\nВы не состоите в группе сообщества.\n\nПожалуйста, вступите в группу и попробуйте снова.",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 33,
+          "type": "bold"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔄 Попробовать снова",
+              "callback_data": "retry_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-1551938700102665038",
+    "data": "retry_verification"
+  }
+}
+2025-07-31T08:49:34: 🔍 Sending message to 1260563849, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-07-31T08:49:34: 📊 Analytics: failure for user 1260563849 { reason: 'not_in_group' }
+2025-07-31T08:49:34: 🔍 Sending message to 1260563849, text length: 131, text: "🔒 <b>Проверка безопасности не пройдена</b>
+
+Вы не состоите в группе сообщества.
+
+Пожалуйста, вступите в группу и попробуйте снова."
+2025-07-31T08:50:08: 📨 Received update: {
+  "update_id": 516222575,
+  "message": {
+    "message_id": 103,
+    "from": {
+      "id": 1260563849,
+      "is_bot": false,
+      "first_name": "Наталья",
+      "last_name": "Столярова",
+      "username": "natsto123",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 1260563849,
+      "first_name": "Наталья",
+      "last_name": "Столярова",
+      "username": "natsto123",
+      "type": "private"
+    },
+    "date": 1753951808,
+    "text": "/profile",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 8,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T08:50:08: 🔍 Sending message to 1260563849, text length: 133, text: "❓ <b>Неизвестная команда</b>
+
+Для регистрации используйте ссылку с сайта transformation-map.com
+
+Доступные команды:
+• /help - справка"
+2025-07-31T08:50:14: 📨 Received update: {
+  "update_id": 516222576,
+  "message": {
+    "message_id": 105,
+    "from": {
+      "id": 1260563849,
+      "is_bot": false,
+      "first_name": "Наталья",
+      "last_name": "Столярова",
+      "username": "natsto123",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 1260563849,
+      "first_name": "Наталья",
+      "last_name": "Столярова",
+      "username": "natsto123",
+      "type": "private"
+    },
+    "date": 1753951814,
+    "text": "/help",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 5,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T08:50:14: 🔍 Sending message to 1260563849, text length: 487, text: "🤖 <b>Telegram Verification Bot</b>
+
+Этот бот предназначен для верификации пользователей перед регистрацией на сайте transformation-map.com
+
+<b>🔐 Процесс верификации:</b>
+1️⃣ Принятие условий
+2️⃣ Вступление в группу сообщества
+3️⃣ Проверка безопасности
+4️⃣ Завершение и переход на сайт
+
+<b>📋 Требования:</b>
+• Возраст аккаунта: минимум 7 дней
+• Членство в группе @transformation_map_community
+• Прохождение капчи
+
+<b>🌐 Для начала:</b>
+Используйте ссылку с сайта transformation-map.com"
+2025-07-31T08:50:31: 📨 Received update: {
+  "update_id": 516222577,
+  "message": {
+    "message_id": 107,
+    "from": {
+      "id": 1260563849,
+      "is_bot": false,
+      "first_name": "Наталья",
+      "last_name": "Столярова",
+      "username": "natsto123",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 1260563849,
+      "first_name": "Наталья",
+      "last_name": "Столярова",
+      "username": "natsto123",
+      "type": "private"
+    },
+    "date": 1753951831,
+    "text": "/start",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-07-31T08:50:31: 🚀 Start command from user 1260563849, param: null
+2025-07-31T08:50:31: 📤 Sending error message: "❌ <b>Неверная ссылка</b>
+
+Для регистрации используйте ссылку с сайта transformation-map.com"
+2025-07-31T08:50:31: 🔍 Sending message to 1260563849, text length: 91, text: "❌ <b>Неверная ссылка</b>
+
+Для регистрации используйте ссылку с сайта transformation-map.com"
+2025-07-31T08:50:46: 📨 Received update: {
+  "update_id": 516222578,
+  "callback_query": {
+    "id": "5414080507095153368",
+    "from": {
+      "id": 1260563849,
+      "is_bot": false,
+      "first_name": "Наталья",
+      "last_name": "Столярова",
+      "username": "natsto123",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 102,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 1260563849,
+        "first_name": "Наталья",
+        "last_name": "Столярова",
+        "username": "natsto123",
+        "type": "private"
+      },
+      "date": 1753951774,
+      "text": "🔒 Проверка безопасности не пройдена\n\nВы не состоите в группе сообщества.\n\nПожалуйста, вступите в группу и попробуйте снова.",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 33,
+          "type": "bold"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔄 Попробовать снова",
+              "callback_data": "retry_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-1551938700102665038",
+    "data": "retry_verification"
+  }
+}
+2025-07-31T08:50:46: 🔍 Sending message to 1260563849, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-07-31T08:50:46: 📊 Analytics: failure for user 1260563849 { reason: 'not_in_group' }
+2025-07-31T08:50:46: 🔍 Sending message to 1260563849, text length: 131, text: "🔒 <b>Проверка безопасности не пройдена</b>
+
+Вы не состоите в группе сообщества.
+
+Пожалуйста, вступите в группу и попробуйте снова."
+2025-07-31T09:37:17: 🧹 Cleaned up old session for user 487571387
+2025-07-31T09:57:17: 🧹 Cleaned up old session for user 1260563849

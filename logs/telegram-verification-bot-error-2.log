@@ -1,0 +1,170 @@
+2025-07-31T07:50:59: Error sending message: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:50:59: ❌ Error handling update: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:50:59: Error sending message: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:50:59: ❌ Error handling update: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:50:59: Error sending message: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:50:59: ❌ Error handling update: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:52:06: Error sending message: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:52:06: ❌ Error handling update: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:53:55: Error sending message: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:53:55: ❌ Error handling update: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:54:34: Error sending message: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:54:34: ❌ Error handling update: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:54:39: Error sending message: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:54:39: ❌ Error handling update: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:56:38: Error sending message: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:56:38: ❌ Error handling update: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:56:40: Error sending message: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:56:40: ❌ Error handling update: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:56:42: Error sending message: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T07:56:42: ❌ Error handling update: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T08:02:49: Error sending message: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T08:02:49: ❌ Error handling update: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T08:02:52: Error sending message: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T08:02:52: ❌ Error handling update: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T08:06:25: Error sending message: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T08:06:25: ❌ Error handling update: Error: Telegram API Error: Bad Request: message text is empty
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:374:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T08:28:26: Error getting chat member: Error: Telegram API Error: Bad Request: chat not found
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:375:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T08:28:26: Error checking group membership: Error: Telegram API Error: Bad Request: chat not found
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:375:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T08:48:53: Error getting chat member: Error: Telegram API Error: Bad Request: chat not found
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:375:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T08:48:53: Error checking group membership: Error: Telegram API Error: Bad Request: chat not found
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:375:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T08:49:34: Error getting chat member: Error: Telegram API Error: Bad Request: chat not found
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:375:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T08:49:34: Error checking group membership: Error: Telegram API Error: Bad Request: chat not found
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:375:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T08:50:46: Error getting chat member: Error: Telegram API Error: Bad Request: chat not found
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:375:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T08:50:46: Error checking group membership: Error: Telegram API Error: Bad Request: chat not found
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:375:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

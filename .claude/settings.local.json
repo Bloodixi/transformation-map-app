@@ -24,7 +24,8 @@
       "Bash(git restore:*)",
       "WebFetch(domain:next-intl.dev)",
       "WebFetch(domain:dev.to)",
-      "WebFetch(domain:www.conveythis.com)"
+      "WebFetch(domain:www.conveythis.com)",
+      "Bash(npm run save:*)"
     ],
     "deny": []
   },

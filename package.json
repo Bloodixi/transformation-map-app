@@ -14,11 +14,12 @@
     "pm2:stop": "pm2 stop transformation-map",
     "pm2:logs": "pm2 logs transformation-map",
     "pm2:status": "pm2 status",
-    "bot:setup": "./bot-setup.sh",
-    "bot:start": "pm2 start telegram-bot",
-    "bot:stop": "pm2 stop telegram-bot",
-    "bot:restart": "pm2 restart telegram-bot",
-    "bot:logs": "pm2 logs telegram-bot"
+    "bot:start": "pm2 start telegram-verification-bot",
+    "bot:stop": "pm2 stop telegram-verification-bot",
+    "bot:restart": "pm2 restart telegram-verification-bot",
+    "bot:logs": "pm2 logs telegram-verification-bot",
+    "bot:setup": "node -e \"console.log('Setting up Telegram verification bot webhook...')\" && curl -X POST \"https://api.telegram.org/bot8061619447:AAFQ59yepcEbGt08yx0RGqDvZLC-X6t7u4s/setWebhook\" -H \"Content-Type: application/json\" -d '{\"url\":\"https://transformation-map.com/telegram-verification-webhook\"}'",
+    "bot:status": "curl -s \"https://api.telegram.org/bot8061619447:AAFQ59yepcEbGt08yx0RGqDvZLC-X6t7u4s/getWebhookInfo\" | jq ."
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.10.0",

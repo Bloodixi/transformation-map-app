@@ -24,20 +24,25 @@ module.exports = {
       time: true
     },
     {
-      name: 'telegram-bot',
-      script: './telegram-bot.js',
+      name: 'telegram-verification-bot',
+      script: './telegram-verification-bot.js',
       cwd: '/var/www/transformation-map',
       instances: 1,
       autorestart: true,
       watch: false,
       max_memory_restart: '500M',
       env: {
-        NODE_ENV: 'production'
+        NODE_ENV: 'production',
+        TELEGRAM_BOT_TOKEN: '8061619447:AAFQ59yepcEbGt08yx0RGqDvZLC-X6t7u4s'
+      },
+      env_production: {
+        NODE_ENV: 'production',
+        TELEGRAM_BOT_TOKEN: '8061619447:AAFQ59yepcEbGt08yx0RGqDvZLC-X6t7u4s'
       },
       // Логи для бота
-      out_file: './logs/bot-out.log',
-      error_file: './logs/bot-error.log',
-      log_file: './logs/bot-combined.log',
+      out_file: './logs/telegram-verification-bot-out.log',
+      error_file: './logs/telegram-verification-bot-error.log',
+      log_file: './logs/telegram-verification-bot-combined.log',
       time: true
     }
   ]

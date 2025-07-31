@@ -1,0 +1,121 @@
+{
+  "total_started": 3,
+  "stage_1_terms_shown": 4,
+  "stage_2_terms_accepted": 2,
+  "stage_3_group_requested": 2,
+  "stage_4_verification_completed": 0,
+  "failures": {
+    "rate_limited": 0,
+    "account_too_young": 0,
+    "not_in_group": 0,
+    "captcha_failed": 0,
+    "too_many_attempts": 0
+  },
+  "conversion_rates": {
+    "terms_shown": "133.33",
+    "terms_accepted": "66.67",
+    "group_requested": "66.67",
+    "completed": "0.00"
+  },
+  "avg_completion_time": 0,
+  "sessions": {
+    "487571387": {
+      "started_at": 1753948474483,
+      "events": [
+        {
+          "event": "started",
+          "timestamp": 1753948474483,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "started",
+          "timestamp": 1753949795796,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1753949795958
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1753950482619
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1753950482676
+        },
+        {
+          "event": "failure",
+          "timestamp": 1753950506328,
+          "reason": "not_in_group"
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1753950708740
+        }
+      ],
+      "completed": false
+    },
+    "1260563849": {
+      "started_at": 1753950743002,
+      "events": [
+        {
+          "event": "started",
+          "timestamp": 1753950743002,
+          "user_info": {
+            "id": 1260563849,
+            "is_bot": false,
+            "first_name": "Наталья",
+            "last_name": "Столярова",
+            "username": "natsto123",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1753950743192
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1753951719762
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1753951723444
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1753951723541
+        },
+        {
+          "event": "failure",
+          "timestamp": 1753951733246,
+          "reason": "not_in_group"
+        },
+        {
+          "event": "failure",
+          "timestamp": 1753951774815,
+          "reason": "not_in_group"
+        },
+        {
+          "event": "failure",
+          "timestamp": 1753951846926,
+          "reason": "not_in_group"
+        }
+      ],
+      "completed": false
+    }
+  }
+}
