@@ -1,9 +1,9 @@
 {
   "total_started": 10,
   "stage_1_terms_shown": 27,
-  "stage_2_terms_accepted": 19,
-  "stage_3_group_requested": 19,
-  "stage_4_verification_completed": 8,
+  "stage_2_terms_accepted": 20,
+  "stage_3_group_requested": 20,
+  "stage_4_verification_completed": 9,
   "failures": {
     "rate_limited": 0,
     "account_too_young": 0,
@@ -13,9 +13,9 @@
   },
   "conversion_rates": {
     "terms_shown": "270.00",
-    "terms_accepted": "190.00",
-    "group_requested": "190.00",
-    "completed": "80.00"
+    "terms_accepted": "200.00",
+    "group_requested": "200.00",
+    "completed": "90.00"
   },
   "avg_completion_time": 0,
   "sessions": {
@@ -460,6 +460,26 @@
         {
           "event": "terms_shown",
           "timestamp": 1754128560669
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1754129796083
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1754129796283
+        },
+        {
+          "event": "verification_completed",
+          "timestamp": 1754129802205,
+          "completion_time": 2182620,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
         }
       ],
       "completed": true
