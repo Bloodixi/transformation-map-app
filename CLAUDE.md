@@ -73,6 +73,7 @@ npm run pm2:status  # Проверить статус приложения
 - `npm run bot:start` - запуск Telegram бота
 - `npm run bot:setup` - настройка webhook
 - `npm run bot:status` - статус webhook
+- `pm2 restart telegram-verification-bot` - перезапуск бота
 
 ### **Понимание workflow:**
 1. Пользователь заходит на главную (`page.tsx`)
@@ -180,5 +181,37 @@ const handleClick = () => {
 pm2 logs --lines 50  # Проверить ошибки
 pm2 status           # Статус процессов
 ```
+
+## 🔒 **Telegram Bot Security (НОВОЕ - 02.08.2025):**
+
+### **Система повторных попыток капчи с блокировкой:**
+Реализована защита от автоматических атак на этапе капчи:
+
+**Логика работы:**
+- **1-я ошибка:** "Попробуйте еще раз"
+- **2-я ошибка:** "Осталась 1 попытка"  
+- **3-я ошибка:** "Блокировка на 5 минут"
+
+**Файлы с изменениями:**
+- `telegram-verification-bot.js:100-180` - новые методы UserSessionService
+- `telegram-verification-bot.js:925-1030` - обновленная логика капчи
+- Поля сессии: `captcha_attempts`, `captcha_blocked_until`
+
+**Методы для работы с блокировкой:**
+```javascript
+UserSessionService.isCaptchaBlocked(userId)      // Проверка блокировки
+UserSessionService.incrementCaptchaAttempts(userId) // +1 попытка
+UserSessionService.blockCaptcha(userId)          // Блок на 5 минут
+UserSessionService.getCaptchaBlockTimeLeft(userId)  // Время до разблока
+```
+
+**Аналитика:**
+- Новый тип ошибки `captcha_blocked` в `bot-analytics.json`
+- Отслеживание всех попыток и блокировок
+
+**Защита от обхода:**
+- Проверка блокировки при показе капчи
+- Проверка блокировки при ответе
+- Автосброс счетчика при успехе
 
 **Теперь ты полностью понимаешь проект и знаешь все важные фиксы! 🎯**
