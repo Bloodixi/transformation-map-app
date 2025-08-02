@@ -1,6 +1,6 @@
 {
   "total_started": 10,
-  "stage_1_terms_shown": 26,
+  "stage_1_terms_shown": 27,
   "stage_2_terms_accepted": 19,
   "stage_3_group_requested": 19,
   "stage_4_verification_completed": 8,
@@ -12,7 +12,7 @@
     "too_many_attempts": 0
   },
   "conversion_rates": {
-    "terms_shown": "260.00",
+    "terms_shown": "270.00",
     "terms_accepted": "190.00",
     "group_requested": "190.00",
     "completed": "80.00"
@@ -456,6 +456,10 @@
             "username": "vutalka",
             "language_code": "ru"
           }
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754128560669
         }
       ],
       "completed": true
