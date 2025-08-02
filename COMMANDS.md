@@ -45,6 +45,31 @@ npm run pm2:status
 pm2 monit
 ```
 
+## 🤖 Управление Telegram Bot:
+
+```bash
+# Запуск бота-верификатора
+pm2 start telegram-verification-bot
+
+# Перезапуск бота
+pm2 restart telegram-verification-bot
+
+# Остановка бота
+pm2 stop telegram-verification-bot
+
+# Логи бота
+pm2 logs telegram-verification-bot --lines 50
+
+# Статус webhook
+curl -s https://api.telegram.org/bot<TOKEN>/getWebhookInfo
+
+# Health check бота
+curl http://localhost:9003/health
+
+# Статистика бота
+curl -s http://localhost:9003/stats | jq .
+```
+
 ## 🔧 Разработка:
 
 ```bash
@@ -101,4 +126,42 @@ pm2 show transformation-map
 
 # Очистка логов
 pm2 flush
+```
+
+## 🔐 Мониторинг безопасности:
+
+```bash
+# Аналитика бота (конверсия, ошибки)
+curl -s http://localhost:9003/stats | jq '.overview'
+
+# Проверка блокировок капчи
+curl -s http://localhost:9003/stats | jq '.failures.captcha_blocked'
+
+# Текущие rate limits
+cat bot-rate-limits.json | jq .
+
+# Логи безопасности
+tail -f logs/telegram-verification-bot-error-2.log
+
+# Мониторинг попыток
+watch -n 5 'curl -s http://localhost:9003/stats | jq ".failures"'
+```
+
+## 🚨 Команды для экстренных случаев:
+
+```bash
+# Экстренная остановка бота
+pm2 stop telegram-verification-bot
+
+# Полная перезагрузка системы
+pm2 restart all
+
+# Очистка всех логов
+pm2 flush all
+
+# Бэкап данных аналитики
+cp bot-analytics.json "bot-analytics-backup-$(date +%Y%m%d-%H%M).json"
+
+# Проверка всех процессов
+pm2 status && curl -s http://localhost:9003/health
 ```
