@@ -14,7 +14,7 @@ const CONFIG = {
   
   // Группа для верификации
   COMMUNITY_GROUP: '@transformation_map_community',
-  COMMUNITY_GROUP_ID: '-1001234567890', // Замените на реальный ID
+  COMMUNITY_GROUP_ID: '-1002710202308', // Реальный ID группы transformation_map_community
   
   // Безопасность
   ENCRYPTION_KEY: crypto.randomBytes(32), // AES-256 ключ
@@ -243,6 +243,7 @@ class AnalyticsService {
         account_too_young: 0,
         not_in_group: 0,
         captcha_failed: 0,
+        captcha_blocked: 0,
         too_many_attempts: 0
       },
       conversion_rates: {},
@@ -394,12 +395,19 @@ class TelegramAPI {
         throw new Error('Message text is empty or undefined');
       }
       
-      return await this.makeRequest('sendMessage', {
+      const response = await this.makeRequest('sendMessage', {
         chat_id: chatId,
         text: text,
         parse_mode: 'HTML',
         ...options
       });
+
+      // Отслеживаем сообщение бота для автоматического удаления
+      if (response && response.message_id && typeof UserSessionService !== 'undefined') {
+        UserSessionService.addBotMessage(chatId, response.message_id);
+      }
+
+      return response;
     } catch (error) {
       console.error('Error sending message:', error);
       throw error;
@@ -564,7 +572,12 @@ class UserSessionService {
       current_step: 1,
       captcha_data: null,
       verification_token: null,
-      last_activity: Date.now()
+      last_activity: Date.now(),
+      bot_messages: [], // ID сообщений бота для удаления
+      user_messages: [], // ID сообщений пользователя для удаления
+      auto_delete_enabled: true, // Автоматическое удаление включено
+      captcha_attempts: 0, // Счетчик попыток капчи
+      captcha_blocked_until: null // Время окончания блокировки
     };
     
     this.sessions.set(userId.toString(), session);
@@ -598,6 +611,138 @@ class UserSessionService {
         console.log(`🧹 Cleaned up old session for user ${userId}`);
       }
     }
+  }
+
+  // Методы для управления сообщениями
+  static addBotMessage(userId, messageId) {
+    const session = this.getSession(userId);
+    if (session && session.auto_delete_enabled) {
+      if (!session.bot_messages) session.bot_messages = [];
+      session.bot_messages.push(messageId);
+      console.log(`📝 Tracked bot message ${messageId} for user ${userId}`);
+    }
+  }
+
+  static addUserMessage(userId, messageId) {
+    const session = this.getSession(userId);
+    if (session && session.auto_delete_enabled) {
+      if (!session.user_messages) session.user_messages = [];
+      session.user_messages.push(messageId);
+      console.log(`📝 Tracked user message ${messageId} for user ${userId}`);
+    }
+  }
+
+  static async deleteAllMessages(userId) {
+    const session = this.getSession(userId);
+    if (!session) return;
+
+    console.log(`🗑 Starting message cleanup for user ${userId}`);
+    
+    const allMessages = [
+      ...(session.bot_messages || []),
+      ...(session.user_messages || [])
+    ];
+
+    let deletedCount = 0;
+    for (const messageId of allMessages) {
+      try {
+        await TelegramAPI.makeRequest('deleteMessage', {
+          chat_id: userId,
+          message_id: messageId
+        });
+        deletedCount++;
+      } catch (error) {
+        console.log(`⚠️ Could not delete message ${messageId}: ${error.message}`);
+      }
+    }
+
+    console.log(`🧹 Deleted ${deletedCount}/${allMessages.length} messages for user ${userId}`);
+    
+    // Очищаем списки сообщений
+    session.bot_messages = [];
+    session.user_messages = [];
+  }
+
+  static async deleteAllMessagesExceptLast(userId) {
+    const session = this.getSession(userId);
+    if (!session) return;
+
+    console.log(`🗑 Cleaning chat for user ${userId}, keeping last message`);
+    
+    const allMessages = [
+      ...(session.bot_messages || []).slice(0, -1), // Все кроме последнего сообщения бота
+      ...(session.user_messages || []) // Все сообщения пользователя
+    ];
+
+    let deletedCount = 0;
+    for (const messageId of allMessages) {
+      try {
+        await TelegramAPI.makeRequest('deleteMessage', {
+          chat_id: userId,
+          message_id: messageId
+        });
+        deletedCount++;
+      } catch (error) {
+        console.log(`⚠️ Could not delete message ${messageId}: ${error.message}`);
+      }
+    }
+
+    console.log(`🧹 Deleted ${deletedCount}/${allMessages.length} old messages for user ${userId}`);
+    
+    // Оставляем только последнее сообщение бота
+    session.bot_messages = session.bot_messages ? session.bot_messages.slice(-1) : [];
+    session.user_messages = [];
+  }
+
+  static async cleanChatBeforeNewStep(userId) {
+    // Удаляем ВСЕ предыдущие сообщения перед показом нового этапа
+    await this.deleteAllMessages(userId);
+  }
+
+  static async cleanChatAfterNewStep(userId) {
+    // Удаляем все сообщения кроме последнего (только что отправленного)
+    await this.deleteAllMessagesExceptLast(userId);
+  }
+
+  // Методы для управления капчей
+  static isCaptchaBlocked(userId) {
+    const session = this.getSession(userId);
+    if (!session || !session.captcha_blocked_until) return false;
+    
+    const now = Date.now();
+    if (now < session.captcha_blocked_until) {
+      return true; // Все еще заблокирован
+    } else {
+      // Блокировка истекла, сбрасываем
+      session.captcha_blocked_until = null;
+      session.captcha_attempts = 0;
+      return false;
+    }
+  }
+
+  static incrementCaptchaAttempts(userId) {
+    const session = this.getSession(userId);
+    if (!session) return 0;
+    
+    session.captcha_attempts = (session.captcha_attempts || 0) + 1;
+    return session.captcha_attempts;
+  }
+
+  static blockCaptcha(userId) {
+    const session = this.getSession(userId);
+    if (!session) return;
+    
+    const blockDuration = 5 * 60 * 1000; // 5 минут
+    session.captcha_blocked_until = Date.now() + blockDuration;
+    console.log(`🚫 User ${userId} blocked from captcha for 5 minutes`);
+  }
+
+  static getCaptchaBlockTimeLeft(userId) {
+    const session = this.getSession(userId);
+    if (!session || !session.captcha_blocked_until) return 0;
+    
+    const timeLeft = session.captcha_blocked_until - Date.now();
+    return Math.max(0, Math.ceil(timeLeft / 1000)); // в секундах
   }
 }
 
@@ -693,6 +838,9 @@ class MessageHandlers {
     });
     
     AnalyticsService.trackEvent(chatId, 'terms_shown');
+    
+    // Очищаем чат, оставляя только сообщение с условиями
+    await UserSessionService.cleanChatAfterNewStep(chatId);
   }
   
   static async handleTermsAccepted(chatId) {
@@ -777,6 +925,24 @@ class MessageHandlers {
   
   static async showCaptchaStep(chatId) {
     const session = UserSessionService.getSession(chatId);
+    
+    // Проверяем, заблокирован ли пользователь
+    if (UserSessionService.isCaptchaBlocked(chatId)) {
+      const timeLeft = UserSessionService.getCaptchaBlockTimeLeft(chatId);
+      const minutes = Math.floor(timeLeft / 60);
+      const seconds = timeLeft % 60;
+      
+      AnalyticsService.trackEvent(chatId, 'failure', { reason: 'captcha_blocked', time_left: timeLeft });
+      
+      await TelegramAPI.sendMessage(chatId, 
+        `🚫 <b>Блокировка капчи</b>\n\n` +
+        `Вы превысили лимит попыток решения капчи.\n` +
+        `Повторите попытку через ${minutes}:${seconds.toString().padStart(2, '0')}\n\n` +
+        `<i>Это защита от автоматических атак.</i>`
+      );
+      return;
+    }
+    
     const captcha = CaptchaService.generateMathCaptcha();
     
     UserSessionService.updateSession(chatId, {
@@ -813,23 +979,57 @@ class MessageHandlers {
       return;
     }
     
+    // Проверяем, заблокирован ли пользователь
+    if (UserSessionService.isCaptchaBlocked(chatId)) {
+      const timeLeft = UserSessionService.getCaptchaBlockTimeLeft(chatId);
+      const minutes = Math.floor(timeLeft / 60);
+      const seconds = timeLeft % 60;
+      
+      await TelegramAPI.sendMessage(chatId, 
+        `🚫 <b>Блокировка активна</b>\n\n` +
+        `Повторите попытку через ${minutes}:${seconds.toString().padStart(2, '0')}`
+      );
+      return;
+    }
+    
     const isCorrect = parseInt(answer) === session.captcha_data.answer;
     
     if (!isCorrect) {
-      AttemptsService.incrementAttempts(chatId);
+      // Увеличиваем счетчик попыток
+      const attempts = UserSessionService.incrementCaptchaAttempts(chatId);
       AnalyticsService.trackEvent(chatId, 'failure', { reason: 'captcha_failed' });
       
-      await TelegramAPI.sendMessage(chatId, 
-        '❌ <b>Неверный ответ!</b>\n\n' +
-        'Попробуйте еще раз. Будьте внимательны при решении примера.'
-      );
+      let message = '';
+      
+      if (attempts === 1) {
+        // 1-я ошибка
+        message = '❌ <b>Неверный ответ!</b>\n\nПопробуйте еще раз. Будьте внимательны при решении примера.';
+      } else if (attempts === 2) {
+        // 2-я ошибка
+        message = '❌ <b>Неверный ответ!</b>\n\n⚠️ <b>Осталась 1 попытка</b>\n\nБудьте максимально внимательны!';
+      } else if (attempts >= 3) {
+        // 3-я ошибка - блокировка
+        UserSessionService.blockCaptcha(chatId);
+        AnalyticsService.trackEvent(chatId, 'failure', { reason: 'captcha_blocked' });
+        message = '🚫 <b>Блокировка на 5 минут</b>\n\nВы превысили лимит попыток решения капчи.\n\n<i>Это защита от автоматических атак.</i>';
+        
+        await TelegramAPI.sendMessage(chatId, message);
+        return;
+      }
+      
+      await TelegramAPI.sendMessage(chatId, message);
       
       // Показываем новую капчу
       setTimeout(() => this.showCaptchaStep(chatId), 2000);
       return;
     }
     
-    // Капча пройдена успешно
+    // Капча пройдена успешно - сбрасываем счетчик попыток
+    UserSessionService.updateSession(chatId, {
+      captcha_attempts: 0,
+      captcha_blocked_until: null
+    });
+    
     await this.completeVerification(chatId);
   }
   
@@ -865,8 +1065,7 @@ class MessageHandlers {
     
     const keyboard = {
       inline_keyboard: [
-        [{ text: '🌐 Перейти к регистрации', url: `${CONFIG.DOMAIN}/auth/telegram-verified?token=${encodeURIComponent(JSON.stringify(verificationToken))}` }],
-        [{ text: '📊 Статистика', callback_data: 'show_stats' }]
+        [{ text: '🌐 Перейти к регистрации', url: `${CONFIG.DOMAIN}/auth/telegram-verified?token=${encodeURIComponent(JSON.stringify(verificationToken))}` }]
       ]
     };
     
@@ -876,6 +1075,9 @@ class MessageHandlers {
       completion_time: timestamp - session.started_at,
       user_info: session.user_info
     });
+
+    // Мгновенная очистка чата после завершения (оставляем только итоговое сообщение)
+    await UserSessionService.deleteAllMessagesExceptLast(chatId);
   }
   
   // Обработчики ошибок
@@ -983,16 +1185,16 @@ class CallbackHandler {
       // Обрабатываем различные типы callback'ов
       if (data === 'accept_terms') {
         await MessageHandlers.handleTermsAccepted(chatId);
+        await UserSessionService.cleanChatAfterNewStep(chatId);
         
       } else if (data === 'check_membership') {
         await MessageHandlers.handleMembershipCheck(chatId);
+        await UserSessionService.cleanChatAfterNewStep(chatId);
         
       } else if (data.startsWith('captcha_')) {
         const answer = data.replace('captcha_', '');
         await MessageHandlers.handleCaptchaAnswer(chatId, answer);
-        
-      } else if (data === 'show_stats') {
-        await this.showStats(chatId);
+        await UserSessionService.cleanChatAfterNewStep(chatId);
         
       } else if (data === 'retry_verification') {
         const session = UserSessionService.getSession(chatId);
@@ -1018,41 +1220,16 @@ class CallbackHandler {
     }
   }
   
-  static async showStats(chatId) {
-    const stats = AnalyticsService.getStats();
-    
-    const message = `
-📊 <b>Статистика верификации</b>
-
-<b>📈 Общая статистика:</b>
-• Всего начали: ${stats.overview.total_started}
-• Завершили: ${stats.overview.completed}
-• Успешность: ${stats.overview.completion_rate}
-
-<b>🔢 По этапам:</b>
-• 1️⃣ Показ условий: ${stats.stages['1_terms_shown']}
-• 2️⃣ Принятие условий: ${stats.stages['2_terms_accepted']} (${stats.conversion_rates.terms_accepted}%)
-• 3️⃣ Запрос группы: ${stats.stages['3_group_requested']} (${stats.conversion_rates.group_requested}%)
-• 4️⃣ Завершение: ${stats.stages['4_completed']} (${stats.conversion_rates.completed}%)
-
-<b>❌ Неудачи:</b>
-• Rate limit: ${stats.failures.rate_limited}
-• Молодой аккаунт: ${stats.failures.account_too_young}
-• Не в группе: ${stats.failures.not_in_group}
-• Капча: ${stats.failures.captcha_failed}
-• Много попыток: ${stats.failures.too_many_attempts}
-    `.trim();
-    
-    await TelegramAPI.sendMessage(chatId, message);
-  }
   
   static async handleCancel(chatId) {
-    UserSessionService.deleteSession(chatId);
-    
     await TelegramAPI.sendMessage(chatId,
       '❌ <b>Верификация отменена</b>\n\n' +
       'Если передумаете, используйте ссылку с сайта transformation-map.com для повторной попытки.'
     );
+
+    // Мгновенная очистка чата при отмене (оставляем только сообщение об отмене)
+    await UserSessionService.deleteAllMessagesExceptLast(chatId);
+    UserSessionService.deleteSession(chatId);
   }
 }
 
@@ -1075,26 +1252,42 @@ class MainHandler {
         const text = message.text;
         const userInfo = message.from;
         
+        // Отслеживаем сообщение пользователя для автоматического удаления
+        if (message.message_id) {
+          UserSessionService.addUserMessage(chatId, message.message_id);
+        }
+        
         // Обработка команды /start
         if (text && text.startsWith('/start')) {
           const startParam = text.split(' ')[1]; // Параметр после /start
           await MessageHandlers.handleStart(chatId, userInfo, startParam);
           
-        } else if (text === '/stats' && this.isAdmin(userInfo.id)) {
-          // Административная команда для статистики
-          await CallbackHandler.showStats(chatId);
-          
         } else if (text === '/help') {
           await this.handleHelp(chatId);
           
         } else {
-          // Неизвестная команда
-          await TelegramAPI.sendMessage(chatId,
-            '❓ <b>Неизвестная команда</b>\n\n' +
-            'Для регистрации используйте ссылку с сайта transformation-map.com\n\n' +
-            'Доступные команды:\n' +
-            '• /help - справка'
-          );
+          // Все прочие обращения (любые команды и обычные сообщения) 
+          // перенаправляем на сайт ОДИН РАЗ для защиты от атак
+          const session = UserSessionService.getSession(chatId);
+          if (!session || !session.redirected_to_site) {
+            await TelegramAPI.sendMessage(chatId,
+              '🌐 Для работы с ботом перейдите на сайт: https://transformation-map.com'
+            );
+            
+            // Помечаем что пользователь уже получил перенаправление
+            if (!session) {
+              UserSessionService.createSession(chatId, userInfo);
+            }
+            UserSessionService.updateSession(chatId, { redirected_to_site: true });
+            
+            console.log(`🔄 User ${userInfo.id} (@${userInfo.username || 'no_username'}) redirected to site - message: "${text}"`);
+
+            // Мгновенная очистка чата для нежелательных посетителей (оставляем только сообщение с ссылкой)
+            await UserSessionService.deleteAllMessagesExceptLast(chatId);
+          } else {
+            // Уже перенаправляли - игнорируем молча
+            console.log(`🔇 Ignoring repeated message from already redirected user ${userInfo.id}: "${text}"`);
+          }
         }
       }
       
@@ -1104,7 +1297,24 @@ class MainHandler {
   }
   
   static async handleHelp(chatId) {
-    const message = `🤖 <b>Telegram Verification Bot</b>\n\nЭтот бот предназначен для верификации пользователей перед регистрацией на сайте transformation-map.com\n\n<b>🔐 Процесс верификации:</b>\n1️⃣ Принятие условий\n2️⃣ Вступление в группу сообщества\n3️⃣ Проверка безопасности\n4️⃣ Завершение и переход на сайт\n\n<b>📋 Требования:</b>\n• Возраст аккаунта: минимум 7 дней\n• Членство в группе @transformation_map_community\n• Прохождение капчи\n\n<b>🌐 Для начала:</b>\nИспользуйте ссылку с сайта transformation-map.com`;
+    const message = `🆘 <b>Помощь / FAQ</b>
+
+Этот бот предназначен для верификации пользователей. 
+🌐 <b>Для начала работы перейдите на сайт:</b> https://transformation-map.com
+
+🔹 <b>Как пройти верификацию?</b>
+• Примите условия использования (кнопка «✅ Принять»).
+• Вступите в группу @transformation_map_community.
+• Пройдите проверку безопасности (возраст аккаунта ≥7 дней, капча и др.).
+• После успешной проверки вы получите доступ к сайту.
+
+🔹 <b>Почему меня не верифицируют?</b>
+• Ваш аккаунт моложе 7 дней.
+• Вы не вступили в группу сообщества.
+• Капча не пройдена или возникла ошибка.
+
+🔹 <b>Что делать, если бот не отвечает?</b> 
+• Напишите в поддержку: @transformation_map_support`;
     
     await TelegramAPI.sendMessage(chatId, message);
   }

@@ -4,6 +4,17 @@ import { Button } from '@/components/ui/button'
 import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 
+// Типы для Telegram WebApp API
+declare global {
+  interface Window {
+    Telegram?: {
+      WebApp?: {
+        openTelegramLink: (url: string) => void
+      }
+    }
+  }
+}
+
 interface TelegramRegisterButtonProps {
   className?: string
   size?: 'sm' | 'default' | 'lg'
@@ -39,18 +50,23 @@ export default function TelegramRegisterButton({
       const botLink = 'https://t.me/transformation_map_bot?start=register'
       console.log('Opening Telegram bot link:', botLink)
       
-      // Открываем в новом окне/вкладке
-      const opened = window.open(botLink, '_blank', 'width=400,height=600,scrollbars=yes,resizable=yes')
-      
-      if (!opened) {
-        console.warn('Failed to open popup - popup blocked?')
-        // Fallback: открываем в текущей вкладке
+      // Проверяем, есть ли Telegram Web App API
+      if (window.Telegram && window.Telegram.WebApp) {
+        console.log('Using Telegram WebApp API')
+        window.Telegram.WebApp.openTelegramLink(botLink)
+      } else if (navigator.userAgent.includes('Telegram')) {
+        // Если открыто в Telegram браузере - открываем напрямую
+        console.log('Opening in Telegram browser')
         window.location.href = botLink
       } else {
-        console.log('Successfully opened Telegram bot')
+        // Для обычных браузеров - открываем в текущей вкладке
+        console.log('Opening in current tab')
+        window.location.href = botLink
       }
     } catch (error) {
       console.error('Error opening Telegram bot:', error)
+      // Fallback - открываем в текущей вкладке
+      window.location.href = 'https://t.me/transformation_map_bot?start=register'
     }
     
     // Сбрасываем состояние загрузки через небольшую задержку

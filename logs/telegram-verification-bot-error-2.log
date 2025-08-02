@@ -168,3 +168,35 @@
     at IncomingMessage.emit (node:events:536:35)
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T18:52:49: Error getting chat member: Error: Telegram API Error: Bad Request: chat not found
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:375:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T18:52:49: Error checking group membership: Error: Telegram API Error: Bad Request: chat not found
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:375:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T18:53:14: Error getting chat member: Error: Telegram API Error: Bad Request: chat not found
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:375:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T18:53:14: Error checking group membership: Error: Telegram API Error: Bad Request: chat not found
+    at IncomingMessage.<anonymous> (/var/www/transformation-map/telegram-verification-bot.js:375:22)
+    at IncomingMessage.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-31T18:56:55: (node:48805) [DEP0106] DeprecationWarning: crypto.createCipher is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-08-02T07:38:24: (node:66872) [DEP0106] DeprecationWarning: crypto.createCipher is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-08-02T08:35:23: (node:69306) [DEP0106] DeprecationWarning: crypto.createCipher is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-08-02T08:51:03: (node:69764) [DEP0106] DeprecationWarning: crypto.createCipher is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-08-02T08:54:24: (node:69964) [DEP0106] DeprecationWarning: crypto.createCipher is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-08-02T09:41:16: (node:71030) [DEP0106] DeprecationWarning: crypto.createCipher is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)

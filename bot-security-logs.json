@@ -1,0 +1,122 @@
+[
+  {
+    "timestamp": "2025-08-02T08:16:28.657Z",
+    "user_id": 487571387,
+    "username": "vutalka",
+    "first_name": "Виталий",
+    "message": "/start",
+    "type": "direct_access"
+  },
+  {
+    "timestamp": "2025-08-02T08:16:29.128Z",
+    "user_id": 487571387,
+    "username": "vutalka",
+    "first_name": "Виталий",
+    "message": "цй",
+    "type": "direct_access"
+  },
+  {
+    "timestamp": "2025-08-02T08:16:29.164Z",
+    "user_id": 487571387,
+    "username": "vutalka",
+    "first_name": "Виталий",
+    "message": "/start register",
+    "type": "direct_access"
+  },
+  {
+    "timestamp": "2025-08-02T08:16:32.650Z",
+    "user_id": 487571387,
+    "username": "vutalka",
+    "first_name": "Виталий",
+    "message": "/start",
+    "type": "direct_access"
+  },
+  {
+    "timestamp": "2025-08-02T08:16:32.685Z",
+    "user_id": 487571387,
+    "username": "vutalka",
+    "first_name": "Виталий",
+    "message": "/help",
+    "type": "direct_access"
+  },
+  {
+    "timestamp": "2025-08-02T08:16:32.721Z",
+    "user_id": 487571387,
+    "username": "vutalka",
+    "first_name": "Виталий",
+    "message": "/status",
+    "type": "direct_access"
+  },
+  {
+    "timestamp": "2025-08-02T08:16:32.756Z",
+    "user_id": 487571387,
+    "username": "vutalka",
+    "first_name": "Виталий",
+    "message": "/help",
+    "type": "direct_access"
+  },
+  {
+    "timestamp": "2025-08-02T08:16:32.791Z",
+    "user_id": 487571387,
+    "username": "vutalka",
+    "first_name": "Виталий",
+    "message": "/start",
+    "type": "direct_access"
+  },
+  {
+    "timestamp": "2025-08-02T08:16:32.826Z",
+    "user_id": 487571387,
+    "username": "vutalka",
+    "first_name": "Виталий",
+    "message": "/help",
+    "type": "direct_access"
+  },
+  {
+    "timestamp": "2025-08-02T08:16:32.861Z",
+    "user_id": 487571387,
+    "username": "vutalka",
+    "first_name": "Виталий",
+    "message": "/status",
+    "type": "direct_access"
+  },
+  {
+    "timestamp": "2025-08-02T08:16:32.895Z",
+    "user_id": 487571387,
+    "username": "vutalka",
+    "first_name": "Виталий",
+    "message": "/start register",
+    "type": "direct_access"
+  },
+  {
+    "timestamp": "2025-08-02T08:16:54.295Z",
+    "user_id": 487571387,
+    "username": "vutalka",
+    "first_name": "Виталий",
+    "message": "/start",
+    "type": "direct_access"
+  },
+  {
+    "timestamp": "2025-08-02T08:18:14.566Z",
+    "user_id": 487571387,
+    "username": "vutalka",
+    "first_name": "Виталий",
+    "message": "/start",
+    "type": "direct_access"
+  },
+  {
+    "timestamp": "2025-08-02T08:18:17.495Z",
+    "user_id": 487571387,
+    "username": "vutalka",
+    "first_name": "Виталий",
+    "message": "/help",
+    "type": "direct_access"
+  },
+  {
+    "timestamp": "2025-08-02T08:18:20.197Z",
+    "user_id": 487571387,
+    "username": "vutalka",
+    "first_name": "Виталий",
+    "message": "/status",
+    "type": "direct_access"
+  }
+]

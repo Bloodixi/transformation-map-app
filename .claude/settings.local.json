@@ -34,7 +34,12 @@
       "Bash(pm2 restart:*)",
       "Bash(pm2 stop:*)",
       "Bash(pm2 start:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(pm2 status:*)",
+      "Bash(grep:*)",
+      "Bash(timeout 5 pm2 logs telegram-verification-bot --lines 5)",
+      "Bash(node:*)",
+      "Bash(timeout:*)"
     ],
     "deny": []
   },

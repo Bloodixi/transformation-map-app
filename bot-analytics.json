@@ -1,9 +1,9 @@
 {
-  "total_started": 3,
-  "stage_1_terms_shown": 4,
-  "stage_2_terms_accepted": 2,
-  "stage_3_group_requested": 2,
-  "stage_4_verification_completed": 0,
+  "total_started": 10,
+  "stage_1_terms_shown": 26,
+  "stage_2_terms_accepted": 19,
+  "stage_3_group_requested": 19,
+  "stage_4_verification_completed": 8,
   "failures": {
     "rate_limited": 0,
     "account_too_young": 0,
@@ -12,30 +12,19 @@
     "too_many_attempts": 0
   },
   "conversion_rates": {
-    "terms_shown": "133.33",
-    "terms_accepted": "66.67",
-    "group_requested": "66.67",
-    "completed": "0.00"
+    "terms_shown": "260.00",
+    "terms_accepted": "190.00",
+    "group_requested": "190.00",
+    "completed": "80.00"
   },
   "avg_completion_time": 0,
   "sessions": {
     "487571387": {
-      "started_at": 1753948474483,
+      "started_at": 1753988172652,
       "events": [
         {
           "event": "started",
-          "timestamp": 1753948474483,
-          "user_info": {
-            "id": 487571387,
-            "is_bot": false,
-            "first_name": "Виталий",
-            "username": "vutalka",
-            "language_code": "ru"
-          }
-        },
-        {
-          "event": "started",
-          "timestamp": 1753949795796,
+          "timestamp": 1753988172652,
           "user_info": {
             "id": 487571387,
             "is_bot": false,
@@ -46,34 +35,437 @@
         },
         {
           "event": "terms_shown",
-          "timestamp": 1753949795958
+          "timestamp": 1753988172829
         },
         {
           "event": "terms_accepted",
-          "timestamp": 1753950482619
+          "timestamp": 1753988179151
         },
         {
           "event": "group_requested",
-          "timestamp": 1753950482676
+          "timestamp": 1753988179218
         },
         {
-          "event": "failure",
-          "timestamp": 1753950506328,
-          "reason": "not_in_group"
+          "event": "verification_completed",
+          "timestamp": 1753988215442,
+          "completion_time": 42728,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "started",
+          "timestamp": 1754120225343,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
         },
         {
           "event": "terms_shown",
-          "timestamp": 1753950708740
+          "timestamp": 1754120225457
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1754120271291
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1754120271399
+        },
+        {
+          "event": "verification_completed",
+          "timestamp": 1754120304101,
+          "completion_time": 78686,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754120408446
+        },
+        {
+          "event": "started",
+          "timestamp": 1754121000345,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754121000466
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754122592612
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754122595594
+        },
+        {
+          "event": "failure",
+          "timestamp": 1754122641425,
+          "reason": "account_too_young"
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754123700714
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1754123715420
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1754123715499
+        },
+        {
+          "event": "verification_completed",
+          "timestamp": 1754123723704,
+          "completion_time": 30351,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "started",
+          "timestamp": 1754124134075,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754124134245
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1754124138434
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1754124138507
+        },
+        {
+          "event": "started",
+          "timestamp": 1754124594980,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754124595113
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1754124597065
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1754124597120
+        },
+        {
+          "event": "started",
+          "timestamp": 1754124657849,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754124657911
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1754124659311
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1754124659394
+        },
+        {
+          "event": "verification_completed",
+          "timestamp": 1754124663258,
+          "completion_time": 5304,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754124681644
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1754124683041
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1754124683106
+        },
+        {
+          "event": "started",
+          "timestamp": 1754124770506,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754124770729
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1754124772437
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1754124772589
+        },
+        {
+          "event": "failure",
+          "timestamp": 1754124776526,
+          "reason": "not_in_group"
+        },
+        {
+          "event": "failure",
+          "timestamp": 1754124790961,
+          "reason": "not_in_group"
+        },
+        {
+          "event": "verification_completed",
+          "timestamp": 1754124864197,
+          "completion_time": 93593,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754125309914
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754126283330
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754126290576
+        },
+        {
+          "event": "started",
+          "timestamp": 1754126516844,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754126516984
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1754126524591
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1754126524652
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754126529488
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1754126531641
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1754126531750
+        },
+        {
+          "event": "started",
+          "timestamp": 1754127619496,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754127619646
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1754127623521
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1754127623585
+        },
+        {
+          "event": "failure",
+          "timestamp": 1754127630595,
+          "reason": "captcha_failed"
+        },
+        {
+          "event": "failure",
+          "timestamp": 1754127650398,
+          "reason": "captcha_failed"
+        },
+        {
+          "event": "verification_completed",
+          "timestamp": 1754127676254,
+          "completion_time": 56652,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754127698503
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1754127701484
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1754127701570
+        },
+        {
+          "event": "failure",
+          "timestamp": 1754127720671,
+          "reason": "captcha_failed"
+        },
+        {
+          "event": "failure",
+          "timestamp": 1754127741253,
+          "reason": "captcha_failed"
+        },
+        {
+          "event": "failure",
+          "timestamp": 1754127755689,
+          "reason": "captcha_failed"
+        },
+        {
+          "event": "failure",
+          "timestamp": 1754127755691,
+          "reason": "captcha_blocked"
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754127897133
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1754127925384
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1754127925511
+        },
+        {
+          "event": "failure",
+          "timestamp": 1754128022834,
+          "reason": "captcha_blocked",
+          "time_left": 33
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754128053514
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1754128095237
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1754128095377
+        },
+        {
+          "event": "failure",
+          "timestamp": 1754128114532,
+          "reason": "captcha_failed"
+        },
+        {
+          "event": "verification_completed",
+          "timestamp": 1754128130898,
+          "completion_time": 511340,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
         }
       ],
-      "completed": false
+      "completed": true
     },
     "1260563849": {
-      "started_at": 1753950743002,
+      "started_at": 1753989338753,
       "events": [
         {
           "event": "started",
-          "timestamp": 1753950743002,
+          "timestamp": 1753989338753,
           "user_info": {
             "id": 1260563849,
             "is_bot": false,
@@ -85,37 +477,89 @@
         },
         {
           "event": "terms_shown",
-          "timestamp": 1753950743192
-        },
-        {
-          "event": "terms_shown",
-          "timestamp": 1753951719762
+          "timestamp": 1753989338944
         },
         {
           "event": "terms_accepted",
-          "timestamp": 1753951723444
+          "timestamp": 1753989407585
         },
         {
           "event": "group_requested",
-          "timestamp": 1753951723541
+          "timestamp": 1753989407644
         },
         {
           "event": "failure",
-          "timestamp": 1753951733246,
+          "timestamp": 1753989423931,
           "reason": "not_in_group"
         },
         {
-          "event": "failure",
-          "timestamp": 1753951774815,
-          "reason": "not_in_group"
+          "event": "terms_shown",
+          "timestamp": 1753989590857
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1753989594096
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1753989594157
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1753989623803
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1753989628102
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1753989628197
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1753989633920
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1753989635843
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1753989635990
         },
         {
           "event": "failure",
-          "timestamp": 1753951846926,
+          "timestamp": 1753989641554,
           "reason": "not_in_group"
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1753989821910
+        },
+        {
+          "event": "terms_accepted",
+          "timestamp": 1753989823605
+        },
+        {
+          "event": "group_requested",
+          "timestamp": 1753989824039
+        },
+        {
+          "event": "verification_completed",
+          "timestamp": 1753989862759,
+          "completion_time": 522611,
+          "user_info": {
+            "id": 1260563849,
+            "is_bot": false,
+            "first_name": "Наталья",
+            "last_name": "Столярова",
+            "username": "natsto123",
+            "language_code": "ru"
+          }
         }
       ],
-      "completed": false
+      "completed": true
     }
   }
 }
