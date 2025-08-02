@@ -13242,3 +13242,51 @@ SyntaxError: Unexpected identifier 'keyboard'
 2025-08-02T09:48:50: 🧹 Deleted 2/2 old messages for user 487571387
 2025-08-02T09:48:50: 🗑 Cleaning chat for user 487571387, keeping last message
 2025-08-02T09:48:50: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T09:52:16: 📨 Received update: {
+  "update_id": 516222755,
+  "message": {
+    "message_id": 398,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1754128336,
+    "text": "/help",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 5,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-08-02T09:52:16: 📝 Tracked user message 398 for user 487571387
+2025-08-02T09:52:16: 🔍 Sending message to 487571387, text length: 669, text: "🆘 <b>Помощь / FAQ</b>
+
+Этот бот предназначен для верификации пользователей. 
+🌐 <b>Для начала работы перейдите на сайт:</b> https://transformation-map.com
+
+🔹 <b>Как пройти верификацию?</b>
+• Примите условия использования (кнопка «✅ Принять»).
+• Вступите в группу @transformation_map_community.
+• Пройдите проверку безопасности (возраст аккаунта ≥7 дней, капча и др.).
+• После успешной проверки вы получите доступ к сайту.
+
+🔹 <b>Почему меня не верифицируют?</b>
+• Ваш аккаунт моложе 7 дней.
+• Вы не вступили в группу сообщества.
+• Капча не пройдена или возникла ошибка.
+
+🔹 <b>Что делать, если бот не отвечает?</b> 
+• Напишите в поддержку: @transformation_map_support"
+2025-08-02T09:52:16: 📝 Tracked bot message 399 for user 487571387

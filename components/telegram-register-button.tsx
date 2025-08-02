@@ -59,14 +59,14 @@ export default function TelegramRegisterButton({
         console.log('Opening in Telegram browser')
         window.location.href = botLink
       } else {
-        // Для обычных браузеров - открываем в текущей вкладке
-        console.log('Opening in current tab')
-        window.location.href = botLink
+        // Для обычных браузеров - открываем в новой вкладке
+        console.log('Opening in new tab')
+        window.open(botLink, '_blank', 'noopener,noreferrer')
       }
     } catch (error) {
       console.error('Error opening Telegram bot:', error)
-      // Fallback - открываем в текущей вкладке
-      window.location.href = 'https://t.me/transformation_map_bot?start=register'
+      // Fallback - открываем в новой вкладке
+      window.open('https://t.me/transformation_map_bot?start=register', '_blank', 'noopener,noreferrer')
     }
     
     // Сбрасываем состояние загрузки через небольшую задержку
