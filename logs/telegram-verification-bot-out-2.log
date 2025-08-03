@@ -12993,3 +12993,5330 @@
 2025-08-02T10:16:42: 🗑 Cleaning chat for user 487571387, keeping last message
 2025-08-02T10:16:42: 🧹 Deleted 0/0 old messages for user 487571387
 2025-08-02T11:19:53: 🧹 Cleaned up old session for user 487571387
+2025-08-02T17:32:06: 📨 Received update: {
+  "update_id": 516222760,
+  "message": {
+    "message_id": 406,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1754155926,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-08-02T17:32:06: 🚀 Start command from user 487571387, param: register
+2025-08-02T17:32:06: 📊 Analytics: started for user 487571387 {
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T17:32:06: 🔍 Sending message to 487571387, text length: 1024, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>Добро пожаловать в Transformation Map!</b>
+
+<b>🔒 Информация о конфиденциальности:</b>
+• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи
+• Данные используются исключительно для авторизации и персонализации опыта
+• Информация защищена шифрованием и хранится безопасно
+• Подробности в политике конфиденциальности: https://transformation-map.com
+
+<b>🛡 Права доступа бота:</b>
+• Отправка личных сообщений для процесса верификации
+• Проверка участия в группе сообщества
+• Создание защищенной ссылки для входа на сайт
+• Временное хранение данных верификации (30 минут)
+
+<b>📋 Процесс верификации:</b>
+🔄 <b>Принятие условий использования</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Получение ссылки для входа
+
+<b>⚡ Требования:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Участие в группе сообщества
+• Прохождение проверки безопасности
+
+<i>⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.</i>"
+2025-08-02T17:32:07: 📝 Tracked bot message 407 for user 487571387
+2025-08-02T17:32:07: 📊 Analytics: terms_shown for user 487571387 {}
+2025-08-02T17:32:07: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T17:32:07: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T17:32:10: 📨 Received update: {
+  "update_id": 516222761,
+  "callback_query": {
+    "id": "2094103163932582059",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 407,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754155927,
+      "text": "📋 Этап 1/4\n\n🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)\n\nДобро пожаловать в Transformation Map!\n\n🔒 Информация о конфиденциальности:\n• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи\n• Данные используются исключительно для авторизации и персонализации опыта\n• Информация защищена шифрованием и хранится безопасно\n• Подробности в политике конфиденциальности: https://transformation-map.com\n\n🛡 Права доступа бота:\n• Отправка личных сообщений для процесса верификации\n• Проверка участия в группе сообщества\n• Создание защищенной ссылки для входа на сайт\n• Временное хранение данных верификации (30 минут)\n\n📋 Процесс верификации:\n🔄 Принятие условий использования\n⏳ Вступление в сообщество\n⏳ Проверка безопасности\n⏳ Получение ссылки для входа\n\n⚡ Требования:\n• Возраст аккаунта Telegram: минимум 7 дней\n• Участие в группе сообщества\n• Прохождение проверки безопасности\n\n⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 37,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 77,
+          "length": 35,
+          "type": "bold"
+        },
+        {
+          "offset": 377,
+          "length": 30,
+          "type": "url"
+        },
+        {
+          "offset": 409,
+          "length": 22,
+          "type": "bold"
+        },
+        {
+          "offset": 623,
+          "length": 23,
+          "type": "bold"
+        },
+        {
+          "offset": 650,
+          "length": 30,
+          "type": "bold"
+        },
+        {
+          "offset": 761,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 886,
+          "length": 82,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "✅ Принимаю условия",
+              "callback_data": "accept_terms"
+            }
+          ],
+          [
+            {
+              "text": "❌ Отмена",
+              "callback_data": "cancel_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "accept_terms"
+  }
+}
+2025-08-02T17:32:10: 📊 Analytics: terms_accepted for user 487571387 {}
+2025-08-02T17:32:10: 🔍 Sending message to 487571387, text length: 406, text: "👥 <b>Этап 2/4</b>
+
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)
+
+
+<b>👥 Присоединитесь к нашему сообществу!</b>
+
+Для продолжения регистрации необходимо вступить в группу сообщества Transformation Map.
+
+<b>Что вас ждет:</b>
+• Полезные материалы по саморазвитию
+• Поддержка единомышленников
+• Эксклюзивные вебинары и курсы
+• Ответы на вопросы от экспертов
+
+<i>⚠️ После вступления в группу нажмите "Проверить членство"</i>
+    "
+2025-08-02T17:32:10: 📝 Tracked bot message 408 for user 487571387
+2025-08-02T17:32:10: 📊 Analytics: group_requested for user 487571387 {}
+2025-08-02T17:32:10: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T17:32:10: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T17:32:11: 📨 Received update: {
+  "update_id": 516222762,
+  "callback_query": {
+    "id": "2094103165760872662",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 408,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754155930,
+      "text": "👥 Этап 2/4\n\n🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)\n\n\n👥 Присоединитесь к нашему сообществу!\n\nДля продолжения регистрации необходимо вступить в группу сообщества Transformation Map.\n\nЧто вас ждет:\n• Полезные материалы по саморазвитию\n• Поддержка единомышленников\n• Эксклюзивные вебинары и курсы\n• Ответы на вопросы от экспертов\n\n⚠️ После вступления в группу нажмите \"Проверить членство\"",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 41,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 170,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 316,
+          "length": 57,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔍 Проверить членство",
+              "callback_data": "check_membership"
+            }
+          ],
+          [
+            {
+              "text": "🔙 Назад",
+              "callback_data": "back_to_terms"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "check_membership"
+  }
+}
+2025-08-02T17:32:11: 🔍 Sending message to 487571387, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-08-02T17:32:11: 📝 Tracked bot message 409 for user 487571387
+2025-08-02T17:32:11: 🔍 Sending message to 487571387, text length: 238, text: "🔍 <b>Этап 3/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)
+
+
+<b>🔐 Проверка безопасности</b>
+
+Для защиты от автоматических регистраций, пожалуйста, решите простой пример:
+
+<b>📊 8 * 6 = ?</b>
+
+<i>Выберите правильный ответ из вариантов ниже:</i>
+    "
+2025-08-02T17:32:11: 📝 Tracked bot message 410 for user 487571387
+2025-08-02T17:32:11: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T17:32:12: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T17:32:14: 📨 Received update: {
+  "update_id": 516222763,
+  "callback_query": {
+    "id": "2094103162536446482",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 410,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754155931,
+      "text": "🔍 Этап 3/4\n\n🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)\n\n\n🔐 Проверка безопасности\n\nДля защиты от автоматических регистраций, пожалуйста, решите простой пример:\n\n📊 8 * 6 = ?\n\nВыберите правильный ответ из вариантов ниже:",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 43,
+          "length": 24,
+          "type": "bold"
+        },
+        {
+          "offset": 147,
+          "length": 12,
+          "type": "bold"
+        },
+        {
+          "offset": 161,
+          "length": 44,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "49",
+              "callback_data": "captcha_49"
+            },
+            {
+              "text": "55",
+              "callback_data": "captcha_55"
+            },
+            {
+              "text": "48",
+              "callback_data": "captcha_48"
+            },
+            {
+              "text": "56",
+              "callback_data": "captcha_56"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "captcha_49"
+  }
+}
+2025-08-02T17:32:14: 📊 Analytics: failure for user 487571387 { reason: 'captcha_failed' }
+2025-08-02T17:32:14: 🔍 Sending message to 487571387, text length: 85, text: "❌ <b>Неверный ответ!</b>
+
+Попробуйте еще раз. Будьте внимательны при решении примера."
+2025-08-02T17:32:14: 📝 Tracked bot message 411 for user 487571387
+2025-08-02T17:32:14: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T17:32:14: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T17:32:16: 🔍 Sending message to 487571387, text length: 238, text: "🔍 <b>Этап 3/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)
+
+
+<b>🔐 Проверка безопасности</b>
+
+Для защиты от автоматических регистраций, пожалуйста, решите простой пример:
+
+<b>📊 5 * 7 = ?</b>
+
+<i>Выберите правильный ответ из вариантов ниже:</i>
+    "
+2025-08-02T17:32:16: 📝 Tracked bot message 412 for user 487571387
+2025-08-02T17:33:27: 📨 Received update: {
+  "update_id": 516222764,
+  "callback_query": {
+    "id": "2094103165157238282",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 412,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754155936,
+      "text": "🔍 Этап 3/4\n\n🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)\n\n\n🔐 Проверка безопасности\n\nДля защиты от автоматических регистраций, пожалуйста, решите простой пример:\n\n📊 5 * 7 = ?\n\nВыберите правильный ответ из вариантов ниже:",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 43,
+          "length": 24,
+          "type": "bold"
+        },
+        {
+          "offset": 147,
+          "length": 12,
+          "type": "bold"
+        },
+        {
+          "offset": 161,
+          "length": 44,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "38",
+              "callback_data": "captcha_38"
+            },
+            {
+              "text": "35",
+              "callback_data": "captcha_35"
+            },
+            {
+              "text": "42",
+              "callback_data": "captcha_42"
+            },
+            {
+              "text": "40",
+              "callback_data": "captcha_40"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "captcha_35"
+  }
+}
+2025-08-02T17:33:28: 🔍 Sending message to 487571387, text length: 336, text: "🎉 <b>Этап 4/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% (4/4)
+
+
+<b>🎉 Верификация завершена успешно!</b>
+
+Ваш Telegram аккаунт успешно верифицирован!
+
+<b>✅ Выполнено:</b>
+• Условия приняты
+• Членство в группе подтверждено
+• Проверка безопасности пройдена
+• Данные отправлены на сайт
+
+<i>🚀 Теперь вы можете завершить регистрацию на сайте</i>
+    "
+2025-08-02T17:33:28: 📝 Tracked bot message 413 for user 487571387
+2025-08-02T17:33:28: 📊 Analytics: verification_completed for user 487571387 {
+  completion_time: 81176,
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T17:33:28: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T17:33:28: 📤 Verification sent to website: 400
+2025-08-02T17:33:28: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T17:33:28: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T17:33:28: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:13:22: 📨 Received update: {
+  "update_id": 516222765,
+  "message": {
+    "message_id": 414,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1754158402,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-08-02T18:13:22: 📝 Tracked user message 414 for user 487571387
+2025-08-02T18:13:22: 🚀 Start command from user 487571387, param: register
+2025-08-02T18:13:22: 🔍 Sending message to 487571387, text length: 1024, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>Добро пожаловать в Transformation Map!</b>
+
+<b>🔒 Информация о конфиденциальности:</b>
+• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи
+• Данные используются исключительно для авторизации и персонализации опыта
+• Информация защищена шифрованием и хранится безопасно
+• Подробности в политике конфиденциальности: https://transformation-map.com
+
+<b>🛡 Права доступа бота:</b>
+• Отправка личных сообщений для процесса верификации
+• Проверка участия в группе сообщества
+• Создание защищенной ссылки для входа на сайт
+• Временное хранение данных верификации (30 минут)
+
+<b>📋 Процесс верификации:</b>
+🔄 <b>Принятие условий использования</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Получение ссылки для входа
+
+<b>⚡ Требования:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Участие в группе сообщества
+• Прохождение проверки безопасности
+
+<i>⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.</i>"
+2025-08-02T18:13:22: 📝 Tracked bot message 415 for user 487571387
+2025-08-02T18:13:22: 📊 Analytics: terms_shown for user 487571387 {}
+2025-08-02T18:13:22: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:13:23: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:13:24: 📨 Received update: {
+  "update_id": 516222766,
+  "callback_query": {
+    "id": "2094103164395573797",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 415,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754158402,
+      "text": "📋 Этап 1/4\n\n🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)\n\nДобро пожаловать в Transformation Map!\n\n🔒 Информация о конфиденциальности:\n• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи\n• Данные используются исключительно для авторизации и персонализации опыта\n• Информация защищена шифрованием и хранится безопасно\n• Подробности в политике конфиденциальности: https://transformation-map.com\n\n🛡 Права доступа бота:\n• Отправка личных сообщений для процесса верификации\n• Проверка участия в группе сообщества\n• Создание защищенной ссылки для входа на сайт\n• Временное хранение данных верификации (30 минут)\n\n📋 Процесс верификации:\n🔄 Принятие условий использования\n⏳ Вступление в сообщество\n⏳ Проверка безопасности\n⏳ Получение ссылки для входа\n\n⚡ Требования:\n• Возраст аккаунта Telegram: минимум 7 дней\n• Участие в группе сообщества\n• Прохождение проверки безопасности\n\n⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 37,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 77,
+          "length": 35,
+          "type": "bold"
+        },
+        {
+          "offset": 377,
+          "length": 30,
+          "type": "url"
+        },
+        {
+          "offset": 409,
+          "length": 22,
+          "type": "bold"
+        },
+        {
+          "offset": 623,
+          "length": 23,
+          "type": "bold"
+        },
+        {
+          "offset": 650,
+          "length": 30,
+          "type": "bold"
+        },
+        {
+          "offset": 761,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 886,
+          "length": 82,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "✅ Принимаю условия",
+              "callback_data": "accept_terms"
+            }
+          ],
+          [
+            {
+              "text": "❌ Отмена",
+              "callback_data": "cancel_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "accept_terms"
+  }
+}
+2025-08-02T18:13:24: 📊 Analytics: terms_accepted for user 487571387 {}
+2025-08-02T18:13:24: 🔍 Sending message to 487571387, text length: 406, text: "👥 <b>Этап 2/4</b>
+
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)
+
+
+<b>👥 Присоединитесь к нашему сообществу!</b>
+
+Для продолжения регистрации необходимо вступить в группу сообщества Transformation Map.
+
+<b>Что вас ждет:</b>
+• Полезные материалы по саморазвитию
+• Поддержка единомышленников
+• Эксклюзивные вебинары и курсы
+• Ответы на вопросы от экспертов
+
+<i>⚠️ После вступления в группу нажмите "Проверить членство"</i>
+    "
+2025-08-02T18:13:24: 📝 Tracked bot message 416 for user 487571387
+2025-08-02T18:13:24: 📊 Analytics: group_requested for user 487571387 {}
+2025-08-02T18:13:24: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:13:24: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:13:25: 📨 Received update: {
+  "update_id": 516222767,
+  "callback_query": {
+    "id": "2094103163961326266",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 416,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754158404,
+      "text": "👥 Этап 2/4\n\n🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)\n\n\n👥 Присоединитесь к нашему сообществу!\n\nДля продолжения регистрации необходимо вступить в группу сообщества Transformation Map.\n\nЧто вас ждет:\n• Полезные материалы по саморазвитию\n• Поддержка единомышленников\n• Эксклюзивные вебинары и курсы\n• Ответы на вопросы от экспертов\n\n⚠️ После вступления в группу нажмите \"Проверить членство\"",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 41,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 170,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 316,
+          "length": 57,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔍 Проверить членство",
+              "callback_data": "check_membership"
+            }
+          ],
+          [
+            {
+              "text": "🔙 Назад",
+              "callback_data": "back_to_terms"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "check_membership"
+  }
+}
+2025-08-02T18:13:25: 🔍 Sending message to 487571387, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-08-02T18:13:25: 📝 Tracked bot message 417 for user 487571387
+2025-08-02T18:13:25: 🔍 Sending message to 487571387, text length: 238, text: "🔍 <b>Этап 3/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)
+
+
+<b>🔐 Проверка безопасности</b>
+
+Для защиты от автоматических регистраций, пожалуйста, решите простой пример:
+
+<b>📊 7 * 5 = ?</b>
+
+<i>Выберите правильный ответ из вариантов ниже:</i>
+    "
+2025-08-02T18:13:25: 📝 Tracked bot message 418 for user 487571387
+2025-08-02T18:13:25: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:13:26: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:13:29: 📨 Received update: {
+  "update_id": 516222768,
+  "callback_query": {
+    "id": "2094103164802690586",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 418,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754158405,
+      "text": "🔍 Этап 3/4\n\n🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)\n\n\n🔐 Проверка безопасности\n\nДля защиты от автоматических регистраций, пожалуйста, решите простой пример:\n\n📊 7 * 5 = ?\n\nВыберите правильный ответ из вариантов ниже:",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 43,
+          "length": 24,
+          "type": "bold"
+        },
+        {
+          "offset": 147,
+          "length": 12,
+          "type": "bold"
+        },
+        {
+          "offset": 161,
+          "length": 44,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "40",
+              "callback_data": "captcha_40"
+            },
+            {
+              "text": "35",
+              "callback_data": "captcha_35"
+            },
+            {
+              "text": "33",
+              "callback_data": "captcha_33"
+            },
+            {
+              "text": "31",
+              "callback_data": "captcha_31"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "captcha_35"
+  }
+}
+2025-08-02T18:13:29: 🔍 Sending message to 487571387, text length: 336, text: "🎉 <b>Этап 4/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% (4/4)
+
+
+<b>🎉 Верификация завершена успешно!</b>
+
+Ваш Telegram аккаунт успешно верифицирован!
+
+<b>✅ Выполнено:</b>
+• Условия приняты
+• Членство в группе подтверждено
+• Проверка безопасности пройдена
+• Данные отправлены на сайт
+
+<i>🚀 Теперь вы можете завершить регистрацию на сайте</i>
+    "
+2025-08-02T18:13:29: 📤 Verification sent to website: 400
+2025-08-02T18:13:29: 📝 Tracked bot message 419 for user 487571387
+2025-08-02T18:13:29: 📊 Analytics: verification_completed for user 487571387 {
+  completion_time: 2482409,
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:13:29: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:13:29: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:13:29: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:13:29: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:15:11: 🛑 Received SIGINT, shutting down gracefully
+2025-08-02T18:15:11: 🤖 Telegram Verification Bot initialized
+2025-08-02T18:15:11: 🔐 Security features enabled: AES-256, Rate Limiting, Account Age Check
+2025-08-02T18:15:11: 📊 Analytics and monitoring active
+2025-08-02T18:15:11: 🌐 Webhook server listening on port 9003
+2025-08-02T18:15:11: 📡 Webhook URL: https://transformation-map.com/telegram-verification-webhook
+2025-08-02T18:15:11: 🏥 Health check: https://transformation-map.com:9003/health
+2025-08-02T18:15:11: 📈 Stats endpoint: https://transformation-map.com:9003/stats
+2025-08-02T18:16:28: 📨 Received update: {
+  "update_id": 516222769,
+  "message": {
+    "message_id": 420,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1754158588,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-08-02T18:16:28: 🚀 Start command from user 487571387, param: register
+2025-08-02T18:16:28: 📊 Analytics: started for user 487571387 {
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:16:28: 🔍 Sending message to 487571387, text length: 1024, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>Добро пожаловать в Transformation Map!</b>
+
+<b>🔒 Информация о конфиденциальности:</b>
+• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи
+• Данные используются исключительно для авторизации и персонализации опыта
+• Информация защищена шифрованием и хранится безопасно
+• Подробности в политике конфиденциальности: https://transformation-map.com
+
+<b>🛡 Права доступа бота:</b>
+• Отправка личных сообщений для процесса верификации
+• Проверка участия в группе сообщества
+• Создание защищенной ссылки для входа на сайт
+• Временное хранение данных верификации (30 минут)
+
+<b>📋 Процесс верификации:</b>
+🔄 <b>Принятие условий использования</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Получение ссылки для входа
+
+<b>⚡ Требования:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Участие в группе сообщества
+• Прохождение проверки безопасности
+
+<i>⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.</i>"
+2025-08-02T18:16:28: 📝 Tracked bot message 421 for user 487571387
+2025-08-02T18:16:28: 📊 Analytics: terms_shown for user 487571387 {}
+2025-08-02T18:16:28: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:16:28: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:16:29: 📨 Received update: {
+  "update_id": 516222770,
+  "callback_query": {
+    "id": "2094103162326861175",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 421,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754158588,
+      "text": "📋 Этап 1/4\n\n🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)\n\nДобро пожаловать в Transformation Map!\n\n🔒 Информация о конфиденциальности:\n• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи\n• Данные используются исключительно для авторизации и персонализации опыта\n• Информация защищена шифрованием и хранится безопасно\n• Подробности в политике конфиденциальности: https://transformation-map.com\n\n🛡 Права доступа бота:\n• Отправка личных сообщений для процесса верификации\n• Проверка участия в группе сообщества\n• Создание защищенной ссылки для входа на сайт\n• Временное хранение данных верификации (30 минут)\n\n📋 Процесс верификации:\n🔄 Принятие условий использования\n⏳ Вступление в сообщество\n⏳ Проверка безопасности\n⏳ Получение ссылки для входа\n\n⚡ Требования:\n• Возраст аккаунта Telegram: минимум 7 дней\n• Участие в группе сообщества\n• Прохождение проверки безопасности\n\n⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 37,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 77,
+          "length": 35,
+          "type": "bold"
+        },
+        {
+          "offset": 377,
+          "length": 30,
+          "type": "url"
+        },
+        {
+          "offset": 409,
+          "length": 22,
+          "type": "bold"
+        },
+        {
+          "offset": 623,
+          "length": 23,
+          "type": "bold"
+        },
+        {
+          "offset": 650,
+          "length": 30,
+          "type": "bold"
+        },
+        {
+          "offset": 761,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 886,
+          "length": 82,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "✅ Принимаю условия",
+              "callback_data": "accept_terms"
+            }
+          ],
+          [
+            {
+              "text": "❌ Отмена",
+              "callback_data": "cancel_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "accept_terms"
+  }
+}
+2025-08-02T18:16:29: 📊 Analytics: terms_accepted for user 487571387 {}
+2025-08-02T18:16:29: 🔍 Sending message to 487571387, text length: 406, text: "👥 <b>Этап 2/4</b>
+
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)
+
+
+<b>👥 Присоединитесь к нашему сообществу!</b>
+
+Для продолжения регистрации необходимо вступить в группу сообщества Transformation Map.
+
+<b>Что вас ждет:</b>
+• Полезные материалы по саморазвитию
+• Поддержка единомышленников
+• Эксклюзивные вебинары и курсы
+• Ответы на вопросы от экспертов
+
+<i>⚠️ После вступления в группу нажмите "Проверить членство"</i>
+    "
+2025-08-02T18:16:29: 📝 Tracked bot message 422 for user 487571387
+2025-08-02T18:16:29: 📊 Analytics: group_requested for user 487571387 {}
+2025-08-02T18:16:29: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:16:29: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:16:30: 📨 Received update: {
+  "update_id": 516222771,
+  "callback_query": {
+    "id": "2094103163216955976",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 422,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754158589,
+      "text": "👥 Этап 2/4\n\n🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)\n\n\n👥 Присоединитесь к нашему сообществу!\n\nДля продолжения регистрации необходимо вступить в группу сообщества Transformation Map.\n\nЧто вас ждет:\n• Полезные материалы по саморазвитию\n• Поддержка единомышленников\n• Эксклюзивные вебинары и курсы\n• Ответы на вопросы от экспертов\n\n⚠️ После вступления в группу нажмите \"Проверить членство\"",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 41,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 170,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 316,
+          "length": 57,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔍 Проверить членство",
+              "callback_data": "check_membership"
+            }
+          ],
+          [
+            {
+              "text": "🔙 Назад",
+              "callback_data": "back_to_terms"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "check_membership"
+  }
+}
+2025-08-02T18:16:31: 🔍 Sending message to 487571387, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-08-02T18:16:31: 📝 Tracked bot message 423 for user 487571387
+2025-08-02T18:16:31: 🔍 Sending message to 487571387, text length: 238, text: "🔍 <b>Этап 3/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)
+
+
+<b>🔐 Проверка безопасности</b>
+
+Для защиты от автоматических регистраций, пожалуйста, решите простой пример:
+
+<b>📊 2 * 8 = ?</b>
+
+<i>Выберите правильный ответ из вариантов ниже:</i>
+    "
+2025-08-02T18:16:31: 📝 Tracked bot message 424 for user 487571387
+2025-08-02T18:16:31: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:16:31: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:16:34: 📨 Received update: {
+  "update_id": 516222772,
+  "callback_query": {
+    "id": "2094103164649511762",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 424,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754158591,
+      "text": "🔍 Этап 3/4\n\n🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)\n\n\n🔐 Проверка безопасности\n\nДля защиты от автоматических регистраций, пожалуйста, решите простой пример:\n\n📊 2 * 8 = ?\n\nВыберите правильный ответ из вариантов ниже:",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 43,
+          "length": 24,
+          "type": "bold"
+        },
+        {
+          "offset": 147,
+          "length": 12,
+          "type": "bold"
+        },
+        {
+          "offset": 161,
+          "length": 44,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "19",
+              "callback_data": "captcha_19"
+            },
+            {
+              "text": "16",
+              "callback_data": "captcha_16"
+            },
+            {
+              "text": "25",
+              "callback_data": "captcha_25"
+            },
+            {
+              "text": "24",
+              "callback_data": "captcha_24"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "captcha_16"
+  }
+}
+2025-08-02T18:16:34: 🔍 Sending message to 487571387, text length: 336, text: "🎉 <b>Этап 4/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% (4/4)
+
+
+<b>🎉 Верификация завершена успешно!</b>
+
+Ваш Telegram аккаунт успешно верифицирован!
+
+<b>✅ Выполнено:</b>
+• Условия приняты
+• Членство в группе подтверждено
+• Проверка безопасности пройдена
+• Данные отправлены на сайт
+
+<i>🚀 Теперь вы можете завершить регистрацию на сайте</i>
+    "
+2025-08-02T18:16:34: 📤 Verification sent to website: 400
+2025-08-02T18:16:34: 📝 Tracked bot message 425 for user 487571387
+2025-08-02T18:16:34: 📊 Analytics: verification_completed for user 487571387 {
+  completion_time: 6200,
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:16:34: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:16:34: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:16:34: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:16:34: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:18:08: 🛑 Received SIGINT, shutting down gracefully
+2025-08-02T18:18:08: 🤖 Telegram Verification Bot initialized
+2025-08-02T18:18:08: 🔐 Security features enabled: AES-256, Rate Limiting, Account Age Check
+2025-08-02T18:18:08: 📊 Analytics and monitoring active
+2025-08-02T18:18:08: 🌐 Webhook server listening on port 9003
+2025-08-02T18:18:08: 📡 Webhook URL: https://transformation-map.com/telegram-verification-webhook
+2025-08-02T18:18:08: 🏥 Health check: https://transformation-map.com:9003/health
+2025-08-02T18:18:08: 📈 Stats endpoint: https://transformation-map.com:9003/stats
+2025-08-02T18:19:05: 📨 Received update: {
+  "update_id": 516222773,
+  "message": {
+    "message_id": 426,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1754158745,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-08-02T18:19:05: 🚀 Start command from user 487571387, param: register
+2025-08-02T18:19:05: 📊 Analytics: started for user 487571387 {
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:19:05: 🔍 Sending message to 487571387, text length: 1024, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>Добро пожаловать в Transformation Map!</b>
+
+<b>🔒 Информация о конфиденциальности:</b>
+• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи
+• Данные используются исключительно для авторизации и персонализации опыта
+• Информация защищена шифрованием и хранится безопасно
+• Подробности в политике конфиденциальности: https://transformation-map.com
+
+<b>🛡 Права доступа бота:</b>
+• Отправка личных сообщений для процесса верификации
+• Проверка участия в группе сообщества
+• Создание защищенной ссылки для входа на сайт
+• Временное хранение данных верификации (30 минут)
+
+<b>📋 Процесс верификации:</b>
+🔄 <b>Принятие условий использования</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Получение ссылки для входа
+
+<b>⚡ Требования:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Участие в группе сообщества
+• Прохождение проверки безопасности
+
+<i>⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.</i>"
+2025-08-02T18:19:05: 📝 Tracked bot message 427 for user 487571387
+2025-08-02T18:19:05: 📊 Analytics: terms_shown for user 487571387 {}
+2025-08-02T18:19:05: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:19:05: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:19:06: 📨 Received update: {
+  "update_id": 516222774,
+  "callback_query": {
+    "id": "2094103162408286959",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 427,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754158745,
+      "text": "📋 Этап 1/4\n\n🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)\n\nДобро пожаловать в Transformation Map!\n\n🔒 Информация о конфиденциальности:\n• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи\n• Данные используются исключительно для авторизации и персонализации опыта\n• Информация защищена шифрованием и хранится безопасно\n• Подробности в политике конфиденциальности: https://transformation-map.com\n\n🛡 Права доступа бота:\n• Отправка личных сообщений для процесса верификации\n• Проверка участия в группе сообщества\n• Создание защищенной ссылки для входа на сайт\n• Временное хранение данных верификации (30 минут)\n\n📋 Процесс верификации:\n🔄 Принятие условий использования\n⏳ Вступление в сообщество\n⏳ Проверка безопасности\n⏳ Получение ссылки для входа\n\n⚡ Требования:\n• Возраст аккаунта Telegram: минимум 7 дней\n• Участие в группе сообщества\n• Прохождение проверки безопасности\n\n⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 37,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 77,
+          "length": 35,
+          "type": "bold"
+        },
+        {
+          "offset": 377,
+          "length": 30,
+          "type": "url"
+        },
+        {
+          "offset": 409,
+          "length": 22,
+          "type": "bold"
+        },
+        {
+          "offset": 623,
+          "length": 23,
+          "type": "bold"
+        },
+        {
+          "offset": 650,
+          "length": 30,
+          "type": "bold"
+        },
+        {
+          "offset": 761,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 886,
+          "length": 82,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "✅ Принимаю условия",
+              "callback_data": "accept_terms"
+            }
+          ],
+          [
+            {
+              "text": "❌ Отмена",
+              "callback_data": "cancel_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "accept_terms"
+  }
+}
+2025-08-02T18:19:06: 📊 Analytics: terms_accepted for user 487571387 {}
+2025-08-02T18:19:06: 🔍 Sending message to 487571387, text length: 406, text: "👥 <b>Этап 2/4</b>
+
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)
+
+
+<b>👥 Присоединитесь к нашему сообществу!</b>
+
+Для продолжения регистрации необходимо вступить в группу сообщества Transformation Map.
+
+<b>Что вас ждет:</b>
+• Полезные материалы по саморазвитию
+• Поддержка единомышленников
+• Эксклюзивные вебинары и курсы
+• Ответы на вопросы от экспертов
+
+<i>⚠️ После вступления в группу нажмите "Проверить членство"</i>
+    "
+2025-08-02T18:19:07: 📝 Tracked bot message 428 for user 487571387
+2025-08-02T18:19:07: 📊 Analytics: group_requested for user 487571387 {}
+2025-08-02T18:19:07: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:19:07: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:19:08: 📨 Received update: {
+  "update_id": 516222775,
+  "callback_query": {
+    "id": "2094103163328105602",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 428,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754158746,
+      "text": "👥 Этап 2/4\n\n🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)\n\n\n👥 Присоединитесь к нашему сообществу!\n\nДля продолжения регистрации необходимо вступить в группу сообщества Transformation Map.\n\nЧто вас ждет:\n• Полезные материалы по саморазвитию\n• Поддержка единомышленников\n• Эксклюзивные вебинары и курсы\n• Ответы на вопросы от экспертов\n\n⚠️ После вступления в группу нажмите \"Проверить членство\"",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 41,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 170,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 316,
+          "length": 57,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔍 Проверить членство",
+              "callback_data": "check_membership"
+            }
+          ],
+          [
+            {
+              "text": "🔙 Назад",
+              "callback_data": "back_to_terms"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "check_membership"
+  }
+}
+2025-08-02T18:19:08: 🔍 Sending message to 487571387, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-08-02T18:19:08: 📝 Tracked bot message 429 for user 487571387
+2025-08-02T18:19:08: 🔍 Sending message to 487571387, text length: 240, text: "🔍 <b>Этап 3/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)
+
+
+<b>🔐 Проверка безопасности</b>
+
+Для защиты от автоматических регистраций, пожалуйста, решите простой пример:
+
+<b>📊 47 + 38 = ?</b>
+
+<i>Выберите правильный ответ из вариантов ниже:</i>
+    "
+2025-08-02T18:19:08: 📝 Tracked bot message 430 for user 487571387
+2025-08-02T18:19:08: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:19:08: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:19:26: 📨 Received update: {
+  "update_id": 516222776,
+  "callback_query": {
+    "id": "2094103164266267969",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 430,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754158748,
+      "text": "🔍 Этап 3/4\n\n🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)\n\n\n🔐 Проверка безопасности\n\nДля защиты от автоматических регистраций, пожалуйста, решите простой пример:\n\n📊 47 + 38 = ?\n\nВыберите правильный ответ из вариантов ниже:",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 43,
+          "length": 24,
+          "type": "bold"
+        },
+        {
+          "offset": 147,
+          "length": 14,
+          "type": "bold"
+        },
+        {
+          "offset": 163,
+          "length": 44,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "85",
+              "callback_data": "captcha_85"
+            },
+            {
+              "text": "83",
+              "callback_data": "captcha_83"
+            },
+            {
+              "text": "94",
+              "callback_data": "captcha_94"
+            },
+            {
+              "text": "79",
+              "callback_data": "captcha_79"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "captcha_85"
+  }
+}
+2025-08-02T18:19:26: 🔍 Sending message to 487571387, text length: 336, text: "🎉 <b>Этап 4/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% (4/4)
+
+
+<b>🎉 Верификация завершена успешно!</b>
+
+Ваш Telegram аккаунт успешно верифицирован!
+
+<b>✅ Выполнено:</b>
+• Условия приняты
+• Членство в группе подтверждено
+• Проверка безопасности пройдена
+• Данные отправлены на сайт
+
+<i>🚀 Теперь вы можете завершить регистрацию на сайте</i>
+    "
+2025-08-02T18:19:26: 📤 Verification sent to website: 400
+2025-08-02T18:19:26: 📝 Tracked bot message 431 for user 487571387
+2025-08-02T18:19:26: 📊 Analytics: verification_completed for user 487571387 {
+  completion_time: 20854,
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:19:26: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:19:26: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:19:26: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:19:26: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:22:20: 📨 Received update: {
+  "update_id": 516222777,
+  "message": {
+    "message_id": 432,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1754158940,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-08-02T18:22:20: 📝 Tracked user message 432 for user 487571387
+2025-08-02T18:22:20: 🚀 Start command from user 487571387, param: register
+2025-08-02T18:22:20: 🔍 Sending message to 487571387, text length: 1024, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>Добро пожаловать в Transformation Map!</b>
+
+<b>🔒 Информация о конфиденциальности:</b>
+• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи
+• Данные используются исключительно для авторизации и персонализации опыта
+• Информация защищена шифрованием и хранится безопасно
+• Подробности в политике конфиденциальности: https://transformation-map.com
+
+<b>🛡 Права доступа бота:</b>
+• Отправка личных сообщений для процесса верификации
+• Проверка участия в группе сообщества
+• Создание защищенной ссылки для входа на сайт
+• Временное хранение данных верификации (30 минут)
+
+<b>📋 Процесс верификации:</b>
+🔄 <b>Принятие условий использования</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Получение ссылки для входа
+
+<b>⚡ Требования:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Участие в группе сообщества
+• Прохождение проверки безопасности
+
+<i>⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.</i>"
+2025-08-02T18:22:20: 📝 Tracked bot message 433 for user 487571387
+2025-08-02T18:22:20: 📊 Analytics: terms_shown for user 487571387 {}
+2025-08-02T18:22:20: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:22:20: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:22:21: 📨 Received update: {
+  "update_id": 516222778,
+  "callback_query": {
+    "id": "2094103163476024781",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 433,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754158940,
+      "text": "📋 Этап 1/4\n\n🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)\n\nДобро пожаловать в Transformation Map!\n\n🔒 Информация о конфиденциальности:\n• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи\n• Данные используются исключительно для авторизации и персонализации опыта\n• Информация защищена шифрованием и хранится безопасно\n• Подробности в политике конфиденциальности: https://transformation-map.com\n\n🛡 Права доступа бота:\n• Отправка личных сообщений для процесса верификации\n• Проверка участия в группе сообщества\n• Создание защищенной ссылки для входа на сайт\n• Временное хранение данных верификации (30 минут)\n\n📋 Процесс верификации:\n🔄 Принятие условий использования\n⏳ Вступление в сообщество\n⏳ Проверка безопасности\n⏳ Получение ссылки для входа\n\n⚡ Требования:\n• Возраст аккаунта Telegram: минимум 7 дней\n• Участие в группе сообщества\n• Прохождение проверки безопасности\n\n⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 37,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 77,
+          "length": 35,
+          "type": "bold"
+        },
+        {
+          "offset": 377,
+          "length": 30,
+          "type": "url"
+        },
+        {
+          "offset": 409,
+          "length": 22,
+          "type": "bold"
+        },
+        {
+          "offset": 623,
+          "length": 23,
+          "type": "bold"
+        },
+        {
+          "offset": 650,
+          "length": 30,
+          "type": "bold"
+        },
+        {
+          "offset": 761,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 886,
+          "length": 82,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "✅ Принимаю условия",
+              "callback_data": "accept_terms"
+            }
+          ],
+          [
+            {
+              "text": "❌ Отмена",
+              "callback_data": "cancel_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "accept_terms"
+  }
+}
+2025-08-02T18:22:21: 📊 Analytics: terms_accepted for user 487571387 {}
+2025-08-02T18:22:21: 🔍 Sending message to 487571387, text length: 406, text: "👥 <b>Этап 2/4</b>
+
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)
+
+
+<b>👥 Присоединитесь к нашему сообществу!</b>
+
+Для продолжения регистрации необходимо вступить в группу сообщества Transformation Map.
+
+<b>Что вас ждет:</b>
+• Полезные материалы по саморазвитию
+• Поддержка единомышленников
+• Эксклюзивные вебинары и курсы
+• Ответы на вопросы от экспертов
+
+<i>⚠️ После вступления в группу нажмите "Проверить членство"</i>
+    "
+2025-08-02T18:22:21: 📝 Tracked bot message 434 for user 487571387
+2025-08-02T18:22:21: 📊 Analytics: group_requested for user 487571387 {}
+2025-08-02T18:22:21: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:22:21: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:22:23: 📨 Received update: {
+  "update_id": 516222779,
+  "callback_query": {
+    "id": "2094103163712795804",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 434,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754158941,
+      "text": "👥 Этап 2/4\n\n🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)\n\n\n👥 Присоединитесь к нашему сообществу!\n\nДля продолжения регистрации необходимо вступить в группу сообщества Transformation Map.\n\nЧто вас ждет:\n• Полезные материалы по саморазвитию\n• Поддержка единомышленников\n• Эксклюзивные вебинары и курсы\n• Ответы на вопросы от экспертов\n\n⚠️ После вступления в группу нажмите \"Проверить членство\"",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 41,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 170,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 316,
+          "length": 57,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔍 Проверить членство",
+              "callback_data": "check_membership"
+            }
+          ],
+          [
+            {
+              "text": "🔙 Назад",
+              "callback_data": "back_to_terms"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "check_membership"
+  }
+}
+2025-08-02T18:22:23: 🔍 Sending message to 487571387, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-08-02T18:22:23: 📝 Tracked bot message 435 for user 487571387
+2025-08-02T18:22:23: 🔍 Sending message to 487571387, text length: 240, text: "🔍 <b>Этап 3/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)
+
+
+<b>🔐 Проверка безопасности</b>
+
+Для защиты от автоматических регистраций, пожалуйста, решите простой пример:
+
+<b>📊 63 - 17 = ?</b>
+
+<i>Выберите правильный ответ из вариантов ниже:</i>
+    "
+2025-08-02T18:22:23: 📝 Tracked bot message 436 for user 487571387
+2025-08-02T18:22:23: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:22:23: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:22:48: 📨 Received update: {
+  "update_id": 516222780,
+  "callback_query": {
+    "id": "2094103164576661038",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 436,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754158943,
+      "text": "🔍 Этап 3/4\n\n🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)\n\n\n🔐 Проверка безопасности\n\nДля защиты от автоматических регистраций, пожалуйста, решите простой пример:\n\n📊 63 - 17 = ?\n\nВыберите правильный ответ из вариантов ниже:",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 43,
+          "length": 24,
+          "type": "bold"
+        },
+        {
+          "offset": 147,
+          "length": 14,
+          "type": "bold"
+        },
+        {
+          "offset": 163,
+          "length": 44,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "46",
+              "callback_data": "captcha_46"
+            },
+            {
+              "text": "48",
+              "callback_data": "captcha_48"
+            },
+            {
+              "text": "38",
+              "callback_data": "captcha_38"
+            },
+            {
+              "text": "47",
+              "callback_data": "captcha_47"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "captcha_48"
+  }
+}
+2025-08-02T18:22:48: 📊 Analytics: failure for user 487571387 { reason: 'captcha_failed' }
+2025-08-02T18:22:48: 🔍 Sending message to 487571387, text length: 85, text: "❌ <b>Неверный ответ!</b>
+
+Попробуйте еще раз. Будьте внимательны при решении примера."
+2025-08-02T18:22:48: 📝 Tracked bot message 437 for user 487571387
+2025-08-02T18:22:48: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:22:48: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:22:50: 🔍 Sending message to 487571387, text length: 238, text: "🔍 <b>Этап 3/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)
+
+
+<b>🔐 Проверка безопасности</b>
+
+Для защиты от автоматических регистраций, пожалуйста, решите простой пример:
+
+<b>📊 4 * 3 = ?</b>
+
+<i>Выберите правильный ответ из вариантов ниже:</i>
+    "
+2025-08-02T18:22:50: 📝 Tracked bot message 438 for user 487571387
+2025-08-02T18:23:15: 📨 Received update: {
+  "update_id": 516222781,
+  "callback_query": {
+    "id": "2094103163345972462",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 438,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754158970,
+      "text": "🔍 Этап 3/4\n\n🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)\n\n\n🔐 Проверка безопасности\n\nДля защиты от автоматических регистраций, пожалуйста, решите простой пример:\n\n📊 4 * 3 = ?\n\nВыберите правильный ответ из вариантов ниже:",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 43,
+          "length": 24,
+          "type": "bold"
+        },
+        {
+          "offset": 147,
+          "length": 12,
+          "type": "bold"
+        },
+        {
+          "offset": 161,
+          "length": 44,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "20",
+              "callback_data": "captcha_20"
+            },
+            {
+              "text": "16",
+              "callback_data": "captcha_16"
+            },
+            {
+              "text": "12",
+              "callback_data": "captcha_12"
+            },
+            {
+              "text": "2",
+              "callback_data": "captcha_2"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "captcha_12"
+  }
+}
+2025-08-02T18:23:16: 🔍 Sending message to 487571387, text length: 336, text: "🎉 <b>Этап 4/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% (4/4)
+
+
+<b>🎉 Верификация завершена успешно!</b>
+
+Ваш Telegram аккаунт успешно верифицирован!
+
+<b>✅ Выполнено:</b>
+• Условия приняты
+• Членство в группе подтверждено
+• Проверка безопасности пройдена
+• Данные отправлены на сайт
+
+<i>🚀 Теперь вы можете завершить регистрацию на сайте</i>
+    "
+2025-08-02T18:23:16: 📝 Tracked bot message 439 for user 487571387
+2025-08-02T18:23:16: 📊 Analytics: verification_completed for user 487571387 {
+  completion_time: 250719,
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:23:16: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:23:16: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:23:16: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:23:16: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:23:19: 📤 Verification sent to website: 400
+2025-08-02T18:26:39: 📨 Received update: {
+  "update_id": 516222782,
+  "message": {
+    "message_id": 440,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1754159199,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-08-02T18:26:39: 📝 Tracked user message 440 for user 487571387
+2025-08-02T18:26:39: 🚀 Start command from user 487571387, param: register
+2025-08-02T18:26:39: 🔍 Sending message to 487571387, text length: 1024, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>Добро пожаловать в Transformation Map!</b>
+
+<b>🔒 Информация о конфиденциальности:</b>
+• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи
+• Данные используются исключительно для авторизации и персонализации опыта
+• Информация защищена шифрованием и хранится безопасно
+• Подробности в политике конфиденциальности: https://transformation-map.com
+
+<b>🛡 Права доступа бота:</b>
+• Отправка личных сообщений для процесса верификации
+• Проверка участия в группе сообщества
+• Создание защищенной ссылки для входа на сайт
+• Временное хранение данных верификации (30 минут)
+
+<b>📋 Процесс верификации:</b>
+🔄 <b>Принятие условий использования</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Получение ссылки для входа
+
+<b>⚡ Требования:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Участие в группе сообщества
+• Прохождение проверки безопасности
+
+<i>⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.</i>"
+2025-08-02T18:26:39: 📝 Tracked bot message 441 for user 487571387
+2025-08-02T18:26:39: 📊 Analytics: terms_shown for user 487571387 {}
+2025-08-02T18:26:39: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:26:39: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:26:40: 📨 Received update: {
+  "update_id": 516222783,
+  "callback_query": {
+    "id": "2094103162831706879",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 441,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754159199,
+      "text": "📋 Этап 1/4\n\n🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)\n\nДобро пожаловать в Transformation Map!\n\n🔒 Информация о конфиденциальности:\n• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи\n• Данные используются исключительно для авторизации и персонализации опыта\n• Информация защищена шифрованием и хранится безопасно\n• Подробности в политике конфиденциальности: https://transformation-map.com\n\n🛡 Права доступа бота:\n• Отправка личных сообщений для процесса верификации\n• Проверка участия в группе сообщества\n• Создание защищенной ссылки для входа на сайт\n• Временное хранение данных верификации (30 минут)\n\n📋 Процесс верификации:\n🔄 Принятие условий использования\n⏳ Вступление в сообщество\n⏳ Проверка безопасности\n⏳ Получение ссылки для входа\n\n⚡ Требования:\n• Возраст аккаунта Telegram: минимум 7 дней\n• Участие в группе сообщества\n• Прохождение проверки безопасности\n\n⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 37,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 77,
+          "length": 35,
+          "type": "bold"
+        },
+        {
+          "offset": 377,
+          "length": 30,
+          "type": "url"
+        },
+        {
+          "offset": 409,
+          "length": 22,
+          "type": "bold"
+        },
+        {
+          "offset": 623,
+          "length": 23,
+          "type": "bold"
+        },
+        {
+          "offset": 650,
+          "length": 30,
+          "type": "bold"
+        },
+        {
+          "offset": 761,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 886,
+          "length": 82,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "✅ Принимаю условия",
+              "callback_data": "accept_terms"
+            }
+          ],
+          [
+            {
+              "text": "❌ Отмена",
+              "callback_data": "cancel_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "accept_terms"
+  }
+}
+2025-08-02T18:26:40: 📊 Analytics: terms_accepted for user 487571387 {}
+2025-08-02T18:26:40: 🔍 Sending message to 487571387, text length: 406, text: "👥 <b>Этап 2/4</b>
+
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)
+
+
+<b>👥 Присоединитесь к нашему сообществу!</b>
+
+Для продолжения регистрации необходимо вступить в группу сообщества Transformation Map.
+
+<b>Что вас ждет:</b>
+• Полезные материалы по саморазвитию
+• Поддержка единомышленников
+• Эксклюзивные вебинары и курсы
+• Ответы на вопросы от экспертов
+
+<i>⚠️ После вступления в группу нажмите "Проверить членство"</i>
+    "
+2025-08-02T18:26:40: 📝 Tracked bot message 442 for user 487571387
+2025-08-02T18:26:40: 📊 Analytics: group_requested for user 487571387 {}
+2025-08-02T18:26:40: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:26:40: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:26:42: 📨 Received update: {
+  "update_id": 516222784,
+  "callback_query": {
+    "id": "2094103162627225106",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 442,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754159200,
+      "text": "👥 Этап 2/4\n\n🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)\n\n\n👥 Присоединитесь к нашему сообществу!\n\nДля продолжения регистрации необходимо вступить в группу сообщества Transformation Map.\n\nЧто вас ждет:\n• Полезные материалы по саморазвитию\n• Поддержка единомышленников\n• Эксклюзивные вебинары и курсы\n• Ответы на вопросы от экспертов\n\n⚠️ После вступления в группу нажмите \"Проверить членство\"",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 41,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 170,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 316,
+          "length": 57,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔍 Проверить членство",
+              "callback_data": "check_membership"
+            }
+          ],
+          [
+            {
+              "text": "🔙 Назад",
+              "callback_data": "back_to_terms"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "check_membership"
+  }
+}
+2025-08-02T18:26:42: 🔍 Sending message to 487571387, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-08-02T18:26:42: 📝 Tracked bot message 443 for user 487571387
+2025-08-02T18:26:42: 🔍 Sending message to 487571387, text length: 239, text: "🔍 <b>Этап 3/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)
+
+
+<b>🔐 Проверка безопасности</b>
+
+Для защиты от автоматических регистраций, пожалуйста, решите простой пример:
+
+<b>📊 1 + 19 = ?</b>
+
+<i>Выберите правильный ответ из вариантов ниже:</i>
+    "
+2025-08-02T18:26:42: 📝 Tracked bot message 444 for user 487571387
+2025-08-02T18:26:42: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:26:42: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:26:44: 📨 Received update: {
+  "update_id": 516222785,
+  "callback_query": {
+    "id": "2094103162128700493",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 444,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754159202,
+      "text": "🔍 Этап 3/4\n\n🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)\n\n\n🔐 Проверка безопасности\n\nДля защиты от автоматических регистраций, пожалуйста, решите простой пример:\n\n📊 1 + 19 = ?\n\nВыберите правильный ответ из вариантов ниже:",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 43,
+          "length": 24,
+          "type": "bold"
+        },
+        {
+          "offset": 147,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 162,
+          "length": 44,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "19",
+              "callback_data": "captcha_19"
+            },
+            {
+              "text": "20",
+              "callback_data": "captcha_20"
+            },
+            {
+              "text": "27",
+              "callback_data": "captcha_27"
+            },
+            {
+              "text": "15",
+              "callback_data": "captcha_15"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "captcha_20"
+  }
+}
+2025-08-02T18:26:44: 🔍 Sending message to 487571387, text length: 336, text: "🎉 <b>Этап 4/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% (4/4)
+
+
+<b>🎉 Верификация завершена успешно!</b>
+
+Ваш Telegram аккаунт успешно верифицирован!
+
+<b>✅ Выполнено:</b>
+• Условия приняты
+• Членство в группе подтверждено
+• Проверка безопасности пройдена
+• Данные отправлены на сайт
+
+<i>🚀 Теперь вы можете завершить регистрацию на сайте</i>
+    "
+2025-08-02T18:26:44: 📝 Tracked bot message 445 for user 487571387
+2025-08-02T18:26:44: 📊 Analytics: verification_completed for user 487571387 {
+  completion_time: 459500,
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:26:44: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:26:45: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:26:45: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:26:45: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:26:45: 📤 Verification sent to website: 502
+2025-08-02T18:29:32: 🛑 Received SIGINT, shutting down gracefully
+2025-08-02T18:29:33: 🤖 Telegram Verification Bot initialized
+2025-08-02T18:29:33: 🔐 Security features enabled: AES-256, Rate Limiting, Account Age Check
+2025-08-02T18:29:33: 📊 Analytics and monitoring active
+2025-08-02T18:29:33: 🌐 Webhook server listening on port 9003
+2025-08-02T18:29:33: 📡 Webhook URL: https://transformation-map.com/telegram-verification-webhook
+2025-08-02T18:29:33: 🏥 Health check: https://transformation-map.com:9003/health
+2025-08-02T18:29:33: 📈 Stats endpoint: https://transformation-map.com:9003/stats
+2025-08-02T18:30:55: 📨 Received update: {
+  "update_id": 516222786,
+  "message": {
+    "message_id": 446,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1754159455,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-08-02T18:30:55: 🚀 Start command from user 487571387, param: register
+2025-08-02T18:30:55: 📊 Analytics: started for user 487571387 {
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:30:55: 🔍 Sending message to 487571387, text length: 1024, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>Добро пожаловать в Transformation Map!</b>
+
+<b>🔒 Информация о конфиденциальности:</b>
+• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи
+• Данные используются исключительно для авторизации и персонализации опыта
+• Информация защищена шифрованием и хранится безопасно
+• Подробности в политике конфиденциальности: https://transformation-map.com
+
+<b>🛡 Права доступа бота:</b>
+• Отправка личных сообщений для процесса верификации
+• Проверка участия в группе сообщества
+• Создание защищенной ссылки для входа на сайт
+• Временное хранение данных верификации (30 минут)
+
+<b>📋 Процесс верификации:</b>
+🔄 <b>Принятие условий использования</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Получение ссылки для входа
+
+<b>⚡ Требования:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Участие в группе сообщества
+• Прохождение проверки безопасности
+
+<i>⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.</i>"
+2025-08-02T18:30:55: 📝 Tracked bot message 447 for user 487571387
+2025-08-02T18:30:55: 📊 Analytics: terms_shown for user 487571387 {}
+2025-08-02T18:30:55: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:30:55: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:30:56: 📨 Received update: {
+  "update_id": 516222787,
+  "callback_query": {
+    "id": "2094103164740919235",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 447,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754159455,
+      "text": "📋 Этап 1/4\n\n🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)\n\nДобро пожаловать в Transformation Map!\n\n🔒 Информация о конфиденциальности:\n• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи\n• Данные используются исключительно для авторизации и персонализации опыта\n• Информация защищена шифрованием и хранится безопасно\n• Подробности в политике конфиденциальности: https://transformation-map.com\n\n🛡 Права доступа бота:\n• Отправка личных сообщений для процесса верификации\n• Проверка участия в группе сообщества\n• Создание защищенной ссылки для входа на сайт\n• Временное хранение данных верификации (30 минут)\n\n📋 Процесс верификации:\n🔄 Принятие условий использования\n⏳ Вступление в сообщество\n⏳ Проверка безопасности\n⏳ Получение ссылки для входа\n\n⚡ Требования:\n• Возраст аккаунта Telegram: минимум 7 дней\n• Участие в группе сообщества\n• Прохождение проверки безопасности\n\n⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 37,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 77,
+          "length": 35,
+          "type": "bold"
+        },
+        {
+          "offset": 377,
+          "length": 30,
+          "type": "url"
+        },
+        {
+          "offset": 409,
+          "length": 22,
+          "type": "bold"
+        },
+        {
+          "offset": 623,
+          "length": 23,
+          "type": "bold"
+        },
+        {
+          "offset": 650,
+          "length": 30,
+          "type": "bold"
+        },
+        {
+          "offset": 761,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 886,
+          "length": 82,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "✅ Принимаю условия",
+              "callback_data": "accept_terms"
+            }
+          ],
+          [
+            {
+              "text": "❌ Отмена",
+              "callback_data": "cancel_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "accept_terms"
+  }
+}
+2025-08-02T18:30:56: 📊 Analytics: terms_accepted for user 487571387 {}
+2025-08-02T18:30:56: 🔍 Sending message to 487571387, text length: 406, text: "👥 <b>Этап 2/4</b>
+
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)
+
+
+<b>👥 Присоединитесь к нашему сообществу!</b>
+
+Для продолжения регистрации необходимо вступить в группу сообщества Transformation Map.
+
+<b>Что вас ждет:</b>
+• Полезные материалы по саморазвитию
+• Поддержка единомышленников
+• Эксклюзивные вебинары и курсы
+• Ответы на вопросы от экспертов
+
+<i>⚠️ После вступления в группу нажмите "Проверить членство"</i>
+    "
+2025-08-02T18:30:56: 📝 Tracked bot message 448 for user 487571387
+2025-08-02T18:30:56: 📊 Analytics: group_requested for user 487571387 {}
+2025-08-02T18:30:56: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:30:57: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:30:57: 📨 Received update: {
+  "update_id": 516222788,
+  "callback_query": {
+    "id": "2094103162443960628",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 448,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754159456,
+      "text": "👥 Этап 2/4\n\n🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)\n\n\n👥 Присоединитесь к нашему сообществу!\n\nДля продолжения регистрации необходимо вступить в группу сообщества Transformation Map.\n\nЧто вас ждет:\n• Полезные материалы по саморазвитию\n• Поддержка единомышленников\n• Эксклюзивные вебинары и курсы\n• Ответы на вопросы от экспертов\n\n⚠️ После вступления в группу нажмите \"Проверить членство\"",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 41,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 170,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 316,
+          "length": 57,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔍 Проверить членство",
+              "callback_data": "check_membership"
+            }
+          ],
+          [
+            {
+              "text": "🔙 Назад",
+              "callback_data": "back_to_terms"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "check_membership"
+  }
+}
+2025-08-02T18:30:57: 🔍 Sending message to 487571387, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-08-02T18:30:58: 📝 Tracked bot message 449 for user 487571387
+2025-08-02T18:30:58: 🔍 Sending message to 487571387, text length: 238, text: "🔍 <b>Этап 3/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)
+
+
+<b>🔐 Проверка безопасности</b>
+
+Для защиты от автоматических регистраций, пожалуйста, решите простой пример:
+
+<b>📊 6 * 4 = ?</b>
+
+<i>Выберите правильный ответ из вариантов ниже:</i>
+    "
+2025-08-02T18:30:58: 📝 Tracked bot message 450 for user 487571387
+2025-08-02T18:30:58: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:30:58: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:31:18: 📨 Received update: {
+  "update_id": 516222789,
+  "callback_query": {
+    "id": "2094103161938471849",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 450,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754159458,
+      "text": "🔍 Этап 3/4\n\n🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)\n\n\n🔐 Проверка безопасности\n\nДля защиты от автоматических регистраций, пожалуйста, решите простой пример:\n\n📊 6 * 4 = ?\n\nВыберите правильный ответ из вариантов ниже:",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 43,
+          "length": 24,
+          "type": "bold"
+        },
+        {
+          "offset": 147,
+          "length": 12,
+          "type": "bold"
+        },
+        {
+          "offset": 161,
+          "length": 44,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "19",
+              "callback_data": "captcha_19"
+            },
+            {
+              "text": "27",
+              "callback_data": "captcha_27"
+            },
+            {
+              "text": "24",
+              "callback_data": "captcha_24"
+            },
+            {
+              "text": "22",
+              "callback_data": "captcha_22"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "captcha_24"
+  }
+}
+2025-08-02T18:31:18: 🔍 Sending message to 487571387, text length: 336, text: "🎉 <b>Этап 4/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% (4/4)
+
+
+<b>🎉 Верификация завершена успешно!</b>
+
+Ваш Telegram аккаунт успешно верифицирован!
+
+<b>✅ Выполнено:</b>
+• Условия приняты
+• Членство в группе подтверждено
+• Проверка безопасности пройдена
+• Данные отправлены на сайт
+
+<i>🚀 Теперь вы можете завершить регистрацию на сайте</i>
+    "
+2025-08-02T18:31:19: 📝 Tracked bot message 451 for user 487571387
+2025-08-02T18:31:19: 📊 Analytics: verification_completed for user 487571387 {
+  completion_time: 23279,
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:31:19: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:31:19: 📤 Verification sent to website: 400
+2025-08-02T18:31:19: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:31:19: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:31:19: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:35:44: 📨 Received update: {
+  "update_id": 516222790,
+  "message": {
+    "message_id": 452,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1754159744,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-08-02T18:35:44: 📝 Tracked user message 452 for user 487571387
+2025-08-02T18:35:44: 🚀 Start command from user 487571387, param: register
+2025-08-02T18:35:44: 🔍 Sending message to 487571387, text length: 1024, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>Добро пожаловать в Transformation Map!</b>
+
+<b>🔒 Информация о конфиденциальности:</b>
+• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи
+• Данные используются исключительно для авторизации и персонализации опыта
+• Информация защищена шифрованием и хранится безопасно
+• Подробности в политике конфиденциальности: https://transformation-map.com
+
+<b>🛡 Права доступа бота:</b>
+• Отправка личных сообщений для процесса верификации
+• Проверка участия в группе сообщества
+• Создание защищенной ссылки для входа на сайт
+• Временное хранение данных верификации (30 минут)
+
+<b>📋 Процесс верификации:</b>
+🔄 <b>Принятие условий использования</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Получение ссылки для входа
+
+<b>⚡ Требования:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Участие в группе сообщества
+• Прохождение проверки безопасности
+
+<i>⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.</i>"
+2025-08-02T18:35:45: 📝 Tracked bot message 453 for user 487571387
+2025-08-02T18:35:45: 📊 Analytics: terms_shown for user 487571387 {}
+2025-08-02T18:35:45: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:35:45: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:35:45: 📨 Received update: {
+  "update_id": 516222791,
+  "callback_query": {
+    "id": "2094103165441304872",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 453,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754159744,
+      "text": "📋 Этап 1/4\n\n🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)\n\nДобро пожаловать в Transformation Map!\n\n🔒 Информация о конфиденциальности:\n• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи\n• Данные используются исключительно для авторизации и персонализации опыта\n• Информация защищена шифрованием и хранится безопасно\n• Подробности в политике конфиденциальности: https://transformation-map.com\n\n🛡 Права доступа бота:\n• Отправка личных сообщений для процесса верификации\n• Проверка участия в группе сообщества\n• Создание защищенной ссылки для входа на сайт\n• Временное хранение данных верификации (30 минут)\n\n📋 Процесс верификации:\n🔄 Принятие условий использования\n⏳ Вступление в сообщество\n⏳ Проверка безопасности\n⏳ Получение ссылки для входа\n\n⚡ Требования:\n• Возраст аккаунта Telegram: минимум 7 дней\n• Участие в группе сообщества\n• Прохождение проверки безопасности\n\n⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 37,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 77,
+          "length": 35,
+          "type": "bold"
+        },
+        {
+          "offset": 377,
+          "length": 30,
+          "type": "url"
+        },
+        {
+          "offset": 409,
+          "length": 22,
+          "type": "bold"
+        },
+        {
+          "offset": 623,
+          "length": 23,
+          "type": "bold"
+        },
+        {
+          "offset": 650,
+          "length": 30,
+          "type": "bold"
+        },
+        {
+          "offset": 761,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 886,
+          "length": 82,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "✅ Принимаю условия",
+              "callback_data": "accept_terms"
+            }
+          ],
+          [
+            {
+              "text": "❌ Отмена",
+              "callback_data": "cancel_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "accept_terms"
+  }
+}
+2025-08-02T18:35:46: 📊 Analytics: terms_accepted for user 487571387 {}
+2025-08-02T18:35:46: 🔍 Sending message to 487571387, text length: 406, text: "👥 <b>Этап 2/4</b>
+
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)
+
+
+<b>👥 Присоединитесь к нашему сообществу!</b>
+
+Для продолжения регистрации необходимо вступить в группу сообщества Transformation Map.
+
+<b>Что вас ждет:</b>
+• Полезные материалы по саморазвитию
+• Поддержка единомышленников
+• Эксклюзивные вебинары и курсы
+• Ответы на вопросы от экспертов
+
+<i>⚠️ После вступления в группу нажмите "Проверить членство"</i>
+    "
+2025-08-02T18:35:46: 📝 Tracked bot message 454 for user 487571387
+2025-08-02T18:35:46: 📊 Analytics: group_requested for user 487571387 {}
+2025-08-02T18:35:46: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:35:46: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:35:47: 📨 Received update: {
+  "update_id": 516222792,
+  "callback_query": {
+    "id": "2094103162200855184",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 454,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754159746,
+      "text": "👥 Этап 2/4\n\n🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)\n\n\n👥 Присоединитесь к нашему сообществу!\n\nДля продолжения регистрации необходимо вступить в группу сообщества Transformation Map.\n\nЧто вас ждет:\n• Полезные материалы по саморазвитию\n• Поддержка единомышленников\n• Эксклюзивные вебинары и курсы\n• Ответы на вопросы от экспертов\n\n⚠️ После вступления в группу нажмите \"Проверить членство\"",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 41,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 170,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 316,
+          "length": 57,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔍 Проверить членство",
+              "callback_data": "check_membership"
+            }
+          ],
+          [
+            {
+              "text": "🔙 Назад",
+              "callback_data": "back_to_terms"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "check_membership"
+  }
+}
+2025-08-02T18:35:47: 🔍 Sending message to 487571387, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-08-02T18:35:47: 📝 Tracked bot message 455 for user 487571387
+2025-08-02T18:35:47: 🔍 Sending message to 487571387, text length: 238, text: "🔍 <b>Этап 3/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)
+
+
+<b>🔐 Проверка безопасности</b>
+
+Для защиты от автоматических регистраций, пожалуйста, решите простой пример:
+
+<b>📊 4 * 5 = ?</b>
+
+<i>Выберите правильный ответ из вариантов ниже:</i>
+    "
+2025-08-02T18:35:47: 📝 Tracked bot message 456 for user 487571387
+2025-08-02T18:35:47: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:35:47: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:35:51: 📨 Received update: {
+  "update_id": 516222793,
+  "callback_query": {
+    "id": "2094103165694651504",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 456,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754159747,
+      "text": "🔍 Этап 3/4\n\n🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)\n\n\n🔐 Проверка безопасности\n\nДля защиты от автоматических регистраций, пожалуйста, решите простой пример:\n\n📊 4 * 5 = ?\n\nВыберите правильный ответ из вариантов ниже:",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 43,
+          "length": 24,
+          "type": "bold"
+        },
+        {
+          "offset": 147,
+          "length": 12,
+          "type": "bold"
+        },
+        {
+          "offset": 161,
+          "length": 44,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "17",
+              "callback_data": "captcha_17"
+            },
+            {
+              "text": "18",
+              "callback_data": "captcha_18"
+            },
+            {
+              "text": "23",
+              "callback_data": "captcha_23"
+            },
+            {
+              "text": "20",
+              "callback_data": "captcha_20"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "captcha_20"
+  }
+}
+2025-08-02T18:35:51: 🔍 Sending message to 487571387, text length: 336, text: "🎉 <b>Этап 4/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% (4/4)
+
+
+<b>🎉 Верификация завершена успешно!</b>
+
+Ваш Telegram аккаунт успешно верифицирован!
+
+<b>✅ Выполнено:</b>
+• Условия приняты
+• Членство в группе подтверждено
+• Проверка безопасности пройдена
+• Данные отправлены на сайт
+
+<i>🚀 Теперь вы можете завершить регистрацию на сайте</i>
+    "
+2025-08-02T18:35:51: 📤 Verification sent to website: 400
+2025-08-02T18:35:51: 📝 Tracked bot message 457 for user 487571387
+2025-08-02T18:35:51: 📊 Analytics: verification_completed for user 487571387 {
+  completion_time: 295875,
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:35:51: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:35:51: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:35:51: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:35:51: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:39:06: 📨 Received update: {
+  "update_id": 516222794,
+  "message": {
+    "message_id": 458,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1754159946,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-08-02T18:39:06: 📝 Tracked user message 458 for user 487571387
+2025-08-02T18:39:06: 🚀 Start command from user 487571387, param: register
+2025-08-02T18:39:06: 🔍 Sending message to 487571387, text length: 1024, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>Добро пожаловать в Transformation Map!</b>
+
+<b>🔒 Информация о конфиденциальности:</b>
+• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи
+• Данные используются исключительно для авторизации и персонализации опыта
+• Информация защищена шифрованием и хранится безопасно
+• Подробности в политике конфиденциальности: https://transformation-map.com
+
+<b>🛡 Права доступа бота:</b>
+• Отправка личных сообщений для процесса верификации
+• Проверка участия в группе сообщества
+• Создание защищенной ссылки для входа на сайт
+• Временное хранение данных верификации (30 минут)
+
+<b>📋 Процесс верификации:</b>
+🔄 <b>Принятие условий использования</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Получение ссылки для входа
+
+<b>⚡ Требования:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Участие в группе сообщества
+• Прохождение проверки безопасности
+
+<i>⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.</i>"
+2025-08-02T18:39:06: 📝 Tracked bot message 459 for user 487571387
+2025-08-02T18:39:06: 📊 Analytics: terms_shown for user 487571387 {}
+2025-08-02T18:39:06: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:39:07: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:39:08: 📨 Received update: {
+  "update_id": 516222795,
+  "callback_query": {
+    "id": "2094103164033775174",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 459,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754159946,
+      "text": "📋 Этап 1/4\n\n🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)\n\nДобро пожаловать в Transformation Map!\n\n🔒 Информация о конфиденциальности:\n• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи\n• Данные используются исключительно для авторизации и персонализации опыта\n• Информация защищена шифрованием и хранится безопасно\n• Подробности в политике конфиденциальности: https://transformation-map.com\n\n🛡 Права доступа бота:\n• Отправка личных сообщений для процесса верификации\n• Проверка участия в группе сообщества\n• Создание защищенной ссылки для входа на сайт\n• Временное хранение данных верификации (30 минут)\n\n📋 Процесс верификации:\n🔄 Принятие условий использования\n⏳ Вступление в сообщество\n⏳ Проверка безопасности\n⏳ Получение ссылки для входа\n\n⚡ Требования:\n• Возраст аккаунта Telegram: минимум 7 дней\n• Участие в группе сообщества\n• Прохождение проверки безопасности\n\n⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 37,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 77,
+          "length": 35,
+          "type": "bold"
+        },
+        {
+          "offset": 377,
+          "length": 30,
+          "type": "url"
+        },
+        {
+          "offset": 409,
+          "length": 22,
+          "type": "bold"
+        },
+        {
+          "offset": 623,
+          "length": 23,
+          "type": "bold"
+        },
+        {
+          "offset": 650,
+          "length": 30,
+          "type": "bold"
+        },
+        {
+          "offset": 761,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 886,
+          "length": 82,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "✅ Принимаю условия",
+              "callback_data": "accept_terms"
+            }
+          ],
+          [
+            {
+              "text": "❌ Отмена",
+              "callback_data": "cancel_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "accept_terms"
+  }
+}
+2025-08-02T18:39:08: 📊 Analytics: terms_accepted for user 487571387 {}
+2025-08-02T18:39:08: 🔍 Sending message to 487571387, text length: 406, text: "👥 <b>Этап 2/4</b>
+
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)
+
+
+<b>👥 Присоединитесь к нашему сообществу!</b>
+
+Для продолжения регистрации необходимо вступить в группу сообщества Transformation Map.
+
+<b>Что вас ждет:</b>
+• Полезные материалы по саморазвитию
+• Поддержка единомышленников
+• Эксклюзивные вебинары и курсы
+• Ответы на вопросы от экспертов
+
+<i>⚠️ После вступления в группу нажмите "Проверить членство"</i>
+    "
+2025-08-02T18:39:08: 📝 Tracked bot message 460 for user 487571387
+2025-08-02T18:39:08: 📊 Analytics: group_requested for user 487571387 {}
+2025-08-02T18:39:08: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:39:08: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:39:10: 📨 Received update: {
+  "update_id": 516222796,
+  "callback_query": {
+    "id": "2094103162471604026",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 460,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754159948,
+      "text": "👥 Этап 2/4\n\n🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)\n\n\n👥 Присоединитесь к нашему сообществу!\n\nДля продолжения регистрации необходимо вступить в группу сообщества Transformation Map.\n\nЧто вас ждет:\n• Полезные материалы по саморазвитию\n• Поддержка единомышленников\n• Эксклюзивные вебинары и курсы\n• Ответы на вопросы от экспертов\n\n⚠️ После вступления в группу нажмите \"Проверить членство\"",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 41,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 170,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 316,
+          "length": 57,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔍 Проверить членство",
+              "callback_data": "check_membership"
+            }
+          ],
+          [
+            {
+              "text": "🔙 Назад",
+              "callback_data": "back_to_terms"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "check_membership"
+  }
+}
+2025-08-02T18:39:10: 🔍 Sending message to 487571387, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-08-02T18:39:10: 📝 Tracked bot message 461 for user 487571387
+2025-08-02T18:39:10: 🔍 Sending message to 487571387, text length: 240, text: "🔍 <b>Этап 3/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)
+
+
+<b>🔐 Проверка безопасности</b>
+
+Для защиты от автоматических регистраций, пожалуйста, решите простой пример:
+
+<b>📊 28 + 41 = ?</b>
+
+<i>Выберите правильный ответ из вариантов ниже:</i>
+    "
+2025-08-02T18:39:10: 📝 Tracked bot message 462 for user 487571387
+2025-08-02T18:39:10: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:39:11: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:39:16: 📨 Received update: {
+  "update_id": 516222797,
+  "callback_query": {
+    "id": "2094103161931537793",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 462,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754159950,
+      "text": "🔍 Этап 3/4\n\n🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)\n\n\n🔐 Проверка безопасности\n\nДля защиты от автоматических регистраций, пожалуйста, решите простой пример:\n\n📊 28 + 41 = ?\n\nВыберите правильный ответ из вариантов ниже:",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 43,
+          "length": 24,
+          "type": "bold"
+        },
+        {
+          "offset": 147,
+          "length": 14,
+          "type": "bold"
+        },
+        {
+          "offset": 163,
+          "length": 44,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "77",
+              "callback_data": "captcha_77"
+            },
+            {
+              "text": "66",
+              "callback_data": "captcha_66"
+            },
+            {
+              "text": "70",
+              "callback_data": "captcha_70"
+            },
+            {
+              "text": "69",
+              "callback_data": "captcha_69"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "captcha_69"
+  }
+}
+2025-08-02T18:39:16: 🔍 Sending message to 487571387, text length: 336, text: "🎉 <b>Этап 4/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% (4/4)
+
+
+<b>🎉 Верификация завершена успешно!</b>
+
+Ваш Telegram аккаунт успешно верифицирован!
+
+<b>✅ Выполнено:</b>
+• Условия приняты
+• Членство в группе подтверждено
+• Проверка безопасности пройдена
+• Данные отправлены на сайт
+
+<i>🚀 Теперь вы можете завершить регистрацию на сайте</i>
+    "
+2025-08-02T18:39:16: 📤 Verification sent to website: 400
+2025-08-02T18:39:16: 📝 Tracked bot message 463 for user 487571387
+2025-08-02T18:39:16: 📊 Analytics: verification_completed for user 487571387 {
+  completion_time: 500950,
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:39:16: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:39:16: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:39:16: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:39:16: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:41:34: 🛑 Received SIGINT, shutting down gracefully
+2025-08-02T18:41:34: 🤖 Telegram Verification Bot initialized
+2025-08-02T18:41:34: 🔐 Security features enabled: AES-256, Rate Limiting, Account Age Check
+2025-08-02T18:41:34: 📊 Analytics and monitoring active
+2025-08-02T18:41:34: 🌐 Webhook server listening on port 9003
+2025-08-02T18:41:34: 📡 Webhook URL: https://transformation-map.com/telegram-verification-webhook
+2025-08-02T18:41:34: 🏥 Health check: https://transformation-map.com:9003/health
+2025-08-02T18:41:34: 📈 Stats endpoint: https://transformation-map.com:9003/stats
+2025-08-02T18:42:04: 📨 Received update: {
+  "update_id": 516222798,
+  "message": {
+    "message_id": 464,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1754160124,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-08-02T18:42:04: 🚀 Start command from user 487571387, param: register
+2025-08-02T18:42:04: 📊 Analytics: started for user 487571387 {
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:42:04: 🔍 Sending message to 487571387, text length: 1024, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>Добро пожаловать в Transformation Map!</b>
+
+<b>🔒 Информация о конфиденциальности:</b>
+• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи
+• Данные используются исключительно для авторизации и персонализации опыта
+• Информация защищена шифрованием и хранится безопасно
+• Подробности в политике конфиденциальности: https://transformation-map.com
+
+<b>🛡 Права доступа бота:</b>
+• Отправка личных сообщений для процесса верификации
+• Проверка участия в группе сообщества
+• Создание защищенной ссылки для входа на сайт
+• Временное хранение данных верификации (30 минут)
+
+<b>📋 Процесс верификации:</b>
+🔄 <b>Принятие условий использования</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Получение ссылки для входа
+
+<b>⚡ Требования:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Участие в группе сообщества
+• Прохождение проверки безопасности
+
+<i>⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.</i>"
+2025-08-02T18:42:04: 📝 Tracked bot message 465 for user 487571387
+2025-08-02T18:42:04: 📊 Analytics: terms_shown for user 487571387 {}
+2025-08-02T18:42:04: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:42:04: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:42:05: 📨 Received update: {
+  "update_id": 516222799,
+  "callback_query": {
+    "id": "2094103165378923570",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 465,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754160124,
+      "text": "📋 Этап 1/4\n\n🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)\n\nДобро пожаловать в Transformation Map!\n\n🔒 Информация о конфиденциальности:\n• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи\n• Данные используются исключительно для авторизации и персонализации опыта\n• Информация защищена шифрованием и хранится безопасно\n• Подробности в политике конфиденциальности: https://transformation-map.com\n\n🛡 Права доступа бота:\n• Отправка личных сообщений для процесса верификации\n• Проверка участия в группе сообщества\n• Создание защищенной ссылки для входа на сайт\n• Временное хранение данных верификации (30 минут)\n\n📋 Процесс верификации:\n🔄 Принятие условий использования\n⏳ Вступление в сообщество\n⏳ Проверка безопасности\n⏳ Получение ссылки для входа\n\n⚡ Требования:\n• Возраст аккаунта Telegram: минимум 7 дней\n• Участие в группе сообщества\n• Прохождение проверки безопасности\n\n⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 37,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 77,
+          "length": 35,
+          "type": "bold"
+        },
+        {
+          "offset": 377,
+          "length": 30,
+          "type": "url"
+        },
+        {
+          "offset": 409,
+          "length": 22,
+          "type": "bold"
+        },
+        {
+          "offset": 623,
+          "length": 23,
+          "type": "bold"
+        },
+        {
+          "offset": 650,
+          "length": 30,
+          "type": "bold"
+        },
+        {
+          "offset": 761,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 886,
+          "length": 82,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "✅ Принимаю условия",
+              "callback_data": "accept_terms"
+            }
+          ],
+          [
+            {
+              "text": "❌ Отмена",
+              "callback_data": "cancel_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "accept_terms"
+  }
+}
+2025-08-02T18:42:05: 📊 Analytics: terms_accepted for user 487571387 {}
+2025-08-02T18:42:05: 🔍 Sending message to 487571387, text length: 406, text: "👥 <b>Этап 2/4</b>
+
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)
+
+
+<b>👥 Присоединитесь к нашему сообществу!</b>
+
+Для продолжения регистрации необходимо вступить в группу сообщества Transformation Map.
+
+<b>Что вас ждет:</b>
+• Полезные материалы по саморазвитию
+• Поддержка единомышленников
+• Эксклюзивные вебинары и курсы
+• Ответы на вопросы от экспертов
+
+<i>⚠️ После вступления в группу нажмите "Проверить членство"</i>
+    "
+2025-08-02T18:42:05: 📝 Tracked bot message 466 for user 487571387
+2025-08-02T18:42:05: 📊 Analytics: group_requested for user 487571387 {}
+2025-08-02T18:42:05: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:42:05: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:42:07: 📨 Received update: {
+  "update_id": 516222800,
+  "callback_query": {
+    "id": "2094103164774500939",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 466,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754160125,
+      "text": "👥 Этап 2/4\n\n🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)\n\n\n👥 Присоединитесь к нашему сообществу!\n\nДля продолжения регистрации необходимо вступить в группу сообщества Transformation Map.\n\nЧто вас ждет:\n• Полезные материалы по саморазвитию\n• Поддержка единомышленников\n• Эксклюзивные вебинары и курсы\n• Ответы на вопросы от экспертов\n\n⚠️ После вступления в группу нажмите \"Проверить членство\"",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 41,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 170,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 316,
+          "length": 57,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔍 Проверить членство",
+              "callback_data": "check_membership"
+            }
+          ],
+          [
+            {
+              "text": "🔙 Назад",
+              "callback_data": "back_to_terms"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "check_membership"
+  }
+}
+2025-08-02T18:42:07: 🔍 Sending message to 487571387, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-08-02T18:42:07: 📝 Tracked bot message 467 for user 487571387
+2025-08-02T18:42:07: 🔍 Sending message to 487571387, text length: 239, text: "🔍 <b>Этап 3/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)
+
+
+<b>🔐 Проверка безопасности</b>
+
+Для защиты от автоматических регистраций, пожалуйста, решите простой пример:
+
+<b>📊 21 - 2 = ?</b>
+
+<i>Выберите правильный ответ из вариантов ниже:</i>
+    "
+2025-08-02T18:42:07: 📝 Tracked bot message 468 for user 487571387
+2025-08-02T18:42:07: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:42:07: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:42:10: 📨 Received update: {
+  "update_id": 516222801,
+  "callback_query": {
+    "id": "2094103165485014451",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 468,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754160127,
+      "text": "🔍 Этап 3/4\n\n🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)\n\n\n🔐 Проверка безопасности\n\nДля защиты от автоматических регистраций, пожалуйста, решите простой пример:\n\n📊 21 - 2 = ?\n\nВыберите правильный ответ из вариантов ниже:",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 43,
+          "length": 24,
+          "type": "bold"
+        },
+        {
+          "offset": 147,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 162,
+          "length": 44,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "27",
+              "callback_data": "captcha_27"
+            },
+            {
+              "text": "15",
+              "callback_data": "captcha_15"
+            },
+            {
+              "text": "19",
+              "callback_data": "captcha_19"
+            },
+            {
+              "text": "23",
+              "callback_data": "captcha_23"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "captcha_19"
+  }
+}
+2025-08-02T18:42:11: ✅ Token stored on server with ID: cd11eb25da6fe163873b0aa1624ffbb2
+2025-08-02T18:42:11: 🔍 Sending message to 487571387, text length: 336, text: "🎉 <b>Этап 4/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% (4/4)
+
+
+<b>🎉 Верификация завершена успешно!</b>
+
+Ваш Telegram аккаунт успешно верифицирован!
+
+<b>✅ Выполнено:</b>
+• Условия приняты
+• Членство в группе подтверждено
+• Проверка безопасности пройдена
+• Данные отправлены на сайт
+
+<i>🚀 Теперь вы можете завершить регистрацию на сайте</i>
+    "
+2025-08-02T18:42:11: 📤 Verification sent to website: 400
+2025-08-02T18:42:11: 📝 Tracked bot message 469 for user 487571387
+2025-08-02T18:42:11: 📊 Analytics: verification_completed for user 487571387 {
+  completion_time: 6530,
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:42:11: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:42:11: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:42:11: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:42:11: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:44:38: 📨 Received update: {
+  "update_id": 516222802,
+  "message": {
+    "message_id": 470,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1754160278,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-08-02T18:44:38: 📝 Tracked user message 470 for user 487571387
+2025-08-02T18:44:38: 🚀 Start command from user 487571387, param: register
+2025-08-02T18:44:38: 🔍 Sending message to 487571387, text length: 1024, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>Добро пожаловать в Transformation Map!</b>
+
+<b>🔒 Информация о конфиденциальности:</b>
+• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи
+• Данные используются исключительно для авторизации и персонализации опыта
+• Информация защищена шифрованием и хранится безопасно
+• Подробности в политике конфиденциальности: https://transformation-map.com
+
+<b>🛡 Права доступа бота:</b>
+• Отправка личных сообщений для процесса верификации
+• Проверка участия в группе сообщества
+• Создание защищенной ссылки для входа на сайт
+• Временное хранение данных верификации (30 минут)
+
+<b>📋 Процесс верификации:</b>
+🔄 <b>Принятие условий использования</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Получение ссылки для входа
+
+<b>⚡ Требования:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Участие в группе сообщества
+• Прохождение проверки безопасности
+
+<i>⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.</i>"
+2025-08-02T18:44:38: 📝 Tracked bot message 471 for user 487571387
+2025-08-02T18:44:38: 📊 Analytics: terms_shown for user 487571387 {}
+2025-08-02T18:44:38: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:44:38: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:44:39: 📨 Received update: {
+  "update_id": 516222803,
+  "callback_query": {
+    "id": "2094103165395929797",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 471,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754160278,
+      "text": "📋 Этап 1/4\n\n🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)\n\nДобро пожаловать в Transformation Map!\n\n🔒 Информация о конфиденциальности:\n• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи\n• Данные используются исключительно для авторизации и персонализации опыта\n• Информация защищена шифрованием и хранится безопасно\n• Подробности в политике конфиденциальности: https://transformation-map.com\n\n🛡 Права доступа бота:\n• Отправка личных сообщений для процесса верификации\n• Проверка участия в группе сообщества\n• Создание защищенной ссылки для входа на сайт\n• Временное хранение данных верификации (30 минут)\n\n📋 Процесс верификации:\n🔄 Принятие условий использования\n⏳ Вступление в сообщество\n⏳ Проверка безопасности\n⏳ Получение ссылки для входа\n\n⚡ Требования:\n• Возраст аккаунта Telegram: минимум 7 дней\n• Участие в группе сообщества\n• Прохождение проверки безопасности\n\n⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 37,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 77,
+          "length": 35,
+          "type": "bold"
+        },
+        {
+          "offset": 377,
+          "length": 30,
+          "type": "url"
+        },
+        {
+          "offset": 409,
+          "length": 22,
+          "type": "bold"
+        },
+        {
+          "offset": 623,
+          "length": 23,
+          "type": "bold"
+        },
+        {
+          "offset": 650,
+          "length": 30,
+          "type": "bold"
+        },
+        {
+          "offset": 761,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 886,
+          "length": 82,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "✅ Принимаю условия",
+              "callback_data": "accept_terms"
+            }
+          ],
+          [
+            {
+              "text": "❌ Отмена",
+              "callback_data": "cancel_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "accept_terms"
+  }
+}
+2025-08-02T18:44:39: 📊 Analytics: terms_accepted for user 487571387 {}
+2025-08-02T18:44:39: 🔍 Sending message to 487571387, text length: 406, text: "👥 <b>Этап 2/4</b>
+
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)
+
+
+<b>👥 Присоединитесь к нашему сообществу!</b>
+
+Для продолжения регистрации необходимо вступить в группу сообщества Transformation Map.
+
+<b>Что вас ждет:</b>
+• Полезные материалы по саморазвитию
+• Поддержка единомышленников
+• Эксклюзивные вебинары и курсы
+• Ответы на вопросы от экспертов
+
+<i>⚠️ После вступления в группу нажмите "Проверить членство"</i>
+    "
+2025-08-02T18:44:39: 📝 Tracked bot message 472 for user 487571387
+2025-08-02T18:44:39: 📊 Analytics: group_requested for user 487571387 {}
+2025-08-02T18:44:39: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:44:39: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:44:40: 📨 Received update: {
+  "update_id": 516222804,
+  "callback_query": {
+    "id": "2094103163177566087",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 472,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754160279,
+      "text": "👥 Этап 2/4\n\n🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)\n\n\n👥 Присоединитесь к нашему сообществу!\n\nДля продолжения регистрации необходимо вступить в группу сообщества Transformation Map.\n\nЧто вас ждет:\n• Полезные материалы по саморазвитию\n• Поддержка единомышленников\n• Эксклюзивные вебинары и курсы\n• Ответы на вопросы от экспертов\n\n⚠️ После вступления в группу нажмите \"Проверить членство\"",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 41,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 170,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 316,
+          "length": 57,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔍 Проверить членство",
+              "callback_data": "check_membership"
+            }
+          ],
+          [
+            {
+              "text": "🔙 Назад",
+              "callback_data": "back_to_terms"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "check_membership"
+  }
+}
+2025-08-02T18:44:40: 🔍 Sending message to 487571387, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-08-02T18:44:41: 📝 Tracked bot message 473 for user 487571387
+2025-08-02T18:44:41: 🔍 Sending message to 487571387, text length: 238, text: "🔍 <b>Этап 3/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)
+
+
+<b>🔐 Проверка безопасности</b>
+
+Для защиты от автоматических регистраций, пожалуйста, решите простой пример:
+
+<b>📊 5 * 6 = ?</b>
+
+<i>Выберите правильный ответ из вариантов ниже:</i>
+    "
+2025-08-02T18:44:41: 📝 Tracked bot message 474 for user 487571387
+2025-08-02T18:44:41: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:44:41: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:44:50: 📨 Received update: {
+  "update_id": 516222805,
+  "callback_query": {
+    "id": "2094103165074419022",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 474,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754160281,
+      "text": "🔍 Этап 3/4\n\n🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)\n\n\n🔐 Проверка безопасности\n\nДля защиты от автоматических регистраций, пожалуйста, решите простой пример:\n\n📊 5 * 6 = ?\n\nВыберите правильный ответ из вариантов ниже:",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 43,
+          "length": 24,
+          "type": "bold"
+        },
+        {
+          "offset": 147,
+          "length": 12,
+          "type": "bold"
+        },
+        {
+          "offset": 161,
+          "length": 44,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "33",
+              "callback_data": "captcha_33"
+            },
+            {
+              "text": "30",
+              "callback_data": "captcha_30"
+            },
+            {
+              "text": "22",
+              "callback_data": "captcha_22"
+            },
+            {
+              "text": "35",
+              "callback_data": "captcha_35"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "captcha_30"
+  }
+}
+2025-08-02T18:44:50: ✅ Token stored on server with ID: 2b8da8a4410a84fc45dd7f7ba9d0988b
+2025-08-02T18:44:50: 🔍 Sending message to 487571387, text length: 336, text: "🎉 <b>Этап 4/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% (4/4)
+
+
+<b>🎉 Верификация завершена успешно!</b>
+
+Ваш Telegram аккаунт успешно верифицирован!
+
+<b>✅ Выполнено:</b>
+• Условия приняты
+• Членство в группе подтверждено
+• Проверка безопасности пройдена
+• Данные отправлены на сайт
+
+<i>🚀 Теперь вы можете завершить регистрацию на сайте</i>
+    "
+2025-08-02T18:44:50: 📤 Verification sent to website: 400
+2025-08-02T18:44:51: 📝 Tracked bot message 475 for user 487571387
+2025-08-02T18:44:51: 📊 Analytics: verification_completed for user 487571387 {
+  completion_time: 166342,
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:44:51: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:44:51: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:44:51: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:44:51: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:49:48: 📨 Received update: {
+  "update_id": 516222806,
+  "message": {
+    "message_id": 476,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1754160573,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-08-02T18:49:48: 📝 Tracked user message 476 for user 487571387
+2025-08-02T18:49:48: 🚀 Start command from user 487571387, param: register
+2025-08-02T18:49:48: 🔍 Sending message to 487571387, text length: 1024, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>Добро пожаловать в Transformation Map!</b>
+
+<b>🔒 Информация о конфиденциальности:</b>
+• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи
+• Данные используются исключительно для авторизации и персонализации опыта
+• Информация защищена шифрованием и хранится безопасно
+• Подробности в политике конфиденциальности: https://transformation-map.com
+
+<b>🛡 Права доступа бота:</b>
+• Отправка личных сообщений для процесса верификации
+• Проверка участия в группе сообщества
+• Создание защищенной ссылки для входа на сайт
+• Временное хранение данных верификации (30 минут)
+
+<b>📋 Процесс верификации:</b>
+🔄 <b>Принятие условий использования</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Получение ссылки для входа
+
+<b>⚡ Требования:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Участие в группе сообщества
+• Прохождение проверки безопасности
+
+<i>⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.</i>"
+2025-08-02T18:49:48: 📝 Tracked bot message 478 for user 487571387
+2025-08-02T18:49:48: 📊 Analytics: terms_shown for user 487571387 {}
+2025-08-02T18:49:48: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:49:48: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:49:49: 📨 Received update: {
+  "update_id": 516222807,
+  "message": {
+    "message_id": 477,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1754160586,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-08-02T18:49:49: 📝 Tracked user message 477 for user 487571387
+2025-08-02T18:49:49: 🚀 Start command from user 487571387, param: register
+2025-08-02T18:49:49: 🔍 Sending message to 487571387, text length: 1024, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>Добро пожаловать в Transformation Map!</b>
+
+<b>🔒 Информация о конфиденциальности:</b>
+• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи
+• Данные используются исключительно для авторизации и персонализации опыта
+• Информация защищена шифрованием и хранится безопасно
+• Подробности в политике конфиденциальности: https://transformation-map.com
+
+<b>🛡 Права доступа бота:</b>
+• Отправка личных сообщений для процесса верификации
+• Проверка участия в группе сообщества
+• Создание защищенной ссылки для входа на сайт
+• Временное хранение данных верификации (30 минут)
+
+<b>📋 Процесс верификации:</b>
+🔄 <b>Принятие условий использования</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Получение ссылки для входа
+
+<b>⚡ Требования:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Участие в группе сообщества
+• Прохождение проверки безопасности
+
+<i>⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.</i>"
+2025-08-02T18:49:49: 📝 Tracked bot message 479 for user 487571387
+2025-08-02T18:49:49: 📊 Analytics: terms_shown for user 487571387 {}
+2025-08-02T18:49:49: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:49:49: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:49:52: 📨 Received update: {
+  "update_id": 516222808,
+  "callback_query": {
+    "id": "2094103162748311802",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 479,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754160589,
+      "text": "📋 Этап 1/4\n\n🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)\n\nДобро пожаловать в Transformation Map!\n\n🔒 Информация о конфиденциальности:\n• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи\n• Данные используются исключительно для авторизации и персонализации опыта\n• Информация защищена шифрованием и хранится безопасно\n• Подробности в политике конфиденциальности: https://transformation-map.com\n\n🛡 Права доступа бота:\n• Отправка личных сообщений для процесса верификации\n• Проверка участия в группе сообщества\n• Создание защищенной ссылки для входа на сайт\n• Временное хранение данных верификации (30 минут)\n\n📋 Процесс верификации:\n🔄 Принятие условий использования\n⏳ Вступление в сообщество\n⏳ Проверка безопасности\n⏳ Получение ссылки для входа\n\n⚡ Требования:\n• Возраст аккаунта Telegram: минимум 7 дней\n• Участие в группе сообщества\n• Прохождение проверки безопасности\n\n⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 37,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 77,
+          "length": 35,
+          "type": "bold"
+        },
+        {
+          "offset": 377,
+          "length": 30,
+          "type": "url"
+        },
+        {
+          "offset": 409,
+          "length": 22,
+          "type": "bold"
+        },
+        {
+          "offset": 623,
+          "length": 23,
+          "type": "bold"
+        },
+        {
+          "offset": 650,
+          "length": 30,
+          "type": "bold"
+        },
+        {
+          "offset": 761,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 886,
+          "length": 82,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "✅ Принимаю условия",
+              "callback_data": "accept_terms"
+            }
+          ],
+          [
+            {
+              "text": "❌ Отмена",
+              "callback_data": "cancel_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "accept_terms"
+  }
+}
+2025-08-02T18:49:52: 📊 Analytics: terms_accepted for user 487571387 {}
+2025-08-02T18:49:52: 🔍 Sending message to 487571387, text length: 406, text: "👥 <b>Этап 2/4</b>
+
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)
+
+
+<b>👥 Присоединитесь к нашему сообществу!</b>
+
+Для продолжения регистрации необходимо вступить в группу сообщества Transformation Map.
+
+<b>Что вас ждет:</b>
+• Полезные материалы по саморазвитию
+• Поддержка единомышленников
+• Эксклюзивные вебинары и курсы
+• Ответы на вопросы от экспертов
+
+<i>⚠️ После вступления в группу нажмите "Проверить членство"</i>
+    "
+2025-08-02T18:49:52: 📝 Tracked bot message 480 for user 487571387
+2025-08-02T18:49:52: 📊 Analytics: group_requested for user 487571387 {}
+2025-08-02T18:49:52: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:49:52: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:49:53: 📨 Received update: {
+  "update_id": 516222809,
+  "callback_query": {
+    "id": "2094103162356720589",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 480,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754160592,
+      "text": "👥 Этап 2/4\n\n🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)\n\n\n👥 Присоединитесь к нашему сообществу!\n\nДля продолжения регистрации необходимо вступить в группу сообщества Transformation Map.\n\nЧто вас ждет:\n• Полезные материалы по саморазвитию\n• Поддержка единомышленников\n• Эксклюзивные вебинары и курсы\n• Ответы на вопросы от экспертов\n\n⚠️ После вступления в группу нажмите \"Проверить членство\"",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 41,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 170,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 316,
+          "length": 57,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔍 Проверить членство",
+              "callback_data": "check_membership"
+            }
+          ],
+          [
+            {
+              "text": "🔙 Назад",
+              "callback_data": "back_to_terms"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "check_membership"
+  }
+}
+2025-08-02T18:49:53: 🔍 Sending message to 487571387, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-08-02T18:49:53: 📝 Tracked bot message 481 for user 487571387
+2025-08-02T18:49:53: 🔍 Sending message to 487571387, text length: 240, text: "🔍 <b>Этап 3/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)
+
+
+<b>🔐 Проверка безопасности</b>
+
+Для защиты от автоматических регистраций, пожалуйста, решите простой пример:
+
+<b>📊 38 + 21 = ?</b>
+
+<i>Выберите правильный ответ из вариантов ниже:</i>
+    "
+2025-08-02T18:49:53: 📝 Tracked bot message 482 for user 487571387
+2025-08-02T18:49:53: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:49:53: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:49:58: 📨 Received update: {
+  "update_id": 516222810,
+  "callback_query": {
+    "id": "2094103162091155832",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 482,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754160593,
+      "text": "🔍 Этап 3/4\n\n🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)\n\n\n🔐 Проверка безопасности\n\nДля защиты от автоматических регистраций, пожалуйста, решите простой пример:\n\n📊 38 + 21 = ?\n\nВыберите правильный ответ из вариантов ниже:",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 43,
+          "length": 24,
+          "type": "bold"
+        },
+        {
+          "offset": 147,
+          "length": 14,
+          "type": "bold"
+        },
+        {
+          "offset": 163,
+          "length": 44,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "59",
+              "callback_data": "captcha_59"
+            },
+            {
+              "text": "53",
+              "callback_data": "captcha_53"
+            },
+            {
+              "text": "61",
+              "callback_data": "captcha_61"
+            },
+            {
+              "text": "60",
+              "callback_data": "captcha_60"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "captcha_59"
+  }
+}
+2025-08-02T18:49:58: 📤 Verification sent to website: 400
+2025-08-02T18:49:58: ✅ Token stored on server with ID: 3c7186810be07dea6220db9b12f275d6
+2025-08-02T18:49:58: 🔍 Sending message to 487571387, text length: 336, text: "🎉 <b>Этап 4/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% (4/4)
+
+
+<b>🎉 Верификация завершена успешно!</b>
+
+Ваш Telegram аккаунт успешно верифицирован!
+
+<b>✅ Выполнено:</b>
+• Условия приняты
+• Членство в группе подтверждено
+• Проверка безопасности пройдена
+• Данные отправлены на сайт
+
+<i>🚀 Теперь вы можете завершить регистрацию на сайте</i>
+    "
+2025-08-02T18:49:58: 📝 Tracked bot message 483 for user 487571387
+2025-08-02T18:49:58: 📊 Analytics: verification_completed for user 487571387 {
+  completion_time: 474164,
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:49:58: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:49:58: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:49:58: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:49:58: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T18:57:37: 📨 Received update: {
+  "update_id": 516222811,
+  "message": {
+    "message_id": 484,
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "chat": {
+      "id": 487571387,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "type": "private"
+    },
+    "date": 1754161057,
+    "text": "/start register",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 6,
+        "type": "bot_command"
+      }
+    ]
+  }
+}
+2025-08-02T18:57:37: 📝 Tracked user message 484 for user 487571387
+2025-08-02T18:57:37: 🚀 Start command from user 487571387, param: register
+2025-08-02T18:57:37: 🔍 Sending message to 487571387, text length: 1024, text: "📋 <b>Этап 1/4</b>
+
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)
+
+<b>Добро пожаловать в Transformation Map!</b>
+
+<b>🔒 Информация о конфиденциальности:</b>
+• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи
+• Данные используются исключительно для авторизации и персонализации опыта
+• Информация защищена шифрованием и хранится безопасно
+• Подробности в политике конфиденциальности: https://transformation-map.com
+
+<b>🛡 Права доступа бота:</b>
+• Отправка личных сообщений для процесса верификации
+• Проверка участия в группе сообщества
+• Создание защищенной ссылки для входа на сайт
+• Временное хранение данных верификации (30 минут)
+
+<b>📋 Процесс верификации:</b>
+🔄 <b>Принятие условий использования</b>
+⏳ Вступление в сообщество
+⏳ Проверка безопасности
+⏳ Получение ссылки для входа
+
+<b>⚡ Требования:</b>
+• Возраст аккаунта Telegram: минимум 7 дней
+• Участие в группе сообщества
+• Прохождение проверки безопасности
+
+<i>⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.</i>"
+2025-08-02T18:57:37: 📝 Tracked bot message 485 for user 487571387
+2025-08-02T18:57:37: 📊 Analytics: terms_shown for user 487571387 {}
+2025-08-02T18:57:37: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:57:37: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:57:38: 📨 Received update: {
+  "update_id": 516222812,
+  "callback_query": {
+    "id": "2094103163662368310",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 485,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754161057,
+      "text": "📋 Этап 1/4\n\n🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% (1/4)\n\nДобро пожаловать в Transformation Map!\n\n🔒 Информация о конфиденциальности:\n• Мы собираем только ваш Telegram ID, имя пользователя и имя для создания учетной записи\n• Данные используются исключительно для авторизации и персонализации опыта\n• Информация защищена шифрованием и хранится безопасно\n• Подробности в политике конфиденциальности: https://transformation-map.com\n\n🛡 Права доступа бота:\n• Отправка личных сообщений для процесса верификации\n• Проверка участия в группе сообщества\n• Создание защищенной ссылки для входа на сайт\n• Временное хранение данных верификации (30 минут)\n\n📋 Процесс верификации:\n🔄 Принятие условий использования\n⏳ Вступление в сообщество\n⏳ Проверка безопасности\n⏳ Получение ссылки для входа\n\n⚡ Требования:\n• Возраст аккаунта Telegram: минимум 7 дней\n• Участие в группе сообщества\n• Прохождение проверки безопасности\n\n⏱ Процесс займет 2-3 минуты. Продолжая, вы соглашаетесь с обработкой ваших данных.",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 37,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 77,
+          "length": 35,
+          "type": "bold"
+        },
+        {
+          "offset": 377,
+          "length": 30,
+          "type": "url"
+        },
+        {
+          "offset": 409,
+          "length": 22,
+          "type": "bold"
+        },
+        {
+          "offset": 623,
+          "length": 23,
+          "type": "bold"
+        },
+        {
+          "offset": 650,
+          "length": 30,
+          "type": "bold"
+        },
+        {
+          "offset": 761,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 886,
+          "length": 82,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "✅ Принимаю условия",
+              "callback_data": "accept_terms"
+            }
+          ],
+          [
+            {
+              "text": "❌ Отмена",
+              "callback_data": "cancel_verification"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "accept_terms"
+  }
+}
+2025-08-02T18:57:38: 📊 Analytics: terms_accepted for user 487571387 {}
+2025-08-02T18:57:38: 🔍 Sending message to 487571387, text length: 406, text: "👥 <b>Этап 2/4</b>
+
+🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)
+
+
+<b>👥 Присоединитесь к нашему сообществу!</b>
+
+Для продолжения регистрации необходимо вступить в группу сообщества Transformation Map.
+
+<b>Что вас ждет:</b>
+• Полезные материалы по саморазвитию
+• Поддержка единомышленников
+• Эксклюзивные вебинары и курсы
+• Ответы на вопросы от экспертов
+
+<i>⚠️ После вступления в группу нажмите "Проверить членство"</i>
+    "
+2025-08-02T18:57:38: 📝 Tracked bot message 486 for user 487571387
+2025-08-02T18:57:38: 📊 Analytics: group_requested for user 487571387 {}
+2025-08-02T18:57:38: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:57:38: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:57:40: 📨 Received update: {
+  "update_id": 516222813,
+  "callback_query": {
+    "id": "2094103165805313227",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 486,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754161058,
+      "text": "👥 Этап 2/4\n\n🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜ 50% (2/4)\n\n\n👥 Присоединитесь к нашему сообществу!\n\nДля продолжения регистрации необходимо вступить в группу сообщества Transformation Map.\n\nЧто вас ждет:\n• Полезные материалы по саморазвитию\n• Поддержка единомышленников\n• Эксклюзивные вебинары и курсы\n• Ответы на вопросы от экспертов\n\n⚠️ После вступления в группу нажмите \"Проверить членство\"",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 41,
+          "length": 38,
+          "type": "bold"
+        },
+        {
+          "offset": 170,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 316,
+          "length": 57,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "👥 Перейти в группу",
+              "url": "https://t.me/transformation_map_community"
+            }
+          ],
+          [
+            {
+              "text": "🔍 Проверить членство",
+              "callback_data": "check_membership"
+            }
+          ],
+          [
+            {
+              "text": "🔙 Назад",
+              "callback_data": "back_to_terms"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "check_membership"
+  }
+}
+2025-08-02T18:57:40: 🔍 Sending message to 487571387, text length: 38, text: "🔍 Проверяем ваше членство в группе..."
+2025-08-02T18:57:40: 📝 Tracked bot message 487 for user 487571387
+2025-08-02T18:57:40: 🔍 Sending message to 487571387, text length: 239, text: "🔍 <b>Этап 3/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)
+
+
+<b>🔐 Проверка безопасности</b>
+
+Для защиты от автоматических регистраций, пожалуйста, решите простой пример:
+
+<b>📊 25 + 7 = ?</b>
+
+<i>Выберите правильный ответ из вариантов ниже:</i>
+    "
+2025-08-02T18:57:40: 📝 Tracked bot message 488 for user 487571387
+2025-08-02T18:57:40: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:57:40: 🧹 Deleted 2/2 old messages for user 487571387
+2025-08-02T18:57:46: 📨 Received update: {
+  "update_id": 516222814,
+  "callback_query": {
+    "id": "2094103162490907772",
+    "from": {
+      "id": 487571387,
+      "is_bot": false,
+      "first_name": "Виталий",
+      "username": "vutalka",
+      "language_code": "ru"
+    },
+    "message": {
+      "message_id": 488,
+      "from": {
+        "id": 8061619447,
+        "is_bot": true,
+        "first_name": "Карта Трансформации",
+        "username": "transformation_map_bot"
+      },
+      "chat": {
+        "id": 487571387,
+        "first_name": "Виталий",
+        "username": "vutalka",
+        "type": "private"
+      },
+      "date": 1754161060,
+      "text": "🔍 Этап 3/4\n\n🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 75% (3/4)\n\n\n🔐 Проверка безопасности\n\nДля защиты от автоматических регистраций, пожалуйста, решите простой пример:\n\n📊 25 + 7 = ?\n\nВыберите правильный ответ из вариантов ниже:",
+      "entities": [
+        {
+          "offset": 3,
+          "length": 8,
+          "type": "bold"
+        },
+        {
+          "offset": 43,
+          "length": 24,
+          "type": "bold"
+        },
+        {
+          "offset": 147,
+          "length": 13,
+          "type": "bold"
+        },
+        {
+          "offset": 162,
+          "length": 44,
+          "type": "italic"
+        }
+      ],
+      "reply_markup": {
+        "inline_keyboard": [
+          [
+            {
+              "text": "36",
+              "callback_data": "captcha_36"
+            },
+            {
+              "text": "30",
+              "callback_data": "captcha_30"
+            },
+            {
+              "text": "32",
+              "callback_data": "captcha_32"
+            },
+            {
+              "text": "35",
+              "callback_data": "captcha_35"
+            }
+          ]
+        ]
+      }
+    },
+    "chat_instance": "-2329083633227753346",
+    "data": "captcha_32"
+  }
+}
+2025-08-02T18:57:46: 📤 Verification sent to website: 400
+2025-08-02T18:57:46: ✅ Token stored on server with ID: 71f923564b437016bfed05d435c70b92
+2025-08-02T18:57:46: 🔍 Sending message to 487571387, text length: 336, text: "🎉 <b>Этап 4/4</b>
+
+🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% (4/4)
+
+
+<b>🎉 Верификация завершена успешно!</b>
+
+Ваш Telegram аккаунт успешно верифицирован!
+
+<b>✅ Выполнено:</b>
+• Условия приняты
+• Членство в группе подтверждено
+• Проверка безопасности пройдена
+• Данные отправлены на сайт
+
+<i>🚀 Теперь вы можете завершить регистрацию на сайте</i>
+    "
+2025-08-02T18:57:46: 📝 Tracked bot message 489 for user 487571387
+2025-08-02T18:57:46: 📊 Analytics: verification_completed for user 487571387 {
+  completion_time: 942028,
+  user_info: {
+    id: 487571387,
+    is_bot: false,
+    first_name: 'Виталий',
+    username: 'vutalka',
+    language_code: 'ru'
+  }
+}
+2025-08-02T18:57:46: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:57:46: 🧹 Deleted 1/1 old messages for user 487571387
+2025-08-02T18:57:46: 🗑 Cleaning chat for user 487571387, keeping last message
+2025-08-02T18:57:46: 🧹 Deleted 0/0 old messages for user 487571387
+2025-08-02T20:01:34: 🧹 Cleaned up old session for user 487571387

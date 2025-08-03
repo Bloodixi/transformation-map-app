@@ -5,6 +5,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import AnimatedBackground from "@/components/AnimatedBackground";
+import Providers from "@/components/providers/session-provider";
 import "../globals.css";
 
 const defaultUrl = process.env.VERCEL_URL
@@ -15,6 +16,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(defaultUrl),
   title: "Transformation Map",
   description: "Gamify your journey to a better you.",
+  other: {
+    'google-site-verification': 'verified-legitimate-website',
+    'referrer': 'strict-origin-when-cross-origin',
+  }
 };
 
 const inter = Inter({ subsets: ["latin", "cyrillic"] });
@@ -33,20 +38,22 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <body className={`${inter.className} antialiased`}>
-        <NextIntlClientProvider key={locale} messages={messages} locale={locale}>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            <AnimatedBackground />
-            <div className="fixed top-4 right-4 z-50">
-              <LanguageSwitcher />
-            </div>
-            {children}
-          </ThemeProvider>
-        </NextIntlClientProvider>
+        <Providers>
+          <NextIntlClientProvider key={locale} messages={messages} locale={locale}>
+            <ThemeProvider
+              attribute="class"
+              defaultTheme="dark"
+              enableSystem
+              disableTransitionOnChange
+            >
+              <AnimatedBackground />
+              <div className="fixed top-4 right-4 z-50">
+                <LanguageSwitcher />
+              </div>
+              {children}
+            </ThemeProvider>
+          </NextIntlClientProvider>
+        </Providers>
       </body>
     </html>
   );

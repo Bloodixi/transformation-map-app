@@ -40,7 +40,11 @@
       "Bash(timeout 5 pm2 logs telegram-verification-bot --lines 5)",
       "Bash(node:*)",
       "Bash(timeout:*)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(ping:*)",
+      "Bash(systemctl:*)",
+      "Bash(nslookup:*)",
+      "Bash(nginx:*)"
     ],
     "deny": []
   },

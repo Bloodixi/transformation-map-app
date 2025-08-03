@@ -17,7 +17,7 @@ const CONFIG = {
   COMMUNITY_GROUP_ID: '-1002710202308', // Реальный ID группы transformation_map_community
   
   // Безопасность
-  ENCRYPTION_KEY: crypto.randomBytes(32), // AES-256 ключ
+  ENCRYPTION_KEY: crypto.createHash('sha256').update('8061619447:AAFQ59yepcEbGt08yx0RGqDvZLC-X6t7u4s').digest(), // AES-256 ключ из токена бота
   ENCRYPTION_IV_LENGTH: 16,
   TOKEN_LIFETIME: 30 * 60 * 1000, // 30 минут
   ACCOUNT_MIN_AGE: 7 * 24 * 60 * 60, // 7 дней в секундах
@@ -49,7 +49,7 @@ const USER_STATES = {
 class EncryptionService {
   static encrypt(text) {
     const iv = crypto.randomBytes(CONFIG.ENCRYPTION_IV_LENGTH);
-    const cipher = crypto.createCipher('aes-256-cbc', CONFIG.ENCRYPTION_KEY);
+    const cipher = crypto.createCipheriv('aes-256-cbc', CONFIG.ENCRYPTION_KEY, iv);
     
     let encrypted = cipher.update(text, 'utf8', 'hex');
     encrypted += cipher.final('hex');
@@ -1063,9 +1063,17 @@ class MessageHandlers {
 <i>🚀 Теперь вы можете завершить регистрацию на сайте</i>
     `;
     
+    // Сохраняем токен на сервере и получаем короткий ID
+    const tokenId = await this.storeTokenOnServer(verificationToken);
+    
+    // Кодируем ID в base64 для менее подозрительного вида
+    const encodedId = Buffer.from(tokenId).toString('base64').replace(/[+/=]/g, (char) => {
+      return {'+': '-', '/': '_', '=': ''}[char] || char
+    })
+    
     const keyboard = {
       inline_keyboard: [
-        [{ text: '🌐 Перейти к регистрации', url: `${CONFIG.DOMAIN}/auth/telegram-verified?token=${encodeURIComponent(JSON.stringify(verificationToken))}` }]
+        [{ text: '🌐 Перейти к регистрации', url: `${CONFIG.DOMAIN}/t/${encodedId}` }]
       ]
     };
     
@@ -1132,6 +1140,60 @@ class MessageHandlers {
     await TelegramAPI.sendMessage(chatId, message, { reply_markup: keyboard });
   }
   
+  // Сохранение токена на сервере
+  static async storeTokenOnServer(verificationToken) {
+    try {
+      const postData = JSON.stringify({
+        encryptedToken: verificationToken
+      });
+      
+      const options = {
+        hostname: CONFIG.DOMAIN.replace('https://', ''),
+        port: 443,
+        path: '/api/store-token',
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Content-Length': postData.length
+        }
+      };
+      
+      return new Promise((resolve, reject) => {
+        const req = https.request(options, (res) => {
+          let data = '';
+          res.on('data', chunk => data += chunk);
+          res.on('end', () => {
+            try {
+              const result = JSON.parse(data);
+              if (result.success) {
+                console.log('✅ Token stored on server with ID:', result.tokenId);
+                resolve(result.tokenId);
+              } else {
+                console.error('❌ Failed to store token:', result.error);
+                reject(new Error(result.error));
+              }
+            } catch (error) {
+              console.error('❌ Error parsing store response:', error);
+              reject(error);
+            }
+          });
+        });
+        
+        req.on('error', (error) => {
+          console.error('❌ Error storing token on server:', error);
+          reject(error);
+        });
+        
+        req.write(postData);
+        req.end();
+      });
+      
+    } catch (error) {
+      console.error('❌ Error in storeTokenOnServer:', error);
+      throw error;
+    }
+  }
+
   // Отправка данных на сайт
   static async sendVerificationToWebsite(telegramId, verificationToken) {
     try {
