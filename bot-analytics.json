@@ -1,0 +1,45 @@
+{
+  "total_started": 1,
+  "stage_1_terms_shown": 1,
+  "stage_2_terms_accepted": 0,
+  "stage_3_group_requested": 0,
+  "stage_4_verification_completed": 0,
+  "failures": {
+    "rate_limited": 0,
+    "account_too_young": 0,
+    "not_in_group": 0,
+    "captcha_failed": 0,
+    "captcha_blocked": 0,
+    "too_many_attempts": 0
+  },
+  "conversion_rates": {
+    "terms_shown": "100.00",
+    "terms_accepted": "0.00",
+    "group_requested": "0.00",
+    "completed": "0.00"
+  },
+  "avg_completion_time": 0,
+  "sessions": {
+    "487571387": {
+      "started_at": 1754197712283,
+      "events": [
+        {
+          "event": "started",
+          "timestamp": 1754197712283,
+          "user_info": {
+            "id": 487571387,
+            "is_bot": false,
+            "first_name": "Виталий",
+            "username": "vutalka",
+            "language_code": "ru"
+          }
+        },
+        {
+          "event": "terms_shown",
+          "timestamp": 1754197712476
+        }
+      ],
+      "completed": false
+    }
+  }
+}

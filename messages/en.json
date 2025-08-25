@@ -1,0 +1,53 @@
+{
+  "HomePage": {
+    "title": "Transformation Map",
+    "subtitle": "Gamify your journey to a better you. Turn your goals into a visual map and track your progress every step of the way.",
+    "startButton": "Start Your Transformation"
+  },
+  "auth": {
+    "welcome": "Welcome!",
+    "signInDescription": "Sign in via Telegram to start your transformation",
+    "telegramLogin": "Sign in via Telegram",
+    "secureAuth": "🔒 Secure authentication via Telegram",
+    "noDataShared": "📱 Data stays between you and Telegram"
+  },
+  "Auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "rememberMe": "Remember me",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "resetPassword": "Reset Password",
+    "updatePassword": "Update Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "welcomeTitle": "Welcome!",
+    "welcomeDescription": "Sign in via Telegram to start your transformation",
+    "telegramLogin": "Sign in via Telegram",
+    "telegramLoginDescription": "Click the button to open Telegram and authenticate via bot",
+    "agreementText": "By clicking the login button, you agree to the use of your Telegram data for experience personalization",
+    "telegramInstructions": "🤖 Instructions:\n1. Click \"Start\" in the opened Telegram bot\n2. The bot will send you a login link\n3. Follow the link to complete authorization",
+    "telegramError": "Error opening Telegram"
+  },
+  "Navigation": {
+    "home": "Home",
+    "protected": "Protected",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "Language": {
+    "switchLanguage": "Switch Language",
+    "russian": "Русский",
+    "english": "English"
+  },
+  "Protected": {
+    "title": "Protected Page",
+    "subtitle": "This page is only accessible to authenticated users."
+  }
+}

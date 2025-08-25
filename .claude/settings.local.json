@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__serena__check_onboarding_performed",
+      "Bash(curl:*)",
+      "Bash(npx:*)",
+      "Bash(source .env)",
+      "Bash(timeout 10 npx -y @modelcontextprotocol/server-github --version)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(rm:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
